@@ -34,9 +34,17 @@ export JUPYTER_CONFIG_DIR=~/miniforge3/envs/YOURENV
 jupyter lab
 
 OR
+In a terminal:
+conda activate YOURENV (IE a3105)
+
+export JUPYTER_CONFIG_DIR=~/miniforge3/envs/YOURENV
+
+jupyter lab --no-browser --ip-addr=YOURIP --port=YOURPORT
 Start VS code
 
 Select the python environment
+
+Connect to the jupyter session above using the URL in the terminal
 
 Open the solution file
 
@@ -70,6 +78,12 @@ conda activate YOURENV (IE a3105)
 jupyter lab
 
 Ensure the Wolfram 13 kernel is selected
+
+OR
+
+Start VScode
+
+Open the solution file
 
 ### Grapher
 On a Mac run the Grapher application
