@@ -967,7 +967,7 @@ $$v_{max}=\sqrt{\frac{k}{m}}A=\omega A\,(14.23)$$
 [Pg 467]
 ##### Angular simple harmonic motion
 $$\omega=\sqrt{\frac{\kappa}{I}}\text{ and }f=\frac{1}{2\pi}\sqrt{\frac{\kappa}{I}}\,(14.24)$$
-[Pg 471]
+[Pg 471] 
 
 ##### Linear Thermal Expansion
 $$\Delta L=\alpha L+0\Delta T\,(17.4)$$
