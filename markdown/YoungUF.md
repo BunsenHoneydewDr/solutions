@@ -1,3 +1,6 @@
+Reference: Young, H. D., Freedman, R. A. and Ford, A. L. (2016) Sears and Zemansky’s University Physics: With Modern Physics, 15th edn, Pearson.
+Page numbers for 15th Global edition ISBN 13: 978-1-292-31481-5
+
 ##### Magnitude of a vector
 $$(Magnitude\,of\,\vec{A})=A=|\vec{A}|\,(1.1)$$
 [Pg 39] 
@@ -56,10 +59,13 @@ $$\hat i\cdot\hat j=\hat i\cdot\hat k=\hat j\cdot \hat k=(1)(1)\cos90^{\circ}=0\
 [Pg 48]  
 ##### Scalar product in components and unit vectors
 $$\vec{A}\cdot\vec{B}=(A_x\hat i+A_y\hat j+A_z\hat k)\cdot(B_x\hat i+B_y\hat j+B_z\hat k)=A_x\hat i\cdot B_x\hat i+A_x\hat i\cdot B_y\hat j+A_x\hat i\cdot B_z\hat k+A_y\hat j\cdot B_x\hat i+A_y\hat j\cdot B_y\hat j+A_y\hat j\cdot B_z\hat k+A_z\hat k\cdot B_x\hat i+A_z\hat k\cdot B_y\hat j+A_z\hat k\cdot B_z\hat k=A_xB_x\hat i\cdot\hat i+A_xB_y\hat i\cdot\hat j+A_xB_z\hat i\cdot\hat k+A_yB_x\hat j\cdot\hat i+A_yB_y\hat j\cdot\hat j+A_yB_z\hat j\cdot\hat k+A_zB_x\hat k\cdot\hat i+A_zB_y\hat k\cdot\hat j+A_zB_z\hat k\cdot\hat k\,(1.18)$$
-[Pg 48]  
+[Pg 48]
+##### Scalar dot product of vectors
+$$\vec{A}\cdot\vec{B}=A_xB_x+A_yB_y+A_zB_z\,(1.19)$$
+[Pg 48]
 ##### Magnitude of vector (cross) product
 $$C=AB\sin\theta\,(1.20)$$
-[Pg 49]  
+[Pg 50]  
 ##### Vector product anticommutative
 $$\vec{A}\times\vec{B}=-\vec{B}\times\vec{A}\,(1.21)$$
 [Pg 50]  
@@ -85,13 +91,13 @@ $$v_{av-x}=\frac{\Delta x}{\Delta t}=\frac{x_2-x_1}{t_2-t_1} (2.2)$$
 [Pg 63] 
 ##### The instantaneous x-velocity of a particle in straight line motion
 $$v_x=\lim_{\Delta t \to 0}\frac{\Delta x}{\Delta t}=\frac{dx}{dt}(2.3)$$
-[Pg 67]  
+[Pg 65]  
 ##### Average x-acceleration of a particle in straight line motion during time interval t1 to t2
 $$a_{av-x}=\frac{\Delta v_x}{\Delta t}=\frac{v_{2x}-v_{1x}}{t_2-t_1}(2.4)$$
-[Pg 70] 
+[Pg 68] 
 ##### The instantaneous x-acceleration of a particle in straight-line motion
 $$a_x=\lim_{\Delta t\to 0}\frac{\Delta v_x}{\Delta t}=\frac{dv_x}{dt}(2.5)$$
-[Pg 71]  
+[Pg 69]  
 ##### acceleration as second derivative
 $$a_x=\frac{dv_x}{dt}=\frac{d}{dt}\bigg(\frac{dx}{dt}\bigg)=\frac{d^2x}{dt^2}\,(2.6)$$
 [Pg 71]  
@@ -100,7 +106,7 @@ $$a_x=\frac{v_{2x}-v_{1x}}{t_2-t_1}\,(2.7)$$
 [Pg 73]  
 ##### x-velocity at time t of a particle with constant x-acceleration
 $$v_x=v_{0x}+a_xt(2.8)$$
-[Pg 75]
+[Pg 73]
 ##### average velocity in the x direction
 $$v_{av-x}=\frac{x-x_0}{t}\,(2.9)$$
 [Pg 73]  
@@ -112,13 +118,13 @@ $$v_{av-x}=\frac{1}{2}(v_{0x}+v_{0x}+a_xt)=v_{0x}+\frac{1}{2}a_xt\text{ (constan
 [Pg 73]  
 ##### Position at time t of a particle with constant x-acceleration
 $$x=x_0+v_{0x}t+\frac{1}{2}a_xt^2(2.12)$$
-[Pg 76]  
+[Pg 74]  
 ##### x-velocity at time t of a particle with constant x-acceleration
 $$v_x^2=v_{0x}^2+2a_x(x-x_0)(2.13)$$
-[Pg 77] 
+[Pg 75] 
 ##### Position at time t of a particle with constant x-acceleration
 $$x-x_0=\frac{1}{2}(v_{0x}+v_x)t(2.14)$$
-[Pg 77] 
+[Pg 75] 
 ##### change in x velocity
 $$v_{2x}-v_{1x}=\int_{v_{1x}}^{v_{2}}dv_x=\int_{t_{1}}^{t_{2}}a_x\,dt\,(2.15)$$
 [Pg 82]  
@@ -127,21 +133,22 @@ $$x_2-x_1=\int_{x_{1}}^{x_{2}}dx=\int_{t_{1}}^{t_{2}}v_x\,dt\,(2.16)$$
 [Pg 82]  
 ##### x-velocity of a particle at time t
 $$v_x=v_{0x}+\int_0^t a_x\,dt(2.17)$$
-[Pg 84] 
+[Pg 82] 
 ##### Position of a particle at time t
 $$x=x_0+\int_0^tv_x\,dt(2.18)$$
-[Pg 84] 
+[Pg 82] 
 ##### Position vector of a particle at a given instant
 $$\vec{r}=x\hat i+y\hat j+z\hat k(3.1)$$
-[Pg 96] 
-##### Average velocity vector of a particle during time interval from t1 to t2 $$\vec v_{av}=\frac{\Delta\vec{r}}{\Delta t}=\frac{\vec{r}_2-\vec{r}_1}{t_2-t_1}(3.2)$$
-[Pg 97] 
+[Pg 94] 
+##### Average velocity vector of a particle during time interval from t1 to t2 
+$$\vec v_{av}=\frac{\Delta\vec{r}}{\Delta t}=\frac{\vec{r}_2-\vec{r}_1}{t_2-t_1}(3.2)$$
+[Pg 95] 
 ##### The instantaneous velocity vector of a particle equals the limit of its average velocity vector as the time interval approaches zero and equals the instantaneous rate of change of its position vector
 $$\vec{v}=\lim_{\Delta t\to 0}\frac{\Delta\vec{r}}{\Delta t}=\frac{d\vec{r}}{dt}(3.3)$$
-[Pg 97]   
+[Pg 95]   
 ##### Each component of a particles instantaneous velocity vector equals the instantaneous rate of change of its corresponding coordinate
 $$v_x=\frac{dx}{dt},v_y=\frac{dy}{dt},v_z=\frac{dz}{dt}(3.4)$$
-[Pg 97] 
+[Pg 95] 
 ##### Velocity vector components are derivatives of displacements
 $$\vec{v}=\frac{d\vec{r}}{dt}=\frac{dx}{dt}\hat i+\frac{dy}{dt}\hat j+\frac{dz}{dt}\hat k\,(3.5)$$
 [Pg 95]  
@@ -153,13 +160,13 @@ $$\tan\alpha=\frac{v_y}{v_x}\,(3.7)$$
 [Pg 96]  
 ##### Average acceleration vector of a particle during time interval from t1 to t2
 $$\vec{a}_{av}=\frac{\Delta\vec{v}}{\Delta t}=\frac{\vec{v}_2-\vec{v}_1}{t_2-t_1}(3.8)$$
-[Pg 100]  
+[Pg 98]  
 ##### The instantaneous acceleration vector of a particle equals the limit of its average acceleration vector as the time interval approaches zero and equals the instantaneous rate of change of its velocity vector
 $$\vec{a}=\lim_{\Delta t\to 0}\frac{\Delta\vec{v}}{\Delta t}=\frac{d\vec{v}}{dt}(3.9)$$
-[Pg 100] 
+[Pg 98] 
 ##### Each component of a particle's instantaneous acceleration vector equals the instantaneous rate of change of its corresponding velocity component
 $$a_x=\frac{dv_x}{dt},a_y=\frac{dv_y}{dt},a_z=\frac{dv_z}{dt}(3.10)$$
-[Pg 100] 
+[Pg 98] 
 ##### Acceleration in terms of velocity and unit vectors
 $$\vec{a}=\frac{d\vec{v}}{dt}=\frac{dv_x}{dt}\hat i+\frac{dv_y}{dt}\hat j+\frac{dv_z}{dt}\hat k\,(3.11)$$
 [Pg 99]  
@@ -183,7 +190,7 @@ $$x=(v_0\cos\alpha_0)t(3.19)$$
 $$y=(v_0\sin\alpha_0)t-\frac{1}{2}gt^2(3.20)$$
 $$v_x=v_0\cos\alpha_0(3.21)$$
 $$v_y=v_0\sin\alpha_0-gt(3.22)$$
-[Pg 105]  
+[Pg 103]  
 ##### Distance orogin to projectile
 $$r=\sqrt{x^2+y^2}\,(3.23)$$
 [Pg 104]  
@@ -294,13 +301,13 @@ $$v_t=\sqrt{\frac{mg}{D}}\,(5.12)$$
 [Pg 176]  
 ##### Magnitude of acceleration of an object in uniform circular motion 3
 $$a_{rad}=\frac{v^2}{R}(5.13)$$
-[Pg 174]  
+[Pg 177]  
 ##### Period of circular motion
 $$T=\frac{2\pi R}{v}(5.14)$$
-[Pg 174]  
+[Pg 177]  
 ##### Magnitude of acceleration of an object in uniform circular motion
 $$a_{rad}=\frac{4\pi^2R}{T^2}(5.15)$$
-[Pg 174]  
+[Pg 177]  
 ##### Uniform Circular Motion
 $$F_{net}=ma_{rad}=m\frac{v^2}{R}\,(5.16)$$
 [Pg 178]  
@@ -309,7 +316,7 @@ $$W=Fs\,(6.1)$$
 [Pg 200]  
 ##### Work on particle straight line displacement 1
 $$W=Fs\cos\phi\,(6.2)$$
-[Pg 200]  
+[Pg 201]  
 ##### Work on particle straight line displacement vector
 $$W=\vec{F}\cdot\vec{s}\,(6.3)$$
 [Pg 201]  
@@ -513,166 +520,289 @@ $$M\vec{a}_{\rm cm}=m_1\vec{a}_1+m_2\vec{a}_2+m_3\vec{a}_3+...\,(8.33)$$
 [Pg 283]  
 ##### Net external force on a body or collection of particles
 $$\Sigma\vec{F}_{\rm ext}=M\vec{a}_{\rm cm}\,(8.34)$$
-[Pg 283]  
-
+[Pg 283]
+##### Motion system of particles alternative
+$$M\vec{a}_{cm}=M\frac{d\vec{v}_{cm}}{dt}=\frac{d(M\vec{v}_{cm}}{dt}=\frac{d\vec{P}}{dt}\,(8.35)$$
+[Pg 284]
+##### Force system of particles
+$$\Sigma\vec{F}_{ext}=\frac{d\vec{P}}{dt}\,(8.36)$$
+[Pg 284]
+##### Rocket propulsion derivation1
+$$m\frac{dv}{dt}=-v_{ex}\frac{dm}{dt},\(8.37)$$
+[Pg 285]
+##### Rocket propulsion derivation2
+$$F=-v_{ex}\frac{dm}{dt}\,(8.38)$$
+[Pg 285]
+##### Rocket propulsion derivation3
+$$a=\frac{dv}{dt}=-\frac{v_{ex}}{m}\frac{dm}{dt}\,(8.39)$$
+[Pg 286]
+##### Rocket propulsion
+$$v-v_0=-v_{ex}ln\frac{m}{m_0}=v_{ex}ln\frac{m_0}{m}\,(8.40)$$
+[Pg 286]
 ##### Angle subtended by arc
 $$\theta=\frac{s}{r},s=r\theta\text{ (radians) }(9.1)$$
-[Pg 298]  
+[Pg 301]
+##### Average angular velocity
+$$\omega_{zv-z}=\frac{\theta_2-\theta_1}{t_2-t_1}=\frac{\Delta\theta}{\Delta t}\,(9.2)$$
+[Pg 301]
 ##### Instantaneous angular velocity
 $$\omega_z=\lim_{\Delta t\to0}\frac{\Delta\theta}{\Delta t}=\frac{d\theta}{dt}\,(9.3)$$
-[Pg 299]  
+[Pg 302]
+##### Average angular acceleration
+$$\alpha_{av-z}=\frac{\omega_{2z}-\omega_{1z}}{t_2-t_1}=\frac{\Delta\omega_z}{\Delta t}\,(9.4)$$
+[Pg 304]
 ##### Instantaneous angular acceleration
 $$\alpha_z=\lim_{\Delta t\to 0}\frac{\Delta\omega_z}{\Delta t}=\frac{d\omega_z}{dt}\,(9.5)$$
-[Pg 301] 
+[Pg 304]
+##### Instantaneous angular acceleration2
+$$\alpha_z=\frac{d}{dt}\frac{d\theta}{dt}=\frac{d^2\theta}{dt^2}\,(9.6)$$
+[Pg 304]
 ##### Angular velocity with constant acceleration
 $$\omega_z=\omega_{0z}+\alpha_zt\,(9.7)$$
-[Pg 302]   
+[Pg 305]
+##### Average angular acceleration
+$$\omega_{av-z}=\frac{\omega_{0z}+\omega_z}{2}\,(9.8)$$
+[Pg 305]
+##### Average angular acceleration by displacement
+$$\omega_{av-z}=\frac{\theta-\theta_0}{t-0}\,(9.9)$$
+[Pg 305]
 ##### Angular position with constant acceleration
 $$\theta-\theta_0=\frac{1}{2}(\omega_{0z}+\omega_z)t\,(9.10)$$
-[Pg 302]   
+[Pg 306]   
 ##### Angular position with constant acceleration 2
 $$\theta=\theta_0+\omega_{0z}t+\frac{1}{2}\alpha_zt^2\,(9.11)$$
-[Pg 303]  
+[Pg 306]  
 ##### Angular velocity with constant acceleration 2
 $$\omega_z^2=\omega_{0z}^2+2\alpha_z(\theta-\theta_0)\,(9.12)$$
-[Pg 303] 
+[Pg 306] 
 ##### Linear Speed on rotating body
 $$v=r\omega\,(9.13)$$
-[Pg 305]  
+[Pg 308]  
 ##### Tangential acceleration on rotating body
 $$a_{tan}=\frac{dv}{dt}=r\frac{d\omega}{dt}=r\alpha\,(9.14)$$
-[Pg 305]  
+[Pg 308]  
 ##### Centripetal acceleration on rotating body
 $$a_{rad}=\frac{v^2}{r}=\omega^2r\,(9.15)$$
-[Pg 305]  
+[Pg 309]  
 ##### Moment of inertia
 $$I=m_1r_1^2+m_2r_2^2+\cdots=\sum m_ir_i^2\,(9.16)$$
-[Pg 308]  
+[Pg 311]  
 ##### Rotational kinetic energy
 $$K=\frac{1}{2}I\omega^2\,(9.17)$$
-[Pg 308]  
+[Pg 311]  
 ##### Gravitational potential energy extended body
 $$U=Mgy_{cm}\,(9.18)$$
-[Pg 312]  
+[Pg 315]  
 ##### Parallel axis theorem
 $$I_P=I_{cm}+Md^2\,(9.19)$$
-[Pg 312]  
+[Pg 315]  
 ##### Moment of inertia calculation
 $$I=\int r^2\,dm\,(9.20)$$
-[Pg 314]  
+[Pg 317]  
 ##### Moment of inertia calculation 2
 $$I=\rho\int r^2\,dV\,(9.21)$$
-[Pg 314]  
+[Pg 317]  
 ##### Torque
 $$\tau=Fl\,(10.1)$$
-[Pg 328]  
+[Pg 331]  
 ##### Magnitude of torque
 $$\tau=Fl=rF\sin\phi=F\tan r\,(10.2)$$
-[Pg 329]  
+[Pg 331]  
 ##### Torque vector
 $$\vec{\tau}=\vec{r}\times\vec{F}\,(10.3)$$
-[Pg 329]  
+[Pg 332]  
 ##### Angular acceleration tangential force
 $$F_{1.\tan}=m_1a_{1,\tan}\,(10.4)$$
-[Pg 330]  
+[Pg 333]  
 ##### Angular acceleration tangential force2
 $$F_{1,\tan}r_1m_1r_1^2\alpha_z\,(10.5)$$
-[Pg 330]  
+[Pg 333]  
 ##### Sum of torques about axis
 $$\Sigma\tau_{iz}=\bigg(\Sigma m_ir_i^2\bigg)\alpha_z\,(10.6)$$
-[Pg 331]  
+[Pg 334]  
 ##### Net torque about z
 $$\Sigma\tau_z=I\alpha_z\,(10.7)$$
-[Pg 331]  
+[Pg 334]  
 ##### Kinetic energy translational rotational
 $$K=\frac{1}{2}Mv_{cm}^2+\frac{1}{2}I_{cm}\omega^2\,(10.8)$$
-[Pg 334]  
+[Pg 337]  
 ##### Velocity relative to inertial frame
 $$\vec{v_i}=\vec{v}_{cm}+\vec{v}_i^{'}\,(10.9)$$
+[Pg 337]
 ##### Total kinetic energy body
 $$K=\frac{1}{2}(\Sigma m_i)v_{cm}^2+\vec{v}_{cm}\cdot(\Sigma m_i\vec{v}_i^{'})+\Sigma(\frac{1}{2}m_iv_i^{'2})\,(10.10)$$
-[Pg 334]  
+[Pg 337]  
 ##### Condition rolling without slipping
 $$v_{cm}=R\omega\,(10.11)$$
-[Pg 335]  
+[Pg 337]  
 ##### Net external force on a body
 $$\Sigma\vec{F}_{ext}=M\vec{a}_{cm}\,(10.12)$$
-[Pg 337]  
+[Pg 339]  
 ##### Net torque about z
 $$\Sigma\tau_z=I_{cm}\alpha_z\,(10.13)$$
-[Pg 337]  
+[Pg 340]  
 ##### Primitive yo-yo calculation
 $$\Sigma F_y=Mg+(-T)=Ma_{cm-y}\,(10.14)$$
-[Pg 337]  
+[Pg 340]  
 ##### Primitive yo-yo calculation2
 $$\Sigma \tau_z=TR=I_{cm}\alpha_z=\frac{1}{2}MR^2\alpha_z\,(10.15)$$
-[Pg 338]  
+[Pg 340]  
 ##### Primitive yo-yo calculation3
 $$\alpha_{cm-y}=R\alpha_z\,(10.16)$$
-[Pg 338]  
+[Pg 340]  
 ##### Acceleration of rolling sphere calculation
 $$\Sigma F_x=Mg\sin\beta+(-f)=Ma_{cm-x}\,(10.17)$$
-[Pg 338]  
+[Pg 341]  
 ##### Acceleration of rolling sphere calculation2
 $$\Sigma \tau_z=fR=I_{cm}\alpha_z=\Big(\frac{2}{5}MR^2\Big)\alpha_z\,(10.18)$$
-[Pg 338]  
+[Pg 341]  
 ##### Work rotational motion derivation
 $$dW=\tau_zd\theta\,(10.19)$$
-[Pg 339]  
+[Pg 342]  
 ##### Work done by a torque
 $$W=\int_{\theta_1}^{\theta_2}\tau_z\,d\theta\,(10.20)$$
-[Pg 339]  
+[Pg 342]  
 ##### Work done by a constant torque
 $$W=\tau_z(\theta_2-\theta_1)=\tau_z\Delta\theta\,(10.21)$$
-[Pg 339]  
+[Pg 342]  
 ##### Total Work done rotating rigid body
 $$W_{tot}=\int_{\omega_1}^{\omega_2}I\omega_z\,d\omega_z=\frac{1}{2}I\omega_2^2-I\omega_1^2\,(10.22)$$
-[Pg 340]  
+[Pg 343]  
 ##### Power due to a torque
 $$P=\tau_z\omega_z\,(10.23)$$
-[Pg 340]  
+[Pg 343]  
 ##### Angular momentum of particle
 $$\vec{L}=\vec{r}\times\vec{p}=\vec{r}\times m\vec{v}\,(10.24)$$
-[Pg 341]  
+[Pg 344]  
 ##### Magnitude angular momentum
 $$L=mvr\sin\phi=mvl\,(10.25)$$
-[Pg 341]  
+[Pg 344]  
 ##### Rate of change of angular momentum
 $$\frac{d\vec{L}}{dt}=\vec{r}\times\vec{F}=\vec{\tau}\,(10.26)$$
-[Pg 341]  
-##### Angular Momentum Particle 2
-$$L=mvr\sin\theta=mvl(10.25)$$
 [Pg 344]  
+##### Magnitude angular momentum rigid body
+$$L_i=m_I(r_i\omega)r_i=m_ir_i^2\omega\,(10.27)$$
+[Pg 345]
+##### Angular momentum rigid body about axis
+$$\vec{L}=I\vec{\omega}\,(10.28)$$
+[Pg 345]
+##### Sum of external torques system
+$$\sum\vec{\tau}=\frac{d\vec{L}}{dt}\,(10.29)$$
+[Pg 345]
+##### Conservation angular momentum
+$$I_1\omega_{1z}=I_2\omega_{2z}\,(10.30)$$
+[Pg 347]
+##### Total angular momentum constant
+$$\frac{d\vec{L}}{dt}=\vec{0}\,(10.31)$$
+[Pg 347]
+##### Change in angular momentum v torque
+$$d\vec{L}=\vec{\tau}\,dt\,(10.32)$$
+[Pg 350]
+##### Precession angular speed
+$$\Omega=\frac{d\phi}{dt}=\frac{|d\vec{L}|/|\vec{L}|}{dt}=\frac{\tau_z}{L_z}=\frac{wr}{I\omega}\,(10.33)$$
+[Pg 351]
 ##### First Condition for Equilibrium
 $$\Sigma\bf F=0\rm\,(11.1)$$
-[Pg 364]  
+[Pg 366]  
 ##### Second Condition for Equilibrium
 $$\Sigma\bf\tau=0\rm\,(11.2)$$
-[Pg 364]  
+[Pg 366]
+##### Centre of mass collection of particles
+$$x_{\rm cm}=\frac{m_1x_1+m_2x_2+m_3x_3+...}{m_1+m_2+m_3+...}=\frac{\sum\limits_{i}m_ix_i}{\sum\limits_{i}m_i},y_{\rm cm}=\frac{m_1y_1+m_2y_2+m_3y_3+...}{m_1+m_2+m_3+...}=\frac{\sum\limits_{i}m_iy_i}{\sum\limits_{i}m_i},z_{\rm cm}=\frac{m_1z_1+m_2z_2+m_3z_3+...}{m_1+m_2+m_3+...}=\frac{\sum\limits_{i}m_iz_i}{\sum\limits_{i}m_i}\,(11.3)$$
+[Pg 367]
 ##### Position Vector of centre of mass of system of particles
 $$\vec{r}_{cm}=\frac{m_1\vec{r}_1+m_2\vec{r}_2+m_3\vec{r}_3+...}{m_1+m_2+m_3+...}=\frac{\sum_{i} m_i\vec{r}_i}{\sum_{i} m_i}\,(11.4)$$
-[Pg 365]  
+[Pg 367]
+##### Total gravitational torque
+$$\vec{\tau}=\vec{r}_{cm}\times M\vec{g}=\vec{r}_{cm}\times\vec{w}\,(11.5)$$
+[Pg 367]
+##### Solving rigid body problems
+$$\Sigma F_x=0,\,\Sigma F_y=0,\,\Sigma\tau_z=0\,(11.6)$$
+[Pg 369]
 ##### Hooke's Law
 $$\frac{\text{stress}}{\text{strain}}=\text{ Elastic Modulus }\,(11.7)$$
-[Pg 371]  
+[Pg 373]
+##### Tensile stress
+$$\text{Tensile stress }=\frac{F\perp}{A}\,(11.8)$$
+[Pg 374]
+##### Tensile strain
+$$\text{Tensile strain }=\frac{l-l_0}{l_0}=\frac{\Delta l}{l_0}\,(11.9)$$
+[Pg 374]
+##### Young's modulus for tension
+$$Y=\frac{\text{Tensile stress}}{\text{Tensile strain}}=\frac{F\perp/A}{\Delta l/l_0}=\frac{F\perp}{A}\frac{l_0}{\Delta l}\,(11.10)$$
+[Pg 374]
+##### Pressure in a fluid
+$$p=\frac{F_{\perp}}{A}\,(11.11)$$
+[Pg 376]
+##### Bulk volume strain
+$$\text{Bulk (volume) strain }=\frac{\Delta V}{V_0}\,(11.12)$$
+[Pg 376]
+##### Bulk Modulus for compression
+$$B=\frac{\text{Bulk stress}}{\text{Bulk strain}}=-\frac{\Delta p}{\Delta V/V_0}\,(11.13)$$
+[Pg 377]
+##### Compressibility
+$$k=\frac{1}{B}=-\frac{\Delta V/V_0}{\Delta p}=-\frac{1}{V_0}\frac{\Delta V}{\Delta p}\,(11.14)$$
+[Pg 377]
+##### Shear stress
+$$\text{Sheer stress}=\frac{F_{\parallel}}{A}\,(11.15)$$
+[Pg 378]
+##### Shear strain
+$$\text{Sheer strain}=\frac{x}{h}\,(11.16)$$
+[Pg 378]
+##### Shear modulus
+$$S=\frac{\text{Shear stress}}{\text{Shear strain}}=\frac{F_{\parallel}/A}{x/h}=\frac{F_{\parallel}}{A}\frac{h}{x}\,(11.17)$$
+[Pg 378]
 ##### Density of a homogenous material
 $$\rho=\frac{m}{V}(12.1)$$
 [Pg 394]  
 ##### Pressure at a point in a fluid
 $$p=\frac{dF_\perp}{dA}(12.2)$$
-[Pg 396]  
+[Pg 396]
+##### Pressure on finite plane
+$$p=\frac{F_{\perp}}{A}\,(12.3)$$
+[Pg 398]
+##### Change of pressure with depth
+$$\frac{dp}{dy}=-\rho g\,(12.4)$$
+[Pg 397]
 ##### Pressure difference between two points in a fluid of uniform density
 $$p_2-p_1=-\rho g(y_2-y_1)(12.5)$$
 [Pg 397]  
 ##### Pressure at depth h in a fluid of uniform density
 $$p=p_0+\rho gh(12.6)$$
-[Pg 398]  
+[Pg 398]
+##### Applied pressure
+$$p=\frac{F_1}{A_1}=\frac{F_2}{A_2}\text{and }F_2=\frac{A_2}{A_1}F_1\,(12.7)$$
+[Pg 398]
+##### Pressure guage
+$$p+\rho gy_1=p_{atm}+\rho gy_2,p-p_{atm}=\rho g(y_2-y_1)=\rho gh\,(12.8)$$
+[Pg 399]
+##### Atmospheric pressure measure
+$$p_{atm}=p=0+\rho g(y_2-y_1)=\rho gh\,(12.9)$$
+[Pg 400]
 ##### Continuity equation for an incompressible fluid
 $$A_1v_1=A_2v_2(12.10)$$
 [Pg 405]  
 ##### Volume flow rate of a fluid
 $$\frac{dV}{dt}=Av(12.11)$$
-[Pg 405]  
+[Pg 405]
+##### Continuity equation compressible fluid
+$$\rho_1A_1v_1=\rho_2A_2v_2\,(12.12)$$
+[Pg 405]
+##### Bernoulli's equation derivation
+$$dW=p_1A_1ds_1-p2A_2ds_2=(p_1-p_2)dV\,(12.13)$$
+[Pg 406]
+##### Bernoulli's equation derivation2
+$$dK=\frac{1}{2}\rho\,dV(v_2^2-v_1^2)\,(12.14)$$
+[Pg 406]
+##### Bernoulli's equation derivation3
+$$dU=\rho\,dV\,g(y_2-y_1)\,(12.15)$$
+[Pg 407]
+##### Bernoulli's equation derivation4
+$$(p_1-p_2)dV=\frac{1}{2}\rho\,dV(v_2^2-v_1^2)+\rho\,dV\,g(y_2-y_1),p_1-p_2=\frac{1}{2}\rho(v_2^2-v_1^2)+\rho g(y_2-y_1)\,(12.16)$$
+[Pg 407]
+##### Bernoulli's equation derivation5
+$$p_1+\rho gy_1+\frac{1}{2}\rho v_1^2=p_2+\rho gy_2+\frac{1}{2}\rho v_2^2\,(12.17)$$
+[Pg 407]
 ##### Bernoulli's equation for an ideal incompressible fluid
 $$p+\rho gy+\frac{1}{2}\rho v^2=\text{constant}\,(12.18)$$
 [Pg 407]  
@@ -687,82 +817,88 @@ $$W=F_g+\frac{Gm_Em}{R_E^2}\,(13.3)$$
 [Pg 427]  
 #####  Acceleration due to gravity
 $$g=\frac{Gm_E}{R_E^2}\,(13.4)$$
-[Pg 427]  
+[Pg 428]  
 ##### Weight above surface
 $$w=F_g=\frac{Gm_Em}{r^2}\,(13.5)$$
-[Pg 427]  
+[Pg 428]  
 ##### Gravitational potential energy3
 $$W_{grav}=\int_{r_1}^{r_2}F_r\,dr\,(13.6)$$
-[Pg 429]  
+[Pg 430]  
 ##### Radial component gravitational force
 $$F_r=\frac{Gm_Em}{r^2}\,(13.7)$$
-[Pg 429]  
+[Pg 430]  
 ##### Gravitational potential energy2
 $$W_{grav}=-Gm_Em\int_{r_1}^{r_2}\frac{dr}{r^2}=\frac{Gm_Em}{r_2}-\frac{Gm_Em}{r_2}\,(13.8)$$
-[Pg 429]  
+[Pg 430]  
 ##### Gravitational potential energy
 $$U=-\frac{Gm_Em}{r}\,(13.9)$$
-[Pg 429]  
+[Pg 430]  
 ##### Satellite speed circular orbit
 $$v=\sqrt{\frac{Gm_E}{r}}\, (13.10)$$
-[Pg 432]  
+[Pg 433]  
 ##### Period circular orbit derivation
 $$v=\frac{2\pi r}{T}\,(13.11)$$
-[Pg 432]  
+[Pg 434]  
 ##### Period circular orbit around Earth
 $$T=\frac{2\pi r}{v}=2\pi r\sqrt{\frac{r}{Gm_E}}=\frac{2\pi r^{3/2}}{\sqrt{Gm_E}}\,(13.12)$$
-[Pg 433]  
+[Pg 434]  
 ##### Circular orbit total energy
 $$E=K+U=\frac{1}{2}mv^2+\bigg(-\frac{Gm_Em}{r}\bigg)=\frac{1}{2}\bigg(\frac{Gm_E}{r}\bigg)-\frac{Gm_Em}{r}=\frac{Gm_Em}{2r}\,(13.13)$$
-[Pg 433]  
+[Pg 434]  
 ##### Kepler 2nd Law sector velocity
 $$\frac{dA}{dt}=\frac{1}{2}r^2\frac{d\theta}{dt}\,(13.14)$$
-[Pg 435]  
+[Pg 436]  
 ##### Kepler 2nd Law sector velocity2
 $$\frac{dA}{dt}=\frac{1}{2}rv\sin\phi\,(13.15)$$
-[Pg 435]  
+[Pg 436]  
 ##### Kepler 2nd Law angular momentum
 $$\frac{dA}{dt}=\frac{1}{2m}|\vec{r}\times m\vec{v}|=\frac{L}{2m}\,(13.16)$$
 [Pg 436]  
 ##### Kepler 3rd Law
 $$T=\frac{2\pi a^{3/2}}{\sqrt{Gm_S}}\,(13.17)$$
-[Pg 436]  
+[Pg 437]  
 ##### Potential energy ring of mass
 $$dU=\sum_{i}U_i=\sum\bigg(-\frac{Gmm_i}{s}\bigg)=-\frac{Gm}{s}\sum_{i}m_i=-\frac{Gm\,dM}{s}\,(13.18)$$
 [Pg 439]  
 ##### Ratio ring mass to total mass
 $$\frac{dM}{M}=\frac{2\pi R^2\sin\phi\,d\phi}{4\pi R^2}=\frac{1}{2}\sin\phi\,d\phi\,(13.19)$$
-[Pg 439]  
-##### Potential energy point mass ring
+[Pg 440]  
+##### Potential energy point mass and ring
 $$dU=-\frac{GMm\sin\phi\,d\phi}{2s}\,(13.20)$$
-[Pg 439]  
-##### Mass distribution derivation
+[Pg 440]  
+##### Point mass outside shell derivation
 $$s^2=(r-R\cos\phi)^2+(R\sin\phi)^2=r^2-2R\cos\phi+R^2\,(13.21)$$
-[Pg 439]  
-##### Mass distribution derivation 2
+[Pg 440]  
+##### Point mass outside shell derivation2
 $$dU=-\frac{GMm}{2s}\frac{sds}{rR}=-\frac{GMm}{2rR}\,ds\,(13.22)$$
-[Pg 439]  
-##### Mass distribution derivation 3
-$$U=-\frac{GMm}{2rR}\int_{r-R}^{r+R}ds=-\frac{GMm}{2rR}[(r+R)-(r-R)]\,(13.23)(13.25)$$
-[Pg 439]  
+[Pg 440]
+##### Point mass outside shell derivation3
+$$U=-\frac{GMm}{2rR}\int_{r-R}^{r+R}ds=-\frac{GMm}{2rR}[(r+R)-(r-R)]\,(13.23)$$
+[Pg 440]
+##### Potential energy point mass outside shell
+$$U=-\frac{GMm}{r}\text{ (point mass m outside spherical shell M)}\,(13.24)$$
+[Pg 440]  
+##### Point mass inside shell derivation
+$$U=-\frac{GMm}{2rR}\int_{R-r}^{R+r}ds=-\frac{GMm}{2rR}[(R+r)-(R-r)]\,(13.25)$$
+[Pg 441]  
 ##### Potential energy spherical shell
-$$U=-\frac{GMm}{r}\text{ (point mass m outside spherical shell M)}\,(13.24)(13.26)$$
-[Pg 439]  
+$$U=-\frac{GMm}{R}\text{ (point mass m inside spherical shell M)}\,(13.26)$$
+[Pg 441]  
 ##### Weight at equator
 $$w=w_0-\frac{mv^2}{R_E}\,(13.27)$$
 [Pg 442]  
 ##### True weight on Earth
 $$\vec{w}=\vec{w_0}-m\vec{a}_{rad}=m\vec{g_0}-m\vec{a}_{rad}\,(13.28)$$
-[Pg 442]  
+[Pg 443]  
 ##### Escape speed of star
 $$v=\sqrt{\frac{2GM}{R}}=\sqrt{\frac{8\pi G\rho}{3}}R\,(13.29)$$
-[Pg 443]  
+[Pg 444]  
 ##### Schwarzschild radius of a black hole
 $$R_S=\frac{2GM}{c^2}\,(13.30)$$
 [Pg 444]  
 ##### Periodic motion frequncy period
 $$f=\frac{1}{T},T=\frac{1}{f}\,(14.1)$$
-[Pg 459]  
+[Pg 458]  
 ##### Angular frequency
 $$\omega=2\pi f=\frac{2\pi}{T}\,(14.2)$$
 [Pg 459]  
@@ -789,7 +925,7 @@ $$\omega^2=\frac{k}{m}\text{ or }\omega=\sqrt{\frac{k}{m}}\,(14.9)$$
 [Pg 461]  
 ##### Angular frequency for simple harmonic motion
 $$\omega=\sqrt{\frac{k}{m}}\,(14.10)$$
-[Pg 462]  
+[Pg 461]  
 ##### Frequency for simple harmonic motion
 $$f=\frac{\omega}{2\pi}=\frac{1}{2\pi}\sqrt{\frac{k}{m}}\,(14.11)$$
 [Pg 462]  
@@ -810,7 +946,28 @@ $$a_x=\frac{dv_x}{dt}=\frac{d^2x}{dt^2}=-\omega^2A\cos(\omega t+\phi)\,(14.16)$$
 [Pg 464]  
 ##### Acceleration in simple harmonic motion spring mass
 $$a_x=-\omega^2x=-\frac{k}{m}x\,(14.17)$$
-[Pg 464]  
+[Pg 465]  
+##### Phase angle in simple harmonic motion
+$$\theta=arctan\bigg(-\frac{v_{0x}}{\omega x_0}\bigg)\,(14.18)$$
+[Pg 465]
+##### Amplitude in simple harmonic motion
+$$A=\sqrt{x_0^2+\frac{v_{0x}^2}{\omega^2}}\,(14.19)$$
+[Pg 465]
+##### Energy in simple harmonic motion
+$$E=\frac{1}{2}mv_x^2+\frac{1}{2}kx^2=\text{constant}\,(14.20)$$
+[Pg 466]
+##### Energy in simple harmonic motion2
+$$E=\frac{1}{2}mv^2+\frac{1}{2}kx^2=\frac{1}{2}kA^2=\text{constant}\,(14.21)$$
+[Pg 467]
+##### Velocity of object simple harmonic motion
+$$v_x=\pm\sqrt{\frac{k}{m}}\sqrt{A^2-x^2}\,(14.22)$$
+[Pg 467]
+##### Maximum velocity simple harmonic motion
+$$v_{max}=\sqrt{\frac{k}{m}}A=\omega A\,(14.23)$$
+[Pg 467]
+##### Angular simple harmonic motion
+$$\omega=\sqrt{\frac{\kappa}{I}}\text{ and }f=\frac{1}{2\pi}\sqrt{\frac{\kappa}{I}}\,(14.24)$$
+[Pg 471]
 
 ##### Linear Thermal Expansion
 $$\Delta L=\alpha L+0\Delta T\,(17.4)$$
