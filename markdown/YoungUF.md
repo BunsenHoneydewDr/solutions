@@ -528,7 +528,7 @@ $$M\vec{a}_{cm}=M\frac{d\vec{v}_{cm}}{dt}=\frac{d(M\vec{v}_{cm}}{dt}=\frac{d\vec
 $$\Sigma\vec{F}_{ext}=\frac{d\vec{P}}{dt}\,(8.36)$$
 [Pg 284]
 ##### Rocket propulsion derivation1
-$$m\frac{dv}{dt}=-v_{ex}\frac{dm}{dt},\(8.37)$$
+$$m\frac{dv}{dt}=-v_{ex}\frac{dm}{dt}\,(8.37)$$
 [Pg 285]
 ##### Rocket propulsion derivation2
 $$F=-v_{ex}\frac{dm}{dt}\,(8.38)$$
@@ -968,118 +968,645 @@ $$v_{max}=\sqrt{\frac{k}{m}}A=\omega A\,(14.23)$$
 ##### Angular simple harmonic motion
 $$\omega=\sqrt{\frac{\kappa}{I}}\text{ and }f=\frac{1}{2\pi}\sqrt{\frac{\kappa}{I}}\,(14.24)$$
 [Pg 471] 
-
-##### Linear Thermal Expansion
+##### Van der Waals (Lennard-Jones) potential
+$$U=U_0\bigg[\bigg(\frac{R_0}{r}\bigg)^{12}-2\bigg(\frac{R_0}{r}\bigg)^6\bigg]\,(14.25)$$
+[Pg 472]
+##### Force Van der Waals potential
+$$F_r=-\frac{dU}{dr}=U_0\bigg[\frac{12R_0^{12}}{r^{13}}-2\frac{6R_0^6}{r^7}\bigg]=12\frac{U_0}{R_0}\bigg[\bigg(\frac{R_0}{r}\bigg)^{13}-\bigg(\frac{R_0}{r}\bigg)^7\bigg]\,(14.26)$$
+[Pg 472]
+##### Force Van der Waals potential displacement
+$$F_r=12\frac{U_0}{R_0}\bigg[\bigg(\frac{R_0}{R_0+x}\bigg)^{13}-\bigg(\frac{R_0}{R_0+x}\bigg)^7\bigg]=12\frac{U_0}{R_0}\bigg[\frac{1}{(1+x/R_0)^{13}}-\frac{1}{(1+x/R_0)^7}\bigg]\,(14.27$$
+[Pg 472]
+##### Force Van der Waals potential small amplitude derivation binomial
+$$(1+u)^n=1+nu+\frac{n(n-1)}{2!}u^2+\frac{n(n-1)(n-2)}{3!}+\cdots\,(14.28)
+[Pg 472]$$
+##### Force Van der Waals potential small amplitude
+$$F_r\approx12\frac{U_0}{R_0}\bigg[\bigg(1+(-13)\frac{x}{R_0}-\bigg(1+(-7)\frac{x}{R_0}\bigg)\bigg]=-\bigg(\frac{72U_0}{R_0^2}\bigg)x\,(14.29)$$
+[Pg 473]
+##### Simple pendulum restoring force
+$$F_{\theta}=-mg\sin\theta\,(14.30)$$
+[Pg 474]
+##### Simple pendulum restoring force approximated
+$$F_\theta=-mg\theta=-mg\frac{x}{L}=\frac{mg}{L}x\,(14.31)$$
+[Pg 474]
+##### Angular frequency simple pendulum
+$$\omega=\sqrt{\frac{k}{m}}=\sqrt{\frac{mg/L}{m}}=\sqrt{\frac{g}{L}}\,(14.32)$$
+[Pg 474]
+##### Frequency of simple pendulum
+$$f=\frac{\omega}{2\pi}=\frac{1}{2\pi}\sqrt{\frac{g}{L}}\,(14.33)$$
+[Pg 474]
+##### Period of simple pendulum
+$$T=\frac{2\pi}{\omega}=\frac{1}{f}=2\pi\sqrt{\frac{L}{g}}\,(14.34)$$
+[Pg 474]
+##### Period pendulum not small angle
+$$T=2\pi\sqrt{\frac{L}{g}}\bigg(1+\frac{1^2}{2^2}\sin^2\frac{\Theta}{2}+\frac{1^2\cdot3^2}{2^2\cdot4^2}\sin^4\frac{\Theta}{2}+\cdots\bigg)\,(14.35)$$
+[Pg 474]
+##### Restoring torque physical pendulum
+$$\tau_z=-(mg)(d\sin\theta)\,(14.36)$$
+[Pg 475]
+##### Angular frequency physical pendulum derivation
+$$\frac{d^2\theta}{dt^2}=-\frac{mgd}{I}\theta\,(14.37)$$
+[Pg 476]
+##### Angular frequency physical pendulum
+$$\omega=\sqrt{\frac{mgd}{I}}\,(14.38)$$
+[Pg 476]
+##### Period physical pendulum
+$$T=2\pi\sqrt{\frac{I}{mgd}}\,(14.39)$$
+[Pg 476]
+##### Force in damped oscillation
+$$\Sigma F_x=-kx-bv_x\,(14.40)$$
+[Pg 478]
+##### Apply Newton's second law damped oscillation
+$$-kx-bv_x=ma_x\text{ or}-kx-d\frac{dx}{dt}=m\frac{d^2x}{dt^2}\,(14.41)$$
+[Pg 478]
+##### Displacement oscillator small damping
+$$x=Ae^{-(b/2m)t}\cos(\omega^{'}t+\phi)\,(14.42)$$
+[Pg 478]
+##### Angular frequency oscillator small damping
+$$\omega^{'}=\sqrt{\frac{k}{m}-\frac{b^2}{4m^2}}\,(14.43)$$
+[Pg 478]
+##### Critical damping
+$$\frac{k}{m}-\frac{b^2}{4m^2}=0\text{ or }b=2\sqrt{km}\,(14.44)$$
+[Pg 478]
+##### Energy damped oscillation
+$$\frac{dE}{dt}=v_x(-bv_x)=-bv_x^2\,(14.45)$$
+[Pg 479]
+##### Amplitude forced oscillator
+$$A=\frac{F_{max}}{\sqrt{(k-m\omega_d^2)^2+b^2\omega_d^2}}\,(14.46)$$
+[Pg 480]
+##### Wave speed periodic wave
+$$\nu=\lambda f\,(15.1)$$
+[Pg 495]
+##### Displacement particle on string
+$$y(x=0,t)=A\cos\omega t=A\cos2\pi ft\,(15.2)$$
+[Pg 497]
+##### Wave function for propagating sinusoid by frequency
+$$y(x,t)=A\cos\bigg[\omega\bigg(\frac{x}{v}-t\bigg)\bigg]\,(15.3)$$
+[Pg 498]
+##### Wave function for propagating sinusoid by wavelength
+$$y(x,t)=A\cos\bigg[2\pi\bigg(\frac{x}{\lambda}-\frac{t}{T}\bigg)\bigg]\,(15.4)$$
+[Pg 498]
+##### Wave number
+$$k=\frac{2\pi}{\lambda}\,(15.5)$$
+[Pg 498]
+##### Periodic wave
+$$\omega=vk\,(15.6)$$
+[Pg 498]
+##### Wave function for propagating sinusoid by wavenumber
+$$y(x,t)=A\cos(kx-\omega t)\,(15.7)$$
+[Pg 498]
+##### Wave function for left propagating sinusoid
+$$y(x,t)=A\cos\bigg[\omega\bigg(\frac{x}{v}+t\bigg)\bigg]=A\cos\bigg[2\pi\bigg(\frac{x}{\lambda}+\frac{t}{T}\bigg)\bigg]=A\cos(kx+\omega t)\,(15.8)$$
+[Pg 499]
+##### Particle velocity in sinusoidal wave
+$$v_y(x,t)=\frac{\partial y(x,t)}{\partial t}=\omega A\sin(kx-\omega t)\,(15.9)$$
+[Pg 500]
+##### Particle acceleration in sinusoidal wave
+$$a_y(x,t)=\frac{\partial^2y(x,t)}{\partial t^2}=-\omega^2A\cos(kx-\omega t)=-\omega^2y(x,t)\,(15.10)$$
+[Pg 501]
+##### String curvature in sinusoidal wave
+$$\frac{\partial^2y(x,t)}{\partial x^2}=-k^2A\cos(kx-\omega t)=-k^2y(x,t)\,(15.11)$$
+[Pg 501]
+##### Wave equation
+$$\frac{\partial^2y(x,t)}{\partial x^2}=\frac{1}{v^2}\frac{\partial^2y(x,t)}{\partial t^2}\,(15.12)$$
+[Pg 501]
+##### Transverse impulse wave
+$$\text{Transverse impulse = Transverse momentum }F_yt=mv_y\,(15.13)$$
+[Pg 503]
+##### Speed of transverse wave on string
+$$v=\sqrt{\frac{F}{\mu}}\,(15.14)$$
+[Pg 504]
+##### Wave speed on string derivation1
+$$\frac{F_{1y}}{F}=-\bigg(\frac{\partial y}{\partial x}\bigg)_x,\,\frac{F_{2y}}{F}=\bigg(\frac{\partial y}{\partial x}\bigg)_{x+\Delta x}\,(15.15)$$
+[Pg 504]
+##### Wave speed on string derivation2
+$$F_y=F_{1y}+F_{2y}=F\bigg[\bigg(\frac{\partial y}{\partial x}_{x+\Delta x}-\bigg(\frac{\partial y}{\partial x}\bigg)_x\bigg]\,(15.16)$$
+[Pg 504]
+##### Wave speed on string derivation3
+$$F\bigg[\bigg(\frac{\partial y}{\partial x}\bigg)_{x+\Delta x}-\bigg(\frac{\partial y}{\partial x}\bigg)_x\bigg]=\mu\Delta x\frac{\partial^2y}{\partial t^2}\,(15.17)$$
+[Pg 504]
+##### Wave speed on string derivation4
+$$\frac{\bigg(\frac{\partial y}{\partial x}\bigg)_{x+\Delta x}-\bigg(\frac{\partial y}{\partial x}\bigg)_x}{\Delta x}=\frac{\mu}{F}\frac{\partial^2y}{\partial t^2}\,(15.18)$$
+[Pg 504]
+##### Wave speed on string derivation5
+$$\frac{\partial^2y}{\partial x^2}=\frac{\mu}{F}\frac{\partial^2y}{\partial x^2}\,(15.19)$$
+[Pg 504]
+##### Vertical force in a string
+$$F_y(x,t)=-F\frac{\partial y(x,t)}{\partial x}\,(15.20)$$
+[Pg 506]
+##### Power in wave motion
+$$P(x,t)=F_y(x,t)v_y(x,t)=-F\frac{\partial y(x,t)}{\partial x}\frac{\partial y(x,t)}{\partial t}\,(15.21)$$
+[Pg 506]
+##### Power in sinusoidal wave
+$$P(x,t)=Fk\omega A^2\sin^2(kx-\omega t)\,(15.22$$
+[Pg 507]
+##### Power in simnusoidal wave2
+$$P(x,t)=\sqrt{\mu F}\omega^2A^2\sin^2(kx-\omega t)\,(15.23)$$
+[Pg 507]
+##### Max value instantaneous power
+$$P_{max}=\sqrt{\mu F}\omega^2A^2\,(15.24)$$
+[Pg 507]
+##### Average power sinusoidal wave
+$$P_{av}=\frac{1}{2}\sqrt{\mu F}\omega^2A^2\,(15.25)$$
+[Pg 507]
+##### Inverse-square law intensity
+$$\frac{I_1}{I_2}=\frac{r_2^2}{r_1^2}\,(15.26)$$
+[Pg 508]
+##### Principle of superposition
+$$y(x,t)=y_1(x,t)+y_2(x,t)\,(15.27)$$
+[Pg 510]
+##### Standing wave fixed string
+$$y(x,t)=(A_{SW}\sin kx)\sin\omega t\,(15.28)$$
+[Pg 513]
+##### Standing wave nodes fixed end
+$$x=0,\frac{\pi}{k},\frac{2\pi}{k},\frac{3\pi}{k},\cdots=0,\frac{\lambda}{2},\frac{2\lambda}{2},\frac{3\lambda}{2},\cdots\,(15.29)$$
+[Pg 513]
+##### Standing wave nodes fixed both ends
+$$L=n\frac{\lambda}{2}\,(n=1,2,3,\ldots)\,(15.30)$$
+[Pg 515]
+##### Standing wave wavelength fixed both ends
+$$\lambda_n=\frac{2L}{n},\,(n=1,2,3,\ldots)\,(15.31)$$
+[Pg 515]
+##### Standing wave fundamental frequency fixed both ends
+$$f_1=\frac{v}{2L}\,(15.32)$$
+[Pg 515]
+##### Standing wave frequencies fixed both ends
+$$f_n=n\frac{v}{2L}=nf_1\,(n=1,2,3,\ldots)\,(15.33)$$
+[Pg 515]
+##### Wave function nth standing wave
+$$y_n(x,t)=A_{SW}\sin k_nx\sin\omega_nt\,(15.34)$$
+[Pg 515]
+##### Standing wave fundamental frequency fixed both ends2
+$$f_1=\frac{1}{2L}\sqrt{\frac{F}{\mu}}\,(15.35)$$
+[Pg 516]
+##### Sound wave propagating in x direction
+$$y(x,t)=A\cos(kx-\omega t)\,(16.1)$$
+[Pg 530]
+##### Sound wave fractional change volume
+$$\frac{dV}{V}=\lim_{\Delta x\to0}\frac{S[y(x+\Delta x,t)-y(x,t)]}{S\Delta x}=\frac{\partial y(x,t)}{\partial x}\,(16.2)$$
+[Pg 530]
+##### Sound wave pressure fluctuation
+$$p(x,t)=-B\frac{\partial y(x,t)}{\partial x}\,(16.3)$$
+[Pg 530]
+##### Pressure amplitude sinusoidal wave
+$$p(x,t)=BkA\sin(kx-\omega t)\,(16.4)$$
+[Pg 531]
+##### Pressure amplitude sinusoidal wave
+$$p_{max}=BkA\,(16.5)$$
+[Pg 531]
+##### Impulse momentum theorem speed in fluid
+$$B\frac{v_y}{v}At=\rho vtAv_y\,(16.6)$$
+[Pg 535]
+##### Speed longitudinal wave in fluid
+$$v=\sqrt{\frac{B}{\rho}}\,(16.7)$$
+[Pg 535]
+##### Speed longitudinal wave in solid rod
+$$v=\sqrt{\frac{Y}{\rho}}\,(16.8)$$
+[Pg 535]
+##### Bulk modulus gas
+$$B=\gamma p_0\,(16.9)$$
+[Pg 536]
+##### Speed of sound in ideal gas
+$$v=\sqrt{\frac{\gamma RT}{M}}\,(16.10)$$
+[Pg 537]
+##### Intensity of sound
+$$I=\frac{1}{2}B\omega kA^2\,(16.11)$$
+[Pg 538]
+##### Intensity of sound wave in fluid
+$$I=\frac{1}{2}\sqrt{\rho B}\omega^2A^2\,(16.12)$$
+[Pg 538]
+##### Intensityin terms pressure
+$$I=\frac{\omega p_{max}^2}{2Bk}=\frac{vp_{max}^2}{2B}\,(16.13)$$
+[Pg 538]
+##### Intensity sinusoidal sound wave in fluid
+$$I=\frac{p_{max}^2}{2Bk}=\frac{vp_{max}^2}{2\sqrt{\rho B}}\,(16.14)$$
+[Pg 538]
+##### Sound intensity level decibel
+$$\beta=(10\,dB)\log\frac{I}{I_0}\,(16.15)$$
+[Pg 540]
+##### Fundamental frequency open pipe
+$$F_1=\frac{v}{2L}\,(16.16)$$
+[Pg 544]
+##### Lengths and wavelengths normal modes open pipe
+$$L=n\frac{\lambda_n}{2}\text{ or }\lambda_n=\frac{2L}{n}\,(n=1,2,3,\ldots)\,(16.17)$$
+[Pg 544]
+##### Standing waves open pipe
+$$f_n=\frac{nv}{2L}\,(16.18)$$
+[Pg 544]
+##### Frequencies open pipe
+$$F_n=nf_1\,(n=1,2,3,\ldots)\,(16.19)$$
+[Pg 544]
+##### Fundamental frequency stopped pipe
+$$f_1=\frac{v}{4L}\,(16.20)$$
+[Pg 545]
+##### Lengths and wavelengths normal stopped pipe
+$$L=n\frac{\lambda_n}{4}\text{ or }\lambda_n=\frac{4L}{n}\,(n=1,3,5,\ldots)\,(16.21)$$
+[Pg 545]
+##### Standing waves stopped pipe
+$$f_n=\frac{nv}{4L}\,(16.22)$$
+[Pg 545]
+##### Frequencies stopped pipe
+$$f_n=nf_1\,(n=1,3,5,\ldots)\,(16.23)$$
+[Pg 545]
+##### Beat frequency for 2 waves
+$$f_{\rm beat}=f_a-f_b\,(16.24)$$
+[Pg 551]
+##### Doppler frequency listener hears
+$$f_L=\frac{v+v_L}{\lambda}=\frac{v+v_L}{v/f_S}\,(16.25)$$
+[Pg 552]
+##### Doppler moving listener stationary source
+$$f_L=\bigg(\frac{v+v+L}{v}\bigg)f_S=\bigg(1+\frac{v_L}{v}\bigg)f_S\,(16.26)$$
+[Pg 552]
+##### Wavelength in front moving source
+$$\lambda_{\text{in front}}=\frac{v}{f_S}-\frac{v_S}{f_S}=\frac{v-v_s}{f_S}\,(16.27)$$
+[Pg 553]
+##### Wavelength behind moving source
+$$\lambda_{\text{behind}}=\frac{v+v_S}{f_S}\,(16.28)$$
+[Pg 553]
+##### Doppler moving listener and source
+$$f_L=\frac{v+v_L}{v+v_S}f_S\,(16.29)$$
+[Pg 553]
+##### Doppler effect for light
+$$f_R=\sqrt\frac{c-v}{c+v}f_s\,(16.30)$$
+[Pg 556]
+##### Shock wave angle
+$$\sin\alpha=\frac{v}{v_S}\,(16.31)$$
+[Pg 558]
+##### Kelvin temperature
+$$T_K=T_C+273.15\,(17.1)$$
+[Pg 573]
+##### Definition Kelvin scale
+$$\frac{T_2}{T_1}=\frac{p_2}{p_1}\,(17.2)$$
+[Pg 573]
+##### Temperature using triple point
+$$T=T_{\text{triple}}\frac{p}{p_{\text{triple}}}=(273.16\,K)\frac{p}{p_{\text{triple}}}\,(17.3)$$
+[Pg 574]
+##### Linear thermal expansion
 $$\Delta L=\alpha L+0\Delta T\,(17.4)$$
 [Pg 574]  
-##### Volume Thermal Expansion
-$$\Delta V=\beta v_0\Delta T\,(17.6)$$
-[Pg 576]  
-##### Thermal Stress
+##### Linear thermal expansion 2
+$$L=L_0+\Delta L=L_0+\alpha L_0\Delta T=L_0(1+\alpha\Delta T)\,(17.5)$$
+[Pg 575]
+##### Volume thermal expansion
+$$\Delta V=\beta V_0\Delta T\,(17.6)$$
+[Pg 576]
+##### Volume linear expansion relation
+$$\beta=3\alpha\,(17.7)$$
+[Pg 576]
+##### Fractional change rod length
+$$\bigg(\frac{\Delta L}{L_0}\bigg)_{\text{thermal}}=\alpha\Delta T\,(17.8)$$
+[Pg 578]
+##### Thermal stress derivation
+$$Y=\frac{F/A}{\Delta L/L_0}\text{  so  }\bigg(\frac{\Delta L}{L_0}\bigg)_{\text{tension}}=\frac{F}{AY}\,(17.9)$$
+[Pg 579]
+##### Thermal stress
 $$\frac{F}{A}=-Y\alpha\Delta T\,(17.10)$$
 [Pg 579]  
-##### Heat required to change temperature 
-(Specific Heat)
+##### Heat required to change temperature (specific heat)
 $$Q=mc\Delta T\,(17.11)$$
-[Pg 581] 
-##### Heat required to change temperature molar
-(Specific Heat)
+[Pg 580]
+##### Infinitesimal heat change
+$$dQ=mc\,dT\,(17.12)$$
+[Pg 581]
+##### Specific heat
+$$c=\frac{1}{m}\frac{dQ}{dT}\,(17.13)$$
+[Pg 581]
+##### Total mass of material
+$$m=nM\,(17.15)$$
+[Pg 582]
+##### Heat required to change temperature molar (Specific Heat)
 $$Q=nC\Delta T\,(17.16)$$
-[Pg 582]  
+[Pg 582]
+##### Molar heat capacity
+$$C=\frac{1}{n}\frac{dQ}{dT}=Mc\,(17.17)$$
+[Pg 582]
 ##### Heat transfer in a phase change
 $$Q=\pm mL\,(17.18)$$
 [Pg 584]  
 ##### Heat current in conduction
 $$H=\frac{dQ}{dt}=kA\frac{T_H-T_C}{L}\,(17.19)$$
-[Pg 589]   
+[Pg 589]
+##### Heat current in conduction non uniform
+$$H=\frac{dQ}{dt}=-kA\frac{dT}{dx}\,(17.20)$$
+[Pg 590]
+##### Heat current through slab
+$$H=\frac{A(T_H-T_C)}{R}\,(17.21)$$
+[Pg 590]
+##### Thermal resistance
+$$R=\frac{L}{k}\,(17.22)$$
+[Pg 590
 ##### Heat current in radiation
-$$H=Ae\sigma T^4\,(17.25)$$
-[Pg 593]   
-##### Net Heat current in radiation
-$$H_{net}=Ae\sigma(T^4-T_s^4)(17.24)$$
-[Pg 594]  
+$$H=Ae\sigma T^4\,(17.23)$$
+[Pg  593]
+##### Net heat current in radiation
+$$H_{\text{net}}=Ae\sigma(T^4-T_S^4)\,(17.24)$$
+[Pg 594]
+##### Volume equation of state
+$$V=V_0[1+\beta(t-t_0)-k(p-p_0)]\,(18.1)$$
+[Pg 608]
 ##### Total mass of substance
-$$m_{total}=nM(18.2)$$
-[Pg 609] 
+$$m_{\text{total}}=nM(18.2)$$
+[Pg 608]
 ##### Ideal gas equation of state
-$$pV=nRT(18.3)$$
-[Pg 610] 
+$$pV=nRT(18.3)\,$$
+[Pg 609]
+##### Ideal gas equation of state total mass
+$$pV=\frac{m_{\text{total}}}{M}RT\,(18.4)$$
+[Pg 609]
+##### Density of a gas
+$$\rho=\frac{pM}{RT}\,(18.5)$$
+[Pg 609]
+##### Two states fixed gas volume
+$$\frac{p_1V_1}{T_1}=\frac{p_2V_2}{T_2}\,(18.6)$$
+[Pg 609] 
 ##### Van der Waals equation
-$$(p+\frac{an^2}{V^2})(V-nb)=nRT(18.7)$$
-[Pg 613] 
+$$(p+\frac{an^2}{V^2})(V-nb)=nRT\,(18.7)$$
+[Pg 612] 
 ##### Molar mass
-$$M=N_Am(18.8)$$
-[Pg 616]  
+$$M=N_Am\,(18.8)$$
+[Pg 616]
+##### Gas pressure derivation number of molecules
+$$dP_x=\frac{1}{2}\bigg(\frac{N}V\bigg)(A|v_x|dt)(2m|v_x|)=\frac{NAmv_x^2\,dt}{V}\,(18.9)$$
+[Pg 617]
+##### Gas pressure derivation number of molecules2
+$$\frac{dP_x}{dt}=\frac{NAmv_x^2}{V}\,(18.10)$$
+[Pg 617]
+##### Gas pressure
+$$p=\frac{F}{A}=\frac{Nmv_x^2}{V}\,(18.11)$$
+[Pg 617]
+##### Pressure Volume gas
+$$pV=\frac{1}{3}Nm(v^2)_{\text{av}}=\frac{2}{3}N[\frac{1}{2}m(v^2)_{\text{av}}]\,(18.12)$$
+[Pg 617]
+##### Pressure Volume gas kinetic energy
+$$pV=\frac{2}{3}K_{\text{tr}}\,(18.13)$$
+[Pg 618]
 ##### Average translational kinetic energy of an ideal gas
-$$K_{tr}=\frac{3}{2}nRT(18.14)$$
-[Pg 619]  
+$$K_{tr}=\frac{3}{2}nRT\,(18.14)$$
+[Pg 618]
+##### Average translational kinetic energy gas derivation
+$$\frac{K_{\text{tr}}}{N}=\frac{1}{2}m(v^2)_{\text{av}}=\frac{3}{2}\bigg(\frac{R}{N_A}\bigg)T\,(18.15)$$
+[Pg 618]
 ##### Average translational kinetic energy of a gas molecule
-$$\frac{1}{2}m(v^2)_{av}=\frac{3}{2}kT(18.16)$$
-[Pg 620] 
+$$\frac{1}{2}m(v^2)_{av}=\frac{3}{2}kT\,(18.16)$$
+[Pg 618]
+##### Average translational kinetic energy gas per mole
+$$N_A\frac{1}{2}m(v^2)_{\text{av}}=\frac{1}{2}M(v^2)_{\text{av}}=\frac{3}{2}RT\,(18.17)$$
+[Pg 618]
+##### Ideal gas equation per molecule basis
+$$pV=NkT\,(18.18)$$
+[Pg 618]
 ##### Root mean square speed of a gas molecule
-$$v_{rms}=\sqrt{(v^2)_{av}}=\sqrt{\frac{3kT}{m}}=\sqrt{\frac{3RT}{M}}(18.19)$$
-[Pg 620]  
+$$v_{rms}=\sqrt{(v^2)_{av}}=\sqrt{\frac{3kT}{m}}=\sqrt{\frac{3RT}{M}}\,(18.19)$$
+[Pg 619]
+##### Mean free time gas collisions
+$$t_{\text{mean}}=\frac{V}{4\pi\sqrt{2}r^2vN}\,(18.20)$$
+[Pg 621]
 ##### Mean free path of a gas molecule
-$$\lambda=vt_{mean}=\frac{V}{4\pi\sqrt{2}r^2N}(18.21)$$
-[Pg 622]  
+$$\lambda=vt_{\text{mean}}=\frac{V}{4\pi\sqrt{2}r^2N}\,(18.21)$$
+[Pg 621]
+##### Mean free path gas macroscopic
+$$\lambda=\frac{kT}{4\pi\sqrt(2)r^2p}\,(18.22)$$
+[Pg 621]
+##### Kinetic energy v temperature gas
+$$dK_{\text{tr}}=\frac{3}{2}nR\,dT\,(18.23)$$
+[Pg 622]
+##### Heat needed gas temperature change
+$$dQ=nC_V\,dT\,(18.24)$$
+[Pg 622]
 ##### Molar heat capacity at constant volume, ideal gas of point particles
-$$C_V=\frac{3}{2}R(18.25)$$
-[Pg 623] 
+$$C_V=\frac{3}{2}R\,(18.25)$$
+[Pg 623]
 ##### Molar heat capacity at constant volume, ideal diatomic gas
-$$C_V=\frac{5}{2}R(18.26)$$
-[Pg 624] 
+$$C_V=\frac{5}{2}R\,(18.26)$$
+[Pg 623]
+##### Crystal total energy
+$$E_{\text{total}}=3NkT=3nRT\,(18.27$$
+[Pg 624]
 ##### Molar heat capacity of an ideal monatomic solid
-$$C_v=3R(18.28)$$
-[Pg 625]  
-##### Maxwell-Boltzman distribution function
-$$f(v)=4\pi(\frac{m}{2\pi kT})^{3/2}v^2e^{-mv^2/2kT}(18.32)$$
-[Pg 628]  
+$$C_v=3R\,(18.28)$$
+[Pg 624]
+##### Number of molecules range of speeds
+$$dN=Nf)v)\,dv\,(18.29)$$
+[Pg 626]
+##### Speed of molecule
+$$(v^2)_{\text{av}}=\int_0^{\infty}v^2(v)\,dv\,(18.31)$$
+[Pg 626]
+##### Maxwell-Boltzmann distribution function
+$$f(v)=4\pi(\frac{m}{2\pi kT})^{3/2}v^2e^{-mv^2/2kT}\,(18.32)$$
+[Pg 626]
+##### Maxwell-Boltzmann terms of energy
+$$f(\epsilon)=\frac{8\pi}{m}\bigg(\frac{m}{2\pi kT}\bigg)^{3/2}\epsilon e^{-\epsilon/kT}\,(18.33)$$
+[Pg 626]
 ##### Maxwell-Boltzmann most probable speed
-$$v_{mp}=\sqrt{\frac{2kT}{m}}(18.34)$$
-[Pg 627]  
+$$v_{mp}=\sqrt{\frac{2kT}{m}}\,(18.34)$$
+[Pg 626]
 ##### Maxwell-Boltzmann average speed
-$$v_{av}=\sqrt{\frac{8kT}{\pi m}}(18.35)$$
-[Pg 628]  
+$$v_{av}=\sqrt{\frac{8kT}{\pi m}}\,(18.35)$$
+[Pg 627]
 ##### Maxwell-Boltzmann root mean square speed
-$$v_{rms}=\sqrt{\frac{3kT}{m}}(18.36)$$
-[Pg 628]   
+$$v_{rms}=\sqrt{\frac{3kT}{m}}\,(18.36)$$
+[Pg 628]
+##### Work done volume change
+$$dW=p\,dV\,(19.1)$$
+[Pg 643]
 ##### Work done in a volume change
-$$W=\int_{V_1}^{V_2}p\,dV(19.2)$$
-[Pg 644]  
+$$W=\int_{V_1}^{V_2}p\,dV\,(19.2)$$
+[Pg 643]
 ##### Work done in a volume change at constant pressure
-$$W=p(V_2-V_1)(19.3)$$
-[Pg 645]   
+$$W=p(V_2-V_1)\,(19.3)$$
+[Pg 644]
 ##### First law of thermodynamics
-$$\Delta U=Q-W(19.4)$$
-[Pg 648]   
+$$\Delta U=Q-W\,(19.4)$$
+[Pg 647]
+##### First law of thermodynamics for Q
+$$Q=\Delta U+W\,(19.5)$$
+[Pg 647]
 ##### First law of thermodynamics, infinitesimal process
-$$dU=dQ-dW(19.6)$$
-[Pg 652]   
-##### Adiabatic Process
-$$U_2-U_1=\Delta U=-W(19.8)$$
-[Pg 653]  
-##### Isochoric Process
-$$U_2-U_1=\Delta U=Q(19.9)$$
-[Pg 653] 
+$$dU=dQ-dW\,(19.6)$$
+[Pg 651]
+##### First law of thermodynamics, infinitesimal process2
+$$dU=dQ-p\,dV \,(19.7)$$
+[Pg 651]
+##### Adiabatic process
+$$U_2-U_1=\Delta U=-W\,(19.8)$$
+[Pg 652]
+##### Isochoric process
+$$U_2-U_1=\Delta U=Q\,(19.9)$$
+[Pg 652]
+##### Isobaric process
+$$W=p(V_2-V_1)\,(19.10)$$
+[Pg 652]
+##### First Law of thermodynamics for Q 2
+$$Q=\Delta U+W\,(19.11)$$
+[Pg 654]
+##### Infinitesimal heat flow into gas
+$$dQ=nC_V\,dT\,(19.12)$$
+[Pg 654]
+##### Infinitesimal energy flow into gas
+$$dU=nC_V\,dT\,(19.13)$$
+[Pg 654]
+Infinitesimal heat flow into gas 2
+$$dQ=nC_p\,dT\,(19.14)$$
+[Pg 654]
+##### Infinitesimal work change in gas
+$$dW=p\,dV=nR\,dT\,(19.15)$$
+[Pg 655]
+##### Molar heat capacity gas derivation
+$$nC_p\,dT=dU+nR\,dT\,(19.16)$$
+[Pg 655]
 ##### Molar heat capacity at constant pressure, ideal gas
-$$C_p=C_V+R(19.17)$$
-[Pg 656]  
+$$C_p=C_V+R\,(19.17)$$
+[Pg 655]
 ##### Ratio of heat capacities
-$$\gamma=\frac{C_p}{C_V}(19.18)$$
-[Pg 657]   
+$$\gamma=\frac{C_p}{C_V}\,(19.18)$$
+[Pg 655]
+##### Adiabatic ideal gas
+$$nC_V\,dT=-p\,dV\,(19.19)$$
+[Pg 657]
+##### Adiabatic ideal gas 2
+$$\frac{dT}{T}+(\gamma-1)\frac{dV}{V}=0\,(19.20)$$
+[Pg 657]
+##### Temperature volume relationship adiabatic ideal gas
+$$TV^{\gamma-1}=\text{constant}\,(19.21)$$
+[Pg 658]
+##### Adiabatic process ideal gas
+$$T_1V_1^{\gamma-1}=T_2V_2^{\gamma-1}\,(19.22)$$
+[Pg 658]
+##### Pressure volume relationship adiabatic ideal gas
+$$PV^{\gamma}=\text{constant}\,(19.23)$$
+[Pg 658]
+##### Adiabatic ideal gas change of states
+$$p_1V_1^{\gamma}=p_2V_2^{\gamma}\,(19.24)$$
+[Pg 658]
 ##### Work done by an ideal gas, adiabatic process
-$$W=nC_v(T_1-T_2)(19.25)$$
-$$W=\frac{C_V}{R}(p_1V_1-p_2V_2)=\frac{1}{\gamma -1}(p_1V_1-p_2V_2)(19.26)$$
-[Pg 659]   
+$$W=nC_v(T_1-T_2)\,(19.25)$$
+[Pg 658]
+##### ##### Work done by an ideal gas, adiabatic process2
+$$W=\frac{C_V}{R}(p_1V_1-p_2V_2)=\frac{1}{\gamma -1}(p_1V_1-p_2V_2)\,(19.26)$$
+[Pg 658]
+##### Net heat per cycle heat engine
+$$Q=Q_H+Q_C=|Q_H|-|Q_C|\,(20.1)$$
+[Pg 673]
+##### Net work per cycle heat engine
+$$W=Q=Q_H+Q_C=|Q_H|-|Q_C|\,(20.2)$$
+[Pg 673]
+##### Thermal efficiency heat engine
+$$e=\frac{W}{Q_H}\,(20.3)$$
+[Pg 673]
+##### Thermal efficiency of an engine
+$$e=\frac{W}{Q_H}=1+\frac{Q_C}{Q_H}=1-\bigg|\frac{Q_C}{Q_H}\bigg|\,(20.4)$$
+[Pg 673]
+##### Thermal efficiency of an engine2
+$$e=\frac{Q_H+Q_C}{Q_H}=\frac{T_c-T_b+T_a-T_d}{T_c-T_b}\,(20.5)$$
+[Pg 676]
+##### Thermal efficiency in Otto cycle
+$$e=1-\frac{1}{r^{\gamma-1}}\,(20.6)$$
+[Pg 676]
+##### Heat leaving working substance
+$$|Q_H|=Q_C+|W|\,(20.7)$$
+[Pg 677]
+##### ##### Heat leaving working substance2
+$$|Q_H|=|Q_C|+|W|\,(20.8)$$
+[Pg 677]
+##### Coefficient of performance refrigerator
+$$K=\frac{|Q_C|}{|W|}=\frac{|Q_C|}{|Q_H|-|Q_C|}\,(20.9)$$
+[Pg 677]
+##### Work in isothermal expansion carnot cycle
+$$Q_H=W_{ab}=nRT_H\ln\frac{V_b}{V_a}\,(20.10)$$
+[Pg 682]
+##### Work in adiabatic expansion carnot cycle
+$$Q_C=W_{cd}=nRT_C\ln\frac{V_d}{V_c}=-nRT_C\ln\frac{V_c}{V_d}\,(20.11)$$
+[Pg 682]
+##### Ratio adiabatic to isothermal work carnot cycle
+$$\frac{Q_C}{Q_H}=-\bigg(\frac{T_C}{T_H}\bigg)\frac{\ln)V_c/V_d)}{\ln(V_b/V_a)}\,(20.12)$$
+[Pg 682]
+##### Heat transfer Carnot engine
+$$\frac{Q_C}{Q_H}=-\frac{T_C}{T_H}\text{ or }\frac{|Q_C|}{|Q_H|}=\frac{T_C}{T_H}\,(20.13)$$
+[Pg 683]
+##### Efficiency of a Carnot engine
+$$e_{\text{Carnot}}=1-\frac{T_C}{T_H}=\frac{T_H-T_C}{T_H}\,(20.14)$$
+[Pg 683]
+##### Coefficient of performance of a Carnot refrigerator
+$$K_{\text{Carnot}}=\frac{T_C}{T_H-T_C}\,(20.15)$$
+[Pg 685]
+##### Definition of Kelvin temperature
+$$\frac{T_C}{T_H}=\frac{|Q_C|}{|Q_H|}=-\frac{Q_C}{Q_H}\,(20.16)$$
+[Pg 687]
+##### Infinitesimal entropy change reversible
+$$dS=\frac{dQ}{T}\,(20.17)$$
+[Pg 688]
+##### Total entropy change reversible isothermal
+$$\Delta S=S_2-S_1=\frac{Q}{T}\,(20.18)$$
+[Pg 688]
+##### Entropy change in a reversible process
+$$\Delta S=\int_1^2\frac{dQ}{T}\,(20.19)$$
+[Pg 689]
+##### Entropy in cyclic process
+$$\frac{Q_H}{T_H}+\frac{Q_C}{T_C}=0\,(20.20)$$
+[Pg 691]
+##### Total entropy change reversible cycle
+$$\int\frac{dQ}{T}=0\,(20.21)$$
+[Pg 691]
+##### Entropy in microscopic terms
+$$S=k\,\ln\,w\,(20.22)$$
+[Pg 694]
+##### Difference entropy 2 macroscopic states
+$$\Delta S=S_2-S_1=k\,\ln\,w_2-k\,\ln\,w_1=k\,\ln\frac{w_2}{w_1}\,(20.31)$$
+[Pg 695]
+##### Magnitude of electric force
+$$F=k\frac{|q_1q_2|}{r^2}\,(21.1)$$
+[Pg 713]
 ##### Coulomb's Law
-$$F=\frac{1}{4\pi\epsilon_0}\frac{|q_1q_2|}{r^2}(21.2)$$
-[Pg 715]  
+$$F=\frac{1}{4\pi\epsilon_0}\frac{|q_1q_2|}{r^2}\,(21.2)$$
+[Pg 714]
 ##### Electric field
-$$\vec{E}=\frac{\vec{F_0}}{q_0}(21.3)$$
-[Pg 720]  
-##### Electric Field due to a point charge
-$$\vec{E}=\frac{1}{4\pi\epsilon_0}\frac{q}{r^2}\hat{r}(21.7)$$
-[Pg 721]   
+$$\vec{E}=\frac{\vec{F_0}}{q_0}\,(21.3)$$
+[Pg 719]
+##### Force exerted on point charge
+$$\vec{F}_0=q_0\vec{E}\,(21.4)$$
+[Pg 719]
+##### Compare electric force to gravity
+$$\vec{F}_g=m_0\vec{g}\,(21.5)$$
+[Pg 719]
+##### Magnitude electric field due to a point charge
+$$E=\frac{1}{4\pi\epsilon_0}\frac{|q|}{r^2}\,(21.6)$$
+[720]
+##### Electric field due to a point charge
+$$\vec{E}=\frac{1}{4\pi\epsilon_0}\frac{q}{r^2}\hat{r}\,(21.7)$$
+[Pg 720]
+##### Electric field of ring of charge calculation
+$$\vec{E}=E_x\hat i=\frac{1}{4\pi\epsilon_0}\frac{Q_x}{(x^2+a^2)^{3/2}}\hat i\,(21.8)$$
+[Pg 725]
+##### Electric field due to line segment calculation
+$$\vec{E}=\frac{1}{4\pi\epsilon_0}\frac{Q}{x\sqrt{x^2+a^2}}\hat i\,(21.9)$$
+[Pg 726]
+##### Electric field due to line segment calculation2
+$$\vec{E}=\frac{1}{2\pi\epsilon_0}\frac{\lambda}{x\sqrt{(x^2/a^2)+1}}\hat i\,(21.10)$$
+[Pg 726]
+##### Electric field uniform disk calculation
+$$E_x=\frac{\sigma x}{2\epsilon_0}\bigg[-\frac{1}{\sqrt{x^2+R^2}}+\frac{1}{x}\bigg]=\frac{\sigma}{2\epsilon_0}\bigg[1-\frac{1}{\sqrt{(R^2/x^2)+1}}\bigg]\,(21.11)$$
+[Pg 726]
+##### Electric field uniform disk calculation2
+$$E=\frac{\sigma}{2\epsilon_0}\,(21.12)$$
+[Pg 727]
+##### Torque on electric dipole
+$$\tau=(qE)(d\sin\phi)\,(21.13)$$
+[pg 730]
+##### Electric dipole moment
+$$p=qd\,(21.14)$$
+[pg 730]
+##### Magnitude of torque on electric dipole
+$$\tau=pE\sin\phi\,(21.15)$$
+[Pg 730]
+##### Vector torque on electric dipole
+$$\vec{\tau}=\vec{p}\times\vec{E}\,(21.16)$$
+[Pg 731]
+##### Potential energy electric dipole calculation
+$$U(\phi)=-pE\cos\phi\,(21.17)$$
+[Pg 731]
+##### Potential energy electric dipole
+$$U=-\vec{p}\cdot\vec{E}\,(21.18)$$
+[Pg 731]
 ##### Guass's Law
 $$\Phi_E=\oint\vec{E}\cdot d\vec{A}=\frac{Q_{enc}}{\epsilon_0}(22.8)$$
 [pg 755]  
