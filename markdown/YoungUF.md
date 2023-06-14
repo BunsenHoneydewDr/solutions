@@ -191,7 +191,7 @@ $$y=(v_0\sin\alpha_0)t-\frac{1}{2}gt^2(3.20)$$
 $$v_x=v_0\cos\alpha_0(3.21)$$
 $$v_y=v_0\sin\alpha_0-gt(3.22)$$
 [Pg 103]  
-##### Distance orogin to projectile
+##### Distance origin to projectile
 $$r=\sqrt{x^2+y^2}\,(3.23)$$
 [Pg 104]  
 ##### Projectile speed
@@ -1607,149 +1607,1952 @@ $$U(\phi)=-pE\cos\phi\,(21.17)$$
 ##### Potential energy electric dipole
 $$U=-\vec{p}\cdot\vec{E}\,(21.18)$$
 [Pg 731]
+#### Electric flux for uniform E flat surface
+$$\Phi_E=EA\cos\phi\,(22.1)$$
+[Pg 750]
+##### Electric flux uniform E flat surface2
+$$\Phi_E=E_{\perp}A\,(22.2)$$
+[Pg 750]
+##### Electric flux uniform E flat surface vectors
+$$\Phi_E=\vec{E}\cdot\vec{A}\,(22.3)$$
+[Pg 750]
+##### Direction of area vector
+$$\vec{A}=A\hat n\,(22.4)$$
+[Pg 750]
+##### Electric flux through a surface
+$$\Phi_E=\int E\cos\phi\,dA=\int E_{\perp}\,dA=\int\vec{E}\cdot d\vec{A}\,(22.5)$$
+[Pg 751]
+##### Electric flux through sphere
+$$\Phi_E=EA=\frac{1}{4\pi\epsilon_0}\frac{q}{R^2}(4\pi R^2)=\frac{q}{\epsilon_0}\,(22.6)$$
+[Pg 753]
+##### Flux through irregular surface Gauss's Law
+$$\Phi_E=\oint\vec{E}\cdot d\vec{A}=\frac{q}{\epsilon_0}\,(22.7)$$
+[Pg 754]
 ##### Guass's Law
-$$\Phi_E=\oint\vec{E}\cdot d\vec{A}=\frac{Q_{enc}}{\epsilon_0}(22.8)$$
-[pg 755]  
+$$\Phi_E=\oint\vec{E}\cdot d\vec{A}=\frac{Q_{enc}}{\epsilon_0}\,(22.8)$$
+[pg 755]
+##### Various forms of Gauss's law
+$$\Phi_E=\oint E\cos\phi\,dA=\oint E_{\perp}dA=\oint\vec{E}\cdot d\vec{A}=\frac{Q_{encl}}{\epsilon_0}\,(22.9)$$
+[Pg 755]
+##### Electric field at surface of conductor
+$$E_{\perp}=\frac{\sigma}{\epsilon_0}\,(22.10)$$
+[Pg 764]
+##### Work done by a force
+$$W_{a\to b}=\int_a^b\vec{F}\cdot d\vec{l}=\int_a^bF\cos\phi\,dl\,(23.1)$$
+[Pg 775]
+##### Work done by a conservative force
+$$W_{a\to b}=U_a-U_b=-(U_b-U_a)=-\Delta U\,(23.2)$$
+[Pg 776]
+##### Total work
+$$K_a+U_a=K_b+U_b\,(23.3)$$
+[Pg 776]
+#### Work done in uniform electric field
+$$W_{a\to b}=Fd=q_0Ed\,(23.4)$$
+[Pg 776]
+##### Electric potential energy in uniform field
+$$U=q_0E_y\,(23.5)$$
+[Pg 776]
+##### Work done on charge in uniform electric field
+$$W_{a\to b}=-\Delta U=-(U_b-U_a)=-(q_0E_{yb}-E_{ya})=q_0E(y_a-y_b)\,(23.6)$$
+[Pg 776]
+##### Electric potential 2 charges calculation
+$$F_r=\frac{1}{4\pi\epsilon_0}\frac{qq_0}{r^2}\,(23.7)$$
+[Pg 777]
 ##### Work to move a charge
-$$W_{a\to b}=\int_{r_a}^{r_b}F_r\,dr=\int_{r_a}^{r_b}\frac{1}{4\pi\epsilon_0}\frac{qq_0}{r^2}\,dr=\frac{qq_0}{4\pi\epsilon_o}(\frac{1}{r_a}-\frac{1}{r_b})(23.8)$$
-##### Electrical Potential Energy collection of charges
-$$U=\frac{q_0}{4\pi\epsilon_0}(\frac{q}{r_1}+\frac{q}{r_2}+\frac{q}{r_3}+...)=\frac{q_0}{4\pi\epsilon_0}\sum_{q_i}\frac{q_i}{r_i}(23.10)$$ 
+$$W_{a\to b}=\int_{r_a}^{r_b}F_r\,dr=\int_{r_a}^{r_b}\frac{1}{4\pi\epsilon_0}\frac{qq_0}{r^2}\,dr=\frac{qq_0}{4\pi\epsilon_o}(\frac{1}{r_a}-\frac{1}{r_b})(23.8)\,$$
+[Pg 778]
+##### Electric potential energy of 2 point charges
+$$U=\frac{1}{4\pi\epsilon_0}\frac{qq_0}{r}\,(23.9)$$
+[Pg 778]
+##### Electrical potential energy collection of charges
+$$U=\frac{q_0}{4\pi\epsilon_0}(\frac{q}{r_1}+\frac{q}{r_2}+\frac{q}{r_3}+...)=\frac{q_0}{4\pi\epsilon_0}\sum_{q_i}\frac{q_i}{r_i}\,(23.10)$$
+[Pg 780]
+##### Electrical potential energy collection of charges 2
+$$U=\frac{1}{4\pi\epsilon_0}\sum_{i\le j}\frac{q_iq_j}{r_{ij}}\,(23.11)$$
+[Pg 780]
+##### Electric potential per unit charge
+$$V=\frac{U}{q_0}\text{ or }U=q_0V\,(23.12)$$
+[Pg 782]
+##### Potential energy per unit charge
+$$\frac{W_{a\to b}}{q_0}=-\frac{\Delta U}{q_0}=-\bigg(\frac{U_b}{q_0}-\frac{U_a}{q_0}\bigg)=-(V_b-V_a)=V_a-V_b\,(23.13)$$
+[Pg 782]
+##### Electric potential due to a point charge
+$$V=\frac{1}{4\pi\epsilon_0}\frac{q}{r}\,(23.14)$$
+[Pg 783]
+##### Electric potential due to a collection of point charges
+$$V=\frac{1}{4\pi\epsilon_0}\sum_i\frac{q_i}{r_i}\,(23.15)$$
+[Pg 783]
+##### Electric potential due to a continuous distribution of charge
+$$V=\frac{1}{4\pi\epsilon_0}\int\frac{dq}{r}\,(23.16)$$
+[Pg 783]
+##### Electric potential difference
+$$V_a-V_b=\int_a^b\vec{E}\cdot d\vec{l}=\int_a^bE\cos\phi\,dl\,(23.17)$$
+[Pg 784]
+##### Electric potential difference2
+$$V_a-V_b=-\int_b^a\vec{E}\cdot d\vec{l}\,(23.18)$$
+[Pg 784]
+##### Electric field components found from potential
+$$E_x=-\frac{\partial V}{\partial x},E_y=-\frac{\partial V}{\partial y},E_z=-\frac{\partial V}{\partial z}\,(23.19)$$
+[Pg 796]
+##### Electric field vector found from potential
+$$\vec{E}=-\bigg(\hat i\frac{\partial V}{\partial x}+\hat j\frac{\partial V}{\partial y}+\hat k\frac{\partial V}{\partial z}\bigg)\,(23.20)$$
+[Pg 796]
+##### Gradient of a function
+$$\vec{\nabla}f=\bigg(\hat i\frac{\partial}{\partial x}+\hat j\frac{\partial}{\partial y}+\hat k\frac{\partial}{\partial z}\bigg)f\,(23.21)$$
+[Pg 796]
+##### Electric field as gradient of potential
+$$\vec{E}=-\vec{\nabla}V\,(23.22)$$
+[Pg 796]
+##### Radial electric field component
+$$E_r=-\frac{\partial V}{\partial r}\,(23.23)$$
+[Pg 796]
+##### Capacitance of a capacitor
+$$C=\frac{Q}{V_{ab}}\,(24.1)$$
+[Pg 810]
+##### Capacitance parallel plate capacitor in vacuum
+$$C=\frac{Q}{V_{ab}}=\epsilon_0\frac{A}{d}\,(24.2)$$
+[Pg 811]
+##### Capacitors in series
+$$\frac{V}{Q}=\frac{1}{C_1}+\frac{1}{C_2}\,(24.3)$$
+[Pg 814]
+##### Equivalent capacitance series
+$$C_{\text{eq}}=\frac{Q}{V}\text{ or }\frac{1}{C_{\text{eq}}}=\frac{V}{Q}\,(24.4)$$
+[Pg 815]
+##### Capacitors in series2
+$$\frac{1}{C_{\text{eq}}}=\frac{1}{C_1}+\frac{1}{C_2}+\frac{1}{C_3}+\cdots\,(24.5)$$
+[Pg 815]
+##### Capacitors in parallel calculation
+$$\frac{Q}{V}=C_1+C_2\,(24.6)$$
+[Pg 815]
+##### Capacitors in parallel
+$$C_{\text{eq}}=C_1+C_2+C_3+\cdots\,(24.7)$$
+[Pg 816]
+##### Work to charge a capacitor
+$$W=\int_0^WdW=\frac{1}{C}\int_0^Qq\,dq=\frac{Q^2}{2C}\,(24.8)$$
+[Pg 818]
+##### Potential energy stored in a capacitor
+$$U=\frac{Q^2}{2C}=\frac{1}{2}CV^2=\frac{1}{2}QV\,(24.9)$$
+[Pg 818]
+##### Capacitor energy density
+$$u=\text{Energy density }=\frac{\frac{1}{2}CV^2}{Ad}\,(24.10)$$
+[Pg 819]
+##### Electric energy density in a vacuum
+$$u=\frac{1}{2}\epsilon_0E^2\,(24.11)$$
+[Pg 819]
+##### Definition of dielectric constant
+$$K=\frac{C}{C_0}\,(24.12)$$
+[Pg 822]
+##### Potential with dielectric present
+$$V=\frac{V_0}{K}\,(24.13)$$
+[Pg 822]
+##### Electric field with dielectric present
+$$E=\frac{E_0}{K}\,(24.14)$$
+[Pg 823]
+##### Capacitor electric field with without dielectric
+$$E_0=\frac{\sigma}{\epsilon_0}, E=\frac{\sigma-\sigma_i}{\epsilon_0}\,(24.15)$$
+[Pg 823]
+##### Induced surface charge density
+$$\sigma_i=\sigma\bigg(1-\frac{1}{K}\bigg)\,(24.16)$$
+[Pg 823]
+##### Definition of permittivity
+$$\epsilon=K\epsilon_0\,(24.17)$$
+[Pg 823]
+##### Electric field within dielectric
+$$E=\frac{\sigma}{\epsilon}\,(24.18)$$
+[Pg 823]
+##### Capacitance of a parallel plate capacitor and dielectric
+$$C=KC_0=K\epsilon_0\frac{A}{d}=\epsilon\frac{A}{d}\,(24.19)$$
+[Pg 824]
+##### Electric energy density in a dielectric
+$$u=\frac{1}{2}K\epsilon_0E^2=\frac{1}{2}\epsilon E^2\,(24.20)$$
+[Pg 824]
+##### Gauss's law diectrics calculation
+$$EA=\frac{(\sigma-\sigma_i)A}{\epsilon_0}\,(24.21)$$
+[Pg 829]
+##### Gauss's law dielectrics calculation2
+$$KEA=\frac{\sigma A}{\epsilon_0}\,(24.22)$$
+[Pg 829]
+##### Gauss's law in a dielectric
+$$\oint K\vec{E}\cdot d\vec{A}=\frac{Q_{\text{encl-free}}}{\epsilon_0}\,(24.23)$$
+[Pg 829]
+##### Definition of current
+$$I=\frac{dQ}{dT}\,(25.1)$$
+[Pg 842]
+##### Current through an area
+$$I=\frac{dQ}{dt}=n|q|v_dA\,(25.2)$$
+[Pg 843]
+##### Current density
+$$J=\frac{I}{A}=n|q|v_d\,(25.3)$$
+[Pg 843]
+##### Vector current density
+$$\vec{J}=nq\vec{v}_d\,(25.4)$$
+[Pg 843]
+##### Resistivity of a material
+$$\rho=\frac{E}{J}\,(25.5)$$
+[Pg 844]
+##### Temperature dependence of resistivity
+$$\rho(T)=\rho_0[1+\alpha(T-T_0)]\,(25.6)$$
+[Pg 846]
+##### Electric field and resistivity
+$$\vec{E}=\rho\vec{J}\,(25.7)$$
+[Pg 847]
+##### Resistance derivation
+$$\frac{V}{L}=\frac{\rho I}{A}\text{ or }V=\frac{\rho L}{A}I\,(25.8)$$
+[Pg 847]
+##### Resistance
+$$R=\frac{V}{I}\,(25.9)$$
+[Pg 847]
+##### Resistance of a conductor
+$$R=\frac{\rho L}{A}\,(25.10)$$
+[Pg 847]
+##### Relationship voltage current resistance
+$$V=IR\,(25.11)$$
+[Pg 847]
+##### Resistance as function of temperature
+$$R(T)=R_0[1+\alpha(T-T_0)]\,(25.12)$$
+[Pg 848]
+##### Ideal source emf
+$$V_{\text{ab}}=\mathcal{E}\,(25.13)$$
+[Pg 851]
+##### Ideal source emf2
+$$\mathcal{E}=v_{\text{ab}}=IR\,(25.14)$$
+[Pg 851]
+##### Terminal voltage
+$$V_{\text{ab}}=\mathcal{E}-Ir\,(25.15)$$
+[Pg 852]
+##### Current source
+$$\mathcal{E}-Ir=IR\text{ or }I=\frac{\mathcal{E}}{R+r}\,(25.16)$$
+[Pg 852]
+##### Power in circuit element
+$$P=V_{\text{ab}}I\,(25.17)$$
+[Pg 856]
+##### Power in resistor
+$$P=V_{\text{ab}}I=I^2R=\frac{V_{\text{ab}}^2}{R}\,(25.18)$$
+[Pg 856]
+##### Power output of source
+$$P=V_{\text{ab}}I=\mathcal{E}I-I^2r\,(25.19)$$
+[Pg 857]
+##### Power input to source
+$$P=V_{\text{ab}}I=\mathcal{E}+I^2r\,(25.20)$$
+[Pg 857]
+##### Resistivity of material
+$$\rho=\frac{E}{J}\,(25.21)$$
+[Pg 860]
+##### Current density
+$$\vec{J}=nq\vec{v}_\text{d}\,(25.22)$$
+[Pg 860]
+##### Drift velocity electron in conductor
+$$\vec{v}_{\text{av}}=\vec{a}\tau=\frac{q\tau}{m}\vec{E}\,(25.23)$$
+[Pg 861]
+##### Resistivity of a metal
+$$\rho=\frac{m}{ne^2\tau}\,(25.24)$$
+[Pg 861]
+##### Resistors in series
+$$R_{\text{eq}}=R_1+R_2+R_3+\cdots\,(26.1)$$
+[Pg 873]
+##### Resistors in parallel
+$$\frac{1}{R_{\text{eq}}}=\frac{1}{R_1}+\frac{1}{R_2}+\frac{1}{R_3}+\cdots\,(26.2)$$
+[Pg 874]
+##### Two resistors in parallel
+$$R_{\text{eq}}=\frac{R_1R_2}{R_1+R_2}\,(26.3)$$
+[Pg 874]
+##### Currents two resistors in parallel
+$$\frac{I_1}{I_2}=\frac{R_1}{R_2}\,(26.4)$$
+[Pg 875]
+##### Kirchhoff's junction rule
+$$\sum I=0\,(26.5)$$
+[Pg 877]
+##### Kirchhoff's loop rule
+$$\sum V=0\,(26.6)$$
+[Pg 877]
+##### Ammeter measurement
+$$I_{\text{fs}}R_c=(I_a-I_{\text{fs}})R_{\text{sh}}\,(26.7)$$
+[Pg 883]
+##### Voltmeter measurement
+$$V_V=I_{\text{fs}}(R_c+R_s)\,(26.8)$$
+[Pg 883]
+##### Kirchhoff's rule in RC circuit
+$$\mathcal{E}-iR-\frac{q}{C}=0\,(26.9)$$
+[Pg 887]
+##### Current in RC circuit
+$$i=\frac{\mathcal{E}}{R}-\frac{q}{RC}\,(26.10)$$
+[Pg 887]
+##### Final charge RC circuit
+$$\frac{\mathcal{E}}{R}=\frac{Q_f}{RC}\,Q_f=C\mathcal{E}\,(26.11)$$
+[Pg 887]
+##### R-C circuit charging capacitor charge
+$$q=C\mathcal{E}(1-e^{-t/RC})=Q_f(1-e^{-t/RC})\,(26.12)$$
+[Pg 888]
+##### R-C circuit charging capacitor current
+$$i=\frac{dq}{dt}=\frac{\mathcal{E}}{R}e^{-t/RC}=I_0e^{-t/RC}\,(26.13)$$
+[Pg 888]
+##### Time constant R-C circuit
+$$\tau=RC\,(26.14)$$
+[Pg 888]
+##### Current discharging capacitor
+$$i=\frac{dq}{dt}=-\frac{q}{RC}\,(26.15)$$
+[Pg 889]
+##### R-C circuit discharging capacitor charge
+$$q=Q_0e^{-t/RC}\,(26.16)$$
+[Pg 889]
+##### R-C circuit discharging capacitor current
+$$i=\frac{dq}{dt}=-\frac{Q_0}{RC}e^{{-t/RC}}=I_0e^{-t/RC}\,(26.17)$$
+[Pg 889]
+##### Power dissipated RC circuit
+$$\mathcal{E}i=i^2R+\frac{iq}{C}\,(26.18)$$
+[Pg 889]
+##### Magnetic force scalar
+$$F=|q|v_{\perp}B=|q|vB\sin\phi\,(27.1)$$
+[Pg 909]
 ##### Magnetic force on a moving charged particle
 $$\vec{F}=q\vec{v}\times\vec{B}(27.2)$$
-[Pg 908]    
+[Pg 908]
+##### Magnetic force on a moving charged particle scalar
+$$F=|q|vB_{\perp}\,(27.3)$$
+[Pg 910]
 ##### Lorentz force law
-$$\vec{F}=q(\vec{E}+\vec{v}\times\vec{B}(27.4)$$
-[Pg 911]  
+$$\vec{F}=q(\vec{E}+\vec{v}\times\vec{B}\,(27.4)$$
+[Pg 911]
+##### Magnetic flux through an area
+$$d\Phi_B=b_{\perp}dA=B\cos\phi\,dA=\vec{B}\cdot d\vec{A}\,(27.5)$$
+[Pg 914]
 ##### Magnetic flux through a surface
-$$\Phi_B=\int B\cos\phi\,dA=\int B_\perp\,dA=\int \vec{B}\cdot\,d\vec{A}(27.6)$$
-[Pg 914]   
+$$\Phi_B=\int B\cos\phi\,dA=\int B_\perp\,dA=\int \vec{B}\cdot\,d\vec{A}\,(27.6)$$
+[Pg 914]
+##### Magnetic flux uniform B through plane
+$$\Phi_B=B_{\perp}A=BA\cos\phi\,(27.7)$$
+[Pg 914]
 ##### Gauss's law for magnetism
-$$\oint \vec{B}\cdot d\vec{A}=0(27.8)$$
-[Pg 914]  
+$$\oint \vec{B}\cdot d\vec{A}=0\,(27.8)$$
+[Pg 914]
+##### Flux per unit area
+$$B=\frac{d\Phi_B}{dA_{\perp}}\,(27.9)$$
+[Pg 915]
+##### Force particle in magnetic field
+$$F=|q|vB=m\frac{v^2}{R}\,(27.10)$$
+[Pg 916]
 ##### Radius of a circular orbit in a magnetic field
-$$R=\frac{mv}{|q|B}(27.11)$$
-[Pg 915]   
-##### angular speed of a circular orbit in a magnetic field
-$$\omega=\frac{v}{R}=v\frac{|q|B}{mv}=\frac{|q|B}{m}(27.12)$$
-[Pg 916]  
+$$R=\frac{mv}{|q|B}\,(27.11)$$
+[Pg 916]
+##### Angular speed of a circular orbit in a magnetic field
+$$\omega=\frac{v}{R}=v\frac{|q|B}{mv}=\frac{|q|B}{m}\,(27.12)$$
+[Pg 916]
+##### Velocity selector no deflection speed
+$$v=\frac{E}{B}\,(27.13)$$
+[Pg 919]
+##### Electron charge to mass ratio experiment
+$$\frac{1}{2}mv^2=eV\text{ or }v=\sqrt{\frac{2eV}{m}}\,(27.14)$$
+[Pg 919]
+##### Electron charge to mass ratio
+$$\frac{E}{B}=\sqrt{\frac{2eV}{m}}\text{ so }\frac{e}{m}=\frac{E^2}{2VB^2}\,(27.15)$$
+[Pg 921]
+##### Magnetic force current carrying conductor derivation
+$$F=(nAl)(qv_dB)=(nqv_dA)(lB)\,(27.16)$$
+[Pg 922]
+##### Magnetic force current carrying conductor derivation 2
+$$F=IlB\,(27.17)$$
+[Pg 922]
+##### Magnetic force on wire segment
+$$F=Ilb_{\perp}=IlB\sin\phi\,(27.18)$$
+[Pg 922]
 ##### Magnetic force on a straight wire segment
-$$\vec{F}=I\vec{l}\times\vec{B}(27.19)$$
-[Pg 922]   
+$$\vec{F}=I\vec{l}\times\vec{B}\,(27.19)$$
+[Pg 922]
 ##### Magnetic force on an infinitesimal wire segment
-$$d\vec{F}=Id\vec{l}\times\vec{B}(27.20)$$
-[Pg 922]  
+$$d\vec{F}=Id\vec{l}\times\vec{B}\,(27.20)$$
+[Pg 922]
+##### Force on a current loop
+$$F=IaB\,(27.21)$$
+[Pg 925]
+##### Magnitude of magnetic net torque on current loop
+$$\tau=2F(b/2)\sin\phi=(IBa)(b\sin\phi)\,(27.22)$$
+[Pg 926]
 ##### Magnitude of magnetic torque on a current loop
-$$\tau=IBA\sin\phi(27.23)$$
-[Pg 926]   
+$$\tau=IBA\sin\phi\,(27.23)$$
+[Pg 926]
 ##### Magnetic dipole moment
-$$\mu=IA(27.24)$$
-[Pg 926]   
+$$\mu=IA\,(27.24)$$
+[Pg 926]
 ##### Vector magnetic torque on a current loop
-$$\vec{\tau}=\vec{\mu}\times\vec{B}(27.26)$$
-[Pg 926]   
+$$\vec{\tau}=\vec{\mu}\times\vec{B}\,(27.26)$$
+[Pg 926]
 ##### Potential energy for a magnetic dipole in a magnetic field
-$$U=-\vec{\mu}\cdot\vec{B}=-\mu B\cos\phi(27.27)$$
-[Pg 927] 
-##### Magnetic Field long wire
-$$B=\frac{\mu_0I}{2\pi r}$$
+$$U=-\vec{\mu}\cdot\vec{B}=-\mu B\cos\phi\,(27.27)$$
+[Pg 927]
+##### Magnetic moment and torque N turn solenoid
+$$\mu=NIA\text{ and }\tau=NIAB\sin\phi\,(27.28)$$
+[Pg 927]
+##### Series motor emf
+$$V_{\text{ab}}=\mathcal{E}+Ir\,(27.29)$$
+[Pg 931]
+##### Hall effect
+$$nq=\frac{-J_xB_y}{E_z}\,(27.30)$$
+[Pg933]
+##### Magnetic field of moving charge
+$$B=\frac{\mu_0}{4\pi}\frac{|q|v\sin\phi}{r^2}\,(28.1)$$
+[Pg 947]
+##### Magnetic field due to a point charge with constant velocity
+$$\vec{B}=\frac{\mu_0}{4\pi}\frac{q\vec{v}\times\vec{r}}{r^2}\,(28.2)$$
+[947]
+##### Vacuum permeability value
+$$\mu_0=1.25663706\times10^{-6}N\cdot s^2/C^2=1.25663706\times10^{-6}Wb/A\cdot m=4\pi\times10^{-7}T\cdot m/A\,(28.3)$$
+[Pg 948]
+##### Speed of light constant
+$$c=\frac{1}{\sqrt{\epsilon_0\mu_0}}\,(28.4)$$
+[Pg 948]
+##### Magnetic field Biot Savart current element
+$$dB=\frac{\mu_0}{4\pi}\frac{I\,dl\sin\phi}{r^2}\,(28.5)$$
+[Pg 949]
+##### Magnetic field Biot Savart vector
+$$d\vec{B}=\frac{\mu_0}{4\pi}\frac{I\,dl\times\vec{r}}{r^2}\,(28.6)$$
+[Pg 949]
+##### Total magnetic field point in space
+$$\vec{B}=\frac{\mu_0}{4\pi}\int\frac{I\,d\vec{l}\times\vec{r}}{r^2}\,(28.7)$$
+[Pg 950]
+##### Magnetic field straight current carrying conductor
+$$B=\frac{\mu_0I}{4\pi}\frac{2a}{x\sqrt{x^2+a^2}}\,(28.8)$$
+[Pg 952]
+##### Magnetic field near long straight current carrying conductor
+$$B=\frac{\mu_0I}{2\pi r}\,(28.9)$$
+[Pg 952]
+##### Magnetic flux through any closed surface
+$$\oint\vec{B}\cdot d\vec{A}=0\,(28.10)$$
+[Pg 952]
+##### Magnetic force per unit length parallel conductors
+$$\frac{F}{L}=\frac{\mu_0II^{'}}{2\pi r}\,(28.11)$$
+[Pg 954]
+##### Magnetic field current loop derivation
+$$dB=\frac{\mu_0I}{4\pi}\frac{dl}{(x^2+a^2)}\,(28.12)$$
+[Pg 956]
+##### Magnetic field current loop x component
+$$dB_x=dB\cos\theta=\frac{\mu_0I}{4\pi}\frac{dl}{(x^2+a^2)}\frac{a}{(x^2+a^2)^{1/2}}\,(28.13)$$
+[Pg 956]
+##### Magnetic field current loop x component
+$$dB_y=dB\sin\theta=\frac{\mu_0I}{4\pi}\frac{dl}{(x^2+a^2)}\frac{x}{(x^2+a^2)^{1/2}}\,(28.14)$$
+[Pg 956]
+##### Magnetic field on axis of current carrying loop
+$$B_x=\frac{\mu_0Ia^2}{2(x^2+a^2)^{3/2}}\,(28.15)$$
+[Pg 956]
+##### Magnetic field on axis of N circular loops
+$$B_x=\frac{\mu_0NIa^2}{2(x^2+a^2)^{3/2}}\,(28.16)$$
+[Pg 956]
+##### Magnetic field at center of N circular current carrying loops
+$$B_x=\frac{\mu_0NI}{2a}\,(28.17)$$
+[Pg 956]
+##### Magnet field on axis of N circular loops 2
+$$B_x=\frac{\mu_0\mu}{2\pi(x^2+a^2)^{3/2}}\,(28.18)$$
+[Pg 957]
+##### Ampere's law 2
+$$\oint\vec{B}\cdot d\vec{l}=\mu_0I\,(28.19)$$
+[Pg 960]
+##### Ampere's law
+$$\oint\vec{B}\cdot d\vec{l}=\mu_0I_{\text{encl}}\,(28.20)$$
+[Pg 960]
+##### Magnetic field inside cylindrical conductor
+$$B=\frac{\mu_0I}{2\pi}\frac{r}{R^2}\,(28.21)$$
+[Pg 962]
+##### Magnetic field outside cylindrical conductor
+$$B=\frac{\mu_0I}{2\pi r}\,(28.22)$$
+[Pg 962]
+##### Magnetic field inside solenoid
+$$B=\mu_0nI\,(28.23)$$
+[Pg 963]
+##### Magnetic field inside toroidal solenoid
+$$B=\frac{\mu_0NI}{2\pi r}\,(28.24)$$
+[Pg 964]
+##### Magnetic moment
+$$\mu=\frac{ev}{2\pi r}(\pi r^2)=\frac{evr}{2}\,(28.25)$$
+[Pg 965]
+##### Magnetic moment in terms angular momentum
+$$\mu=\frac{e}{2m}L\,(28.26)$$
+[Pg 965]
+##### Bohr magneton
+$$\mu=\frac{e}{2m}\bigg(\frac{h}{2\pi}\bigg)=\frac{eh}{4\pi m}\,(28.27)$$
+[Pg 966]
+##### Magnetization of material
+$$\vec{M}=\frac{\vec{\mu}_{\text{total}}}{V}\,(28.28)$$
+[Pg 966]
+##### Magnetic field in material
+$$\vec{B}=\vec{B}_0+\mu_0\vec{M}\,(28.29)$$
+[Pg 966]
+##### Magnetic permeability of material
+$$\mu=K_m\mu_0\,(28.30)$$
+[Pg 966]
+##### Magnetic susceptibility of material
+$$\chi_m=K_m-1\,(28.31)$$
+[Pg 967]
+##### Magnetism v temperature
+$$M=C\frac{B}{T}\,(28.32)$$
+[Pg 967]
+##### Magnetic flux through finite area
+$$\Phi_B=\int\vec{B}\cdot d\vec{A}=\int B\,dA\cos\phi\,(29.1)$$
+[Pg 983]
+##### Magnetic flux uniform flat area
+$$\Phi_B=\vec{B}\cdot\vec{A}=BA\cos\phi\,(29.2)$$
+[Pg 984]
+##### Faraday's law
+$$\mathcal{E}=-\frac{d\Phi_B}{dt}\,(29.3)$$
+[Pg 984]
+##### Faraday's law N turns
+$$\mathcal{E}=-N\frac{d\Phi_B}{dt}\,(29.4)$$
+[Pg 986]
+##### Motional emf conductor perpendicular to B 2
+$$V_{\text{ab}}=EL=vBL\,(29.5)$$
+[Pg 993]
+##### Motional emf conductor perpendicular to B
+$$\mathcal{E}=vBL\,(29.6)$$
+[Pg 993]
+##### Motional emf general case
+$$\mathcal{E}=\oint(\vec{v}\times\vec{B})\cdot d\vec{l}\,(29.7)$$
+[Pg 994]
+##### Induced emf in loop
+$$\mathcal{E}=-\frac{d\Phi_B}{dt}=-\mu_0nA\frac{dI}{dt}\,(29.8)$$
+[Pg 995]
+##### Induced emf line integral
+$$\oint\vec{E}\cdot d\vec{l}=\mathcal{E}\,(29.9)$$
+[Pg 996]
+##### Faraday's law for a stationary integration path
+$$\oint\vec{E}\cdot d\vec{l}=-\frac{d\Phi_B}{dt}\,(29.10)$$
+[Pg 996]
+##### Faraday's law loop in magnetic field
+$$E=\frac{1}{2\pi r}\bigg|\frac{d\Phi_B}{dt}\bigg|\,(29.11)$$
+[Pg 996]
+##### Capacitor charge in terms electric flux
+$$q=Cv=\frac{\epsilon A}{d}(Ed)=\epsilon EA=\epsilon\Phi_E\,(29.12)$$
+[Pg 999]
+##### Capacitor conduction current
+$$i_C=\frac{dq}{dt}=\epsilon\frac{d\Phi_E}{dt}\,(29.13)$$
+[Pg 999]
+##### Displacement current through an area
+$$i_D=\epsilon\frac{d\Phi_E}{dt}\,(29.14)$$
+[Pg 999]
+##### Generalized Ampere's law
+$$\oint\vec{B}\cdot d\vec{l}=\mu_0(i_C+i_D)_{\text{encl}}\,(29.15)$$
+[Pg 999]
+##### Displacement current density
+$$j_D=\epsilon\frac{dE}{dt}\,(29.16)$$
+[Pg 1000]
+##### Magnetic field between capacitor plates
+$$B=\frac{\mu_0}{2\pi}\frac{r}{R^2}i_C\,(29.17)$$
+[Pg 1000]
+##### Gauss's law for electric field
+$$\oint\vec{E}\cdot d\vec{A}=\frac{Q_{\text{encl}}}{\epsilon_0}\,(29.18)$$
+[Pg 1001]
+##### Gauss's law for magnetic fields
+$$\oint\vec{B}\cdot d\vec{A}=-\,(29.19)$$
+[Pg 1001]
+##### Faraday's law for a stationary integration path
+$$\oint\vec{E}\cdot d\vec{l}=-\frac{d\Phi_B}{dt}\,(29.20)$$
+[Pg 1001]
+##### Ampere's law for a stationary integrating path
+$$\oint\vec{B}\cdot d\vec{l}=\mu_0\bigg(i_C+\epsilon_0\frac{d\Phi_E}{dt}\bigg)_{\text{encl}}\,(29.21)$$
+[Pg 1001]
+##### Maxwell Equation Faraday's law Integral form
+$$\oint\vec{E}\cdot d\vec{l}=-\frac{d}{dt}\int\vec{B}\cdot d\vec{A}\,(29.22)$$
+[Pg 1002]
+##### Maxwell Equation Ampere's law integral form
+$$\oint\vec{B}\cdot d\vec{l}=\mu_0\epsilon_0\frac{d}{dt}\int\vec{E}\cdot d\vec{A}\,(29.23)$$
+[Pg 1002]
+##### Lorentz force law
+$$\vec{F}=q(\vec{E}+\vec{v}\times\vec{B})\,(29.24)$$
+[Pg 1002]
+##### Mutual inductance
+$$\mathcal{E}=-N_2\frac{d\Phi_{B2}}{dt}\,(30.1)$$
+[Pg 1017]
+##### Mutual emfs derivation
+$$N_2\Phi_{B2}=M_{21}i_1\,(30.2)$$
+[Pg 1017]
+##### Induced emf
+$$\mathcal{E}_2=-M_{21}\frac{di_1}{dt}\,(30.3)$$
+[Pg 1017]
+##### Mutually induced emfs
+$$\mathcal{E}_2=-M\frac{di_1}{dt}\text{ and }\mathcal{E}_1=-M\frac{di_2}{dt}\,(30.4)$$
+[Pg 1017]
+##### Mutual inductance of coils
+$$M=\frac{N_2\Phi_{B2}}{i_1}=\frac{N_1\Phi_{B1}}{i_2}\,(30.5)$$
+[Pg 1018]
+##### Self inductance of a coil
+$$L=\frac{N\Phi_B}{i}\,(30.6)$$
+[Pg 1020]
+##### Self induced emf
+$$\mathcal{E}=-L\frac{di}{dt}\,(30.7)$$
+[Pg 1020]
+##### Potential across inductor
+$$V_{\text{ab}}=V_a-V_b=L\frac{di}{dt}\,(30.8)$$
+[Pg 1021]
+##### Energy stored in an inductor
+$$U=L\int_0^1i\,dl=\frac{1}{2}LI^2\,(30.9)$$
+[Pg 1024]
+##### Magnetic energy density in vacuum
+$$\mu=\frac{B^2}{2\mu_0}\,(30.10)$$
+[Pg 1025]
+##### Magnetic energy density in a material
+$$\mu=\frac{B^2}{2\mu}\,(30.11)$$
+[Pg 1025]
+##### Kirchoff's law RL circuit
+$$\mathcal{E}-iR-L\frac{di}{dt}=0\,(30.12)$$
+[Pg 1027]
+##### Current change RL circuit
+$$\frac{di}{dt}=\frac{\mathcal{E}-iR}{L}=\frac{\mathcal{E}}{L}-\frac{R}{L}i\,(30.13)$$
+[Pg 1027]
+##### Current in RL circuit derivation
+$$i=\frac{\mathcal{E}}{R}(1-e^{-(R/L)t})\,(30.14)$$
+[Pg 1028]
+##### Current in RL circuit
+$$\frac{di}{dt}=\frac{\mathcal{E}}{L}e^{-(R/L)t}\,(30.15)$$
+[Pg 1028]
+##### Time constant for an RL circuit
+$$\tau=\frac{L}{R}\,(30.16)$$
+[Pg 1028]
+##### Power RL circuit
+$$\mathcal{E}i=i^2R+Li\frac{di}{dt}\,(30.17)$$
+[Pg 1028]
+##### Current decay RL circuit
+$$i=I_0e^{-(R/L)t}\,(30.18)$$
+[Pg 1029]
+##### Energy in RL circuit
+$$0=i^R+Li\frac{di}{dt}\,(30.19)$$
+[Pg 1029]
+##### Oscillations LC circuit
+$$\frac{d^2q}{dt^2}+\frac{1}{LC}q=0\,(30.20)$$
+[Pg 1032]
+##### Capacitor charge LC circuit
+$$q=Q\cos(\omega t+\phi)\,(30.21)$$
+[Pg 1032]
+##### Angular frequency of oscillation in an LC circuit
+$$\omega=\sqrt{\frac{1}{LC}}\,(30.22)$$
+[Pg 1032]
+##### Instantaneous current LC circuit
+$$i=-\omega Q\sin(\omega t+\phi)\,(30.23)$$
+[Pg 1032]
+##### Velocity in LC circuit
+$$v_x=\pm\sqrt{\frac{k}{m}}\sqrt{A^2-x^2}\,(30.24)$$
+[Pg 1033]
+##### Total energy LC circuit
+$$\frac{!}{2}Li^2+\frac{q^2}{2C}=\frac{Q^2}{2C}\,(30.25)$$
+[Pg 1033]
+##### Current in LC circuit
+$$i=\pm\sqrt{\frac{1}{LC}}\sqrt{Q^2-q^2}\,(30.26)$$
+[Pg 1033]
+##### Kirchhoff's law LRC circuit
+$$\frac{d^2q}{dt^2}+\frac{R}{L}\frac{dq}{dt}+\frac{1}{LC}q=0\,(30.27)$$
+[Pg 1035]
+##### Charge in underdamped LRC circuit
+$$q=Ae^{-(R/2L)t}\cos\bigg(\sqrt{\frac{1}{LC}-\frac{R^2}{4L^2}}t+\phi\bigg)\,(30.28)$$
+[Pg 1035]
+##### Angular frequency of underdamped oscillation LRC circuit
+$$\omega^{'}=\sqrt{\frac{1}{LC}-\frac{R^2}{4L^2}}\,(30.29)$$
+##### Sinusoidal voltage function
+$$v=V\cos\omega t\,(31.1)$$
+[Pg 1047]
+##### Sinusoidal alternating current
+$$i=I\cos\omega t\,(31.2)$$
+[Pg 1047]
+##### Rectified average value of a simusoidal current
+$$I_{\text{rav}}=\frac{2}{\pi}I=0.637I\,(31.3)$$
+[Pg 1048]
+##### Root mean square (rms) value of a sinusoidal current
+$$I_{\text{rms}}=\frac{I}{\sqrt{2}}\,(31.4)$$
+[Pg 1048]
+##### Root mean square (rms) value of a sinusoidal voltage
+$$V_{\text{rms}}=\frac{V}{\sqrt{2}}\,(31.5)$$
+[Pg 1048]
+##### Instantaneous across a resistor
+$$v_R=iR=(IR)\cos\omega t\,(31.6)$$
+[Pg 1050]
+##### Amplitutde of voltage across a resistor
+$$V_R=IR\,(31.7)$$
+[Pg 1050]
+##### Voltage across a resistor2
+$$v_R=V_R\cos\omega t\,(31.8)$$
+[Pg 1050]
+##### Voltage across an inductor
+$$v_L=L\frac{di}{dt}=L\frac{d}{dt}(I\cos\omega t)=-I\omega L\sin\omega t\,(31.9)$$
+[Pg 1051]
+##### Voltage across inductor with phase
+$$v_L=I\omega L\cos(\omega t+90\textdegree)\,(31.10)$$
+[Pg 1051]
+##### Amplitude of inductor voltage
+$$V_L=I\omega L\,(31.11)$$
+[Pg 1051]
+##### Inductive reactance of inductor
+$$X_L=\omega L\,(31.12)$$
+[Pg 1051]
+##### Amplitude of voltage across an inductor ac circuit
+$$V_L=IX_L\,(31.13)$$
+[Pg 1051]
+##### Charge on capacitor ac circuit
+$$q=\frac{1}{\omega}\sin\omega t\,(31.14)$$
+[Pg 1052]
+##### Voltage across capacitor ac circuit
+$$v_C=\frac{I}{\omega C}\sin\omega t\,(31.15)$$
+[Pg 1052]
+##### Voltage across capacitor phase difference
+$$v_C=\frac{I}{\omega C}\cos(\omega t-90\textdegree)\,(31.16)$$
+[Pg 1053]
+##### Voltage amplitude across capacitor
+$$V_C=\frac{I}{\omega C}\,(31.17)$$
+[Pg 1053]
+##### Capacitive reactance
+$$X_C=\frac{1}{\omega C}\,(31.18)$$
+[Pg 1053]
+##### Amplitude of voltage across capacitor ac circuit
+$$V_C=IX_C\,(31.19)$$
+[Pg 1053]
+##### Voltage phasor sum LRC circuit
+$$V=\sqrt{V_R^2+(V_L-V_C)^2}=\sqrt{(IR)^2+(IX_L-IX_C)^2}\text {or} V+I\sqrt{R^2+(X_L-X_C)^2}\,(31.20)$$
+[Pg 1055]
+##### Impedance LRC circuit
+$$Z=\sqrt{R^2+(X_L-X_C)^2}\,(31.21)$$
+[Pg 1055]
+##### Amplitude of voltage across an ac circuit
+$$V=IZ\,(31.22)$$
+[Pg 1056]
+##### Impedence of an LRC series circuit
+$$Z=\sqrt{R^2+[\omega L-(1/\omega C)]^2}\,(31.23)$$
+[Pg 1056]
+##### Phase angle of voltage with respect to current LRC series circuit
+$$\tan\phi=\frac{\omega L-1/\omega C}{R}\,(31.24)$$
+[Pg 1056]
+##### Source voltage LRC circuit
+$$v=V\cos(\omega t+\phi)\,(31.25)$$
+[Pg 1056]
+##### Root mean square voltage
+$$v_{\text{rms}}=I_{\text{rms}}Z\,(31.26)$$
+[Pg 1057]
+##### Power in a resistor
+$$P_{\text{av}}=\frac{1}{2}VI\,(31.27)$$
+[Pg 1059]
+##### Power in a resistor2
+$$P_{\text{av}}=\frac{V}{\sqrt{2}}\frac{I}{\sqrt{2}}=V_{\text{rms}}I_{\text{rms}}\,(31.28)$$
+[Pg 1059]
+##### Power in a resistor3
+$$P_{\text{av}}=I_{\text{rms}}^2R=\frac{V_{\text{rms}}^2}{R}=V_{\text{rms}}I_{\text{rms}}\,(31.29)$$
+[Pg 1059]
+##### Power general ac circuit
+$$p=vi=[V\cos(\omega t+\phi][I\cos\omega t]\,(31.30)$$
+[Pg 1060]
+##### Average power into a general ac circuit
+$$P_{\text{av}}=\frac{1}{2}VI\cos\phi=V_{\text{rms}}I_{\text{rms}}\cos\phi\,(31.31)$$
+[Pg 1060]
+##### Resonance angular frequency of an LRC series circuit
+$$\omega_0=\frac{1}{\sqrt{LC}}\,(31.32)$$
+[Pg 1062]
+##### Induced emfs transformer
+$$\mathcal{E}_1=-N_1\frac{d\Phi_B}{dt}\text{ and }\mathcal{E}_2=-N_2\frac{d\Phi_B}{dt}\,(31.33)$$
+[Pg 1065]
+##### Ratio transformer emfs turns
+$$\frac{\mathcal{E}_2}{\mathcal{E}_1}=\frac{N_2}{N_1}\,(31.34)$$
+[Pg 1065]
+##### Terminal voltages in a transformer
+$$\frac{V_2}{V_1}=\frac{N_2}{N_1}\,(31.35)$$
+[Pg 1065]
+##### Terminal voltages and currents in a transformer
+$$V_1I_1=V_2I_2\,(31.36)$$
+[Pg 1065]
+##### Ratio voltage current primary of transformer
+$$\frac{V_1}{I_1}=\frac{R}{(N_2/N_1)^2}\,(31.37)$$
+[Pg 1066]
+##### Faraday's law
+$$\oint\vec{E}\cdot d\vec{l}=-\frac{d\Phi_B}{dt}\,(32.1)$$
+[Pg 1081]
+##### Faraday's law perpendicular E
+$$\oint\vec{E}\cdot d\vec{l}=-Ea\,(32.2)$$
+[Pg 1081]
+##### Faraday's law perpendicular B
+$$\frac{d\Phi_B}{dt}=Bac\,(32.3)$$
+[Pg 1081]
+##### Electromagnetic wave in vacuum
+$$E=cB\,(32.4)$$
+[Pg 1081]
+##### Ampere's Law
+$$\oint\vec{B}\cdot d\vec{l}=\mu_0\epsilon_0\frac{d\Phi_E}{dt}\,(32.5)$$
+[Pg 1082]
+##### Ampere's law perpendicular B
+$$\oint\vec{B}\cdot d\vec{l}=Ba\,(32.6)$$
+[Pg 1082]
+##### Flux through perpendicular rectangle
+$$\frac{d\Phi_E}{dt}=Eac\,(32.7)$$
+[Pg 1082]
+##### Electromagnetic wave in vacuum
+$$B=\epsilon_0\mu_0cE\,(32.8)$$
+[Pg 1082]
+##### Speed of electromagnetic waves in vacuum
+$$c=\frac{1}{\sqrt{\epsilon_0\mu_0}}\,(32.9)$$
+[Pg 1082]
+##### Derivation electromagnetic wave equation1
+$$\frac{\partial^2(x,t)}{\partial x^2}=\frac{1}{v^2}\frac{\partial^2y(x,t)}{\partial t^2}\,(32.10)$$
+[Pg 1083]
+##### Derivation electromagnetic wave equation2
+$$\oint\vec{E}\cdot d\vec{l}=-E_y(x,t)a+E_y(x+\Delta x,t)a=a[E_y(x+\Delta x,t)-E_y(x,t)]\,(32.11)$$
+[Pg 1084]
+##### Derivation electromagnetic wave equation3
+$$\frac{\partial E_y(x,t)}{\partial x}=-\frac{\partial B_z(x,t)}{\partial t}\,(32.12)$$
+[Pg 1084]
+##### Derivation electromagnetic wave equation4
+$$\oint\vec{B}\cdot d\vec{l}=-B_z(x+\Delta x,t)a+B_z(x,t)a\,(32.13)$$
+[Pg 1084]
+##### Derivation electromagnetic wave equation5
+$$-\frac{\partial B_z(x,t)}{\partial x}=\epsilon_0\mu_0\frac{\partial E_y(x,t)}{\partial t}\,(32.14)$$
+[Pg 1084]
+##### Electromagnetic wave equation in vacuum
+$$\frac{\partial^2E_y(x,t)}{\partial x^2}=\epsilon_0\mu_0\frac{\partial^2E_y(x,t)}{\partial t^2}\,(32.15)$$
+[Pg 1085]
+##### Sinusoidal electromagnetic plane wave propogating x
+$$E_y(x,t)=E_{\text{max}}\cos(kx-\omega t)\,B_z(x,t)=B_{\text{max}}\cos(kx-\omega t)\,(32.16)$$
+[Pg 1086]
+##### Sinusoidal electromagnetic plane wave propogating x vector
+$$\vec{E}(x,t)=\hat jE_{\text{max}}\cos(kx-\omega t)\,\vec{B}(x,t)=\hat kB_{\text{max}}\cos(kx-\omega t)\,(32.17)$$
+[Pg 1086]
+##### Sinusoidal electromagnetic wave in vacuum
+$$E_{\text{max}}=cB_{\text{max}}\,(32.18)$$
+[Pg 1086]
+##### Amplitude sinusoidal electromagnetic wave
+$$\vec{E}(x,t)=\hat jE_{\text{max}}\cos(kx+\omega t)\,\vec{B}(x,t)=-\hat kB_{\text{max}}\cos(kx+\omega t)\,(32.19)$$
+[Pg 1087]
+##### Electromagnetic waves in matter
+$$E=vB\text{ and }B=\epsilon\mu vE\,(32.20)$$
+[Pg 1088]
+##### Speed of electromagnetic waves in a dielectric
+$$v=\frac{1}{\sqrt{\epsilon\mu}}=\frac{1}{\sqrt{KK_m}}\frac{1}{\sqrt{\epsilon_0\mu_0}}=\frac{c}{\sqrt{KK_m}}\,(32.21)$$
+[Pg 1088]
+##### Ratio speed electromagnetic wave vacuum material
+$$\frac{c}{v}=n=\sqrt{KK_m}\cong\sqrt{K}\,(32.22)$$
+[Pg 1088]
+##### Energy density electromagnetic field
+$$\mu=\frac{1}{2}\epsilon_0E^2+\frac{1}{2\mu_0}B^2\,(32.23)$$
+[Pg 1089]
+##### Relation magnitude E and B waves vacuum
+$$B=\frac{E}{c}=\sqrt{\epsilon_0\mu_0}E\,(32.24)$$
+[Pg 1090]
+##### Energy density electromagnetic field2
+$$\mu=\frac{1}{2}\epsilon_0E^2+\frac{1}{2\mu_0}(\sqrt{\epsilon_0\mu_0}E)^2=\epsilon_0E^2\,(32.25)$$
+[Pg 1090]
+##### Energy flow unit time and area
+$$S=\frac{1}{A}\frac{dU}{dt}=\epsilon_0cE^2\,(32.26)$$
+[Pg 1090]
+##### Energy flow unit time area2
+$$S=\frac{\epsilon_0}{\sqrt{\epsilon_0\mu_0}}E^2=\sqrt{\frac{\epsilon_0}{\mu_0}}E^2=\frac{EB}{\mu_0}\,(32.27)$$
+[Pg 1090]
+##### Poyting vector in vacuum
+$$\vec{S}=\frac{1}{\mu_0}\vec{E}\times\vec{B}\,(32.28)$$
+[Pg 1090]
+##### Intensity of a sinusoidal electromagnetic wave in vacuum
+$$I=S_{\text{av}}=\frac{E_{\text{max}}B_{\text{max}}}{2\mu_0}=\frac{E_{\text{max}}^2}{2\mu_0c}=\frac{1}{2}\sqrt{\frac{\epsilon_0}{\mu_0}}E_{\text{max}}^2=\frac{1}{2}\epsilon_0cE_{\text{max}}^2\,(32.29)$$
+[Pg 1091]
+##### Radiation pressure
+$$\frac{dp}{dV}=\frac{EB}{\mu_0c^2}=\frac{S}{c^2}\,(32.30)$$
+[Pg 1092]
+##### Flow rate of electromagnetic momentum
+$$\frac{1}{A}\frac{dp}{dt}=\frac{S}{c}=\frac{EB}{\mu_0c}\,(32.31)$$
+[Pg 1093]
+##### Radiation pressure wave absorbed
+$$p_{\text{rad}}=\frac{S_{\text{av}}}{c}=\frac{I}{c}\,(32.32)$$
+[Pg 1093]
+##### Radiation pressure wave reflected
+$$p_{\text{rad}}=\frac{2S_{\text{av}}}{c}=\frac{2I}{c}\,(32.33)$$
+[Pg 1093]
+##### Standing wave electric field
+$$E_y(x,t)=-2E_{\text{max}}\sin kx\sin\omega t\,(32.34)$$
+[Pg 1095]
+##### Standing wave magnetic field
+$$B_z(x,t)=-2B_{\text{max}}\cos kx\cos\omega t\,(32.35)$$
+[Pg 1095]
+##### Nodal planes of E
+$$x=0,\frac{\lambda}{2},\lambda,\frac{3\lambda}{2},\ldots\,(32.36)$$
+[Pg 1095]
+##### Nodal planes of B
+$$x=\frac{\lambda}{4},\frac{3\lambda}{4},\frac{5\lambda}{4},\ldots\,(32.37)$$
+[Pg 1095]
+##### Standing waves in cavity
+$$\lambda_n=\frac{2L}{n}\,(32.38)$$
+[1095]
+##### Normal mode frequencies in cavity
+$$f_n=\frac{c}{\lambda_n}=n\frac{c}{2L}\,(n=1,2,3,\ldots)\,(32.39)$$
+[Pg 1096]
+##### Index of refraction of an optical material
+$$n=\frac{c}{v}\,(33.1)$$
+[Pg 1108]
+##### Law of reflection
+$$\theta_r=\theta_a\,(33.2)$$
+[Pg 1109]
+##### Ratio sines and refractive indexes
+$$\frac{\sin\theta_a}{\sin\theta_b}=\frac{n_b}{n_a}\,(33.3)$$
+[Pg 1109]
+##### Law of refraction
+$$n_a\sin\theta_a=n_b\sin\theta_b\,(33.4)$$
+[Pg 1109]
+##### Wavelength of light in a material
+$$\lambda=\frac{\lambda_0}{n}\,(33.5)$$
+[Pg 1111]
+##### Critical angle for total internal reflection
+$$\sin\theta_{\text{crit}}=\frac{n_b}{n_a}\,(33.6)$$
+[Pg 1114]
+##### Malus's law
+$$I=I_{\text{max}}\cos^2\phi\,(33.7)$$
+[Pg 1121]
+##### Brewster's law for the polarizing angle
+$$\tan\theta_p=\frac{n_b}{n_a}\,(33.8)$$
+[Pg 1122]
+##### Refraction and Huygens's principle
+$$\frac{\sin\theta_a}{\sin\theta_b}=\frac{v_a}{v_b}\,(33.9)$$
+[Pg 1128]
+##### Object and image distances
+$$s=-s^{'}\,(34.1)$$
+[Pg 1140]
+##### Lateral magnification in an image forming situation
+$$m=\frac{y_{'}}{y}\,(34.2)$$
+[Pg 1141]
+##### Object image relation spherical mirror derivation
+$$\alpha+\beta=2\phi\,(34.3)$$
+[Pg 1142]
+##### Object image relation spherical mirror
+$$\frac{1}{s}+\frac{1}{s^{'}}=\frac{2}{R}\,(34.4)$$
+[Pg 1143]
+##### Focal length of spherical mirror
+$$f=\frac{R}{2}\,(34.5)$$
+[Pg 1144]
+##### Object image relationship spherical mirror
+$$\frac{1}{s}+\frac{1}{s^{'}}=\frac{1}{f}\,(34.6)$$
+[Pg 1144]
+##### Lateral magnification spherical mirror
+$$m=\frac{y^{'}}{y}=\frac{s^{'}}{s}\,(34.7)$$
+[Pg 1145]
+##### Image of a point object spherical surface derivation
+$$\theta_a=\alpha+\phi\,\phi=\beta+\theta_b\,(34.8)$$
+[Pg 1151]
+##### Image of point object spherical surface derivation2
+$$\tan\alpha=\frac{h}{s+\delta}\,\tan\beta=\frac{h}{s^{'}-\delta}\,\tan\phi=\frac{h}{R-\delta}\,(34.9)$$
+[Pg 1151]
+##### Image of point object spherical surface derivation3
+$$n_a\alpha+n_b\beta=(n_b-n_a)\phi\,(34.10)$$
+[Pg 1151]
+##### Object image relationship spherical refracting surface
+$$\frac{n_a}{s}+\frac{n_b}{s^{'}}=\frac{n_b-n_a}{R}\,(34.11)$$
+[Pg 1152]
+##### Lateral magnification spherical refracting surface
+$$m=\frac{y^{'}}{y}=-\frac{n_as^{'}}{n_bs}\,(34.12)$$
+[Pg 1152]
+##### Plane refracting surface
+$$\frac{n_a}{s}+\frac{n_b}{s^{'}}=0\,(34.13)$$
+[Pg 1152]
+##### Image of converging lens
+$$\frac{y}{s}=-\frac{y^{'}}{s^{'}}\text{ or }\frac{y^{'}}{y}=-\frac{s^{'}}{s}\,(34.14)$$
+[Pg 1155]
+##### Object image relationship thin lens derivation
+$$\frac{y}{s}=-\frac{y^{'}}{s^{'}-f}\text{ or }\frac{y^{'}}{y}=-\frac{s^{'}-f}{f}\,(34.15)$$
+[Pg 1156]
+##### Object image relationship thin lens
+$$\frac{1}{s}+\frac{1}{s^{'}}=\frac{1}{f}\,(34.16)$$
+[Pg 1156]
+##### Lateral magnification thin lens
+$$m=y'/y=-\frac{s^{'}}{f}\,(34.17)$$
+[1156]
+##### Lensmaker's equation derivation
+$$\frac{1}{s}+\frac{1}{s^{'}}=(n-1)\bigg(\frac{1}{R_1}-\frac{1}{R_2}\bigg)\,(34.18)$$
+[Pg 1158]
+##### Lensmaker's equation
+$$\frac{1}{f}=(n-1)\bigg(\frac{1}{R_1}-\frac{1}{R_2}\bigg)\,(34.19)$$
+[Pg 1158]
+##### f-number of a lens
+$$f\text{-number of a lens}=\frac{f}{D}\,(34.20)$$
+[Pg 1165]
+##### Angular magnification
+$$M=\frac{\theta^{'}}{\theta}\,(34.21)$$
+[Pg 1171]
+##### Angular magnification
+$$M=\frac{\theta^{'}}{\theta}\,(34.21)$$
+[Pg 1171]
+##### Angular magnification for a simple magnifier
+$$M=\frac{\theta^{'}}{\theta}=\frac{y/f}{y/25\,\rm cm}=\frac{25\,\rm cm}{f}\,(34.22)$$
+[Pg 1171]
+##### Microscope magnification derivation
+$$m_1=-\frac{s_1^{'}}{s_1}\,(34.23)$$
+[Pg 1172]
+##### Angular magnification for a microscope
+$$M=m_1M_2=\frac{(25\,\rm cm)s_1^{'}}{f_1f_2}\,(34.24)$$
+[Pg 1173]
+##### Angular magnification for a telescope
+$$M=\frac{\theta^{'}}{\theta}=-\frac{y^{'}/f_2}{y^{'}/f_1}=-\frac{f_1}{f_2}\,(34.25)$$
+[Pg 1174]
+##### Constructive interference sources in phase
+$$r_2-r_1=m\lambda\,(m=0,\pm1,\pm 2,\pm 3\ldots)\,(35.1)$$
+[Pg 1189]
+##### Destructive interference sources in phase
+$$r_2-r_1=(m+\frac{1}{2})\lambda\,(m=0,\pm 1,\pm 2,\pm 3,\ldots\,(35.2)$$
+[Pg 1190]
+##### Young's experiment difference in path length
+$$r_2-r_1=d\sin\theta\,(35.3)$$
+[Pg 1192]
+##### Constructive intererence two slits
+$$d\sin\theta=m\lambda\,(m=0,\pm 1,\pm 2,\ldots)\,(35.4)$$
+[Pg 1192]
+##### Destructive intererence two slits
+$$d\sin\theta=(m+\frac{1}{2})\lambda\,(m=0,\pm 1,\pm 2,\ldots)\,(35.5)$$
+[Pg 1192]
+##### Constructive interference Young's experiment
+$$y_m=R\frac{m\lambda}{d}\,(m=0,\pm 1,\pm 2,\ldots)\,(35.6)$$
+[Pg 1192]
+##### Electric field amplitude in two source interference
+$$E_p=2E\bigg|\cos\frac{\phi}{2}\bigg|\,(35.7)$$
+[Pg 1195]
+##### Intensity in two source interference2
+$$I=S_{\text{av}}=\frac{E_p^2}{2\mu_0c}=\frac{1}{2}\sqrt{\frac{\epsilon_0}{\mu_0}}E_p^2=\frac{1}{2}\epsilon_0cE_p^2\,(35.8)$$
+[Pg 1195]
+##### Intensity in two source interference3
+$$I=\frac{1}{2}\epsilon_0cE_p^2=2\epsilon_0cE^2\cos^2\frac{\phi}{2}\,(35.9)$$
+[Pg 1195]
+##### Intensity in two source interference
+$$I=I_0\cos^2\frac{\phi}{2}\,(35.10)$$
+[Pg 1195]
+##### Phase difference in two source interference
+$$\phi=\frac{2\pi}{\lambda}(r_2-r_1)=k(r_2-r_1)\,(35.11)$$
+[Pg 1196]
+##### Definitions in two source interference
+$$\lambda=\frac{\lambda_0}{n}\text{ and }k=nk_0\,(35.12)$$
+[Pg 1196]
+##### Phase difference in two source interference2
+$$\phi=k(r_2-r_1)=kd\sin\theta=\frac{2\pi d}{\lambda}\sin\theta\,(35.13)$$
+[Pg 1196]
+##### Intensity far from two sources
+$$I=I_0\cos^2(\frac{1}{2}kd\sin\theta)=I_0\cos^2\bigg(\frac{\pi d}{\lambda}\sin\theta\bigg)\,(35.14)$$
+[Pg 1196]
+##### Intensity in two slit interference
+$$I=I_0\cos^2\bigg(\frac{kdy}{2R}\bigg)=I_0\cos^2\bigg(\frac{\pi dy}{AR}\bigg)\,(35.15)$$
+[Pg 1196]
+##### Thin film normal incidence
+$$E_r=\frac{n_a-n_b}{n_a+n_b}E_i\,(35.16)$$
+[Pg 1198]
+##### Thin film constructive reflection
+$$2t=m\lambda\,(m=0,1,2,\ldots)\,(35.17a)$$
+[Pg 1199]
+##### Thin film destuctive reflection
+$$2t=(m+\frac{1}{2})\lambda\,(m=0,1,2,\ldots)\,(35.17b)$$
+[Pg 1199]
+##### Thin film half phase constructive reflection
+$$2t=(m+\frac{1}{2})\lambda\,(m=0,1,2,\ldots)\,(35.18a)$$
+[Pg 1199]
+##### Thin film half phase destructive reflection
+$$2t=m\lambda\,(m=0,1,2,\ldots)\,(35.18b)$$
+[Pg 1199]
+##### Michelson Interferometer
+$$y=m\frac{\lambda}{2}\text{ or }\lambda=\frac{2y}{m}\,(35.19)$$
+[Pg 1204]
+##### Single slit diffraction fringes
+$$\frac{a}{2}\sin\theta=\pm\frac{\lambda}{2}\text{ or }\sin\theta=\pm\frac{\lambda}{a}\,(36.1)$$
+[Pg 1217]
+##### Dark fringes single-slit diffraction
+$$\sin\theta=\frac{m\lambda}{a}\,(m=\pm1,\pm2,\pm3,\ldots)\,(36.2)$$
+[Pg 1217]
+##### Distance to dark band single-slit diffraction
+$$y_m=x\frac{m\lambda}{a}\,\text{(for }y_m<< x)\,(36.3)$$
+[Pg 1217]
+##### Amplitude E field single-slit diffraction
+$$E_p=E_0\frac{\sin(\beta/2)}{\beta/2}\,(36.4)$$
+[Pg 1219]
+##### Intensity single slit diffraction
+$$I=I_0\bigg[\frac{\sin(\beta/2)}{\beta/2}\bigg]^2\,(36.5)$$
+[Pg 1219]
+##### Phase difference single-slit diffraction
+$$\beta=\frac{2\pi}{\lambda}a\sin\theta\,(36.6)$$
+[Pg 1219]
+##### Intensity in single slit diffraction2
+$$I=I_0\bigg\{\frac{\sin[\pi a(\sin\theta)/\lambda]}{\pi a(\sin\theta)/\lambda}\bigg\}^2\,(36.7)$$
+[Pg 1219]
+##### Dark fringes single-slit diffraction2
+$$\frac{a\sin\theta}{\lambda}=m\,(m=\pm1,\pm2,\ldots)\,\sin\theta=\frac{m\lambda}{a}\,(m=\pm1,\pm2,\pm3,\ldots)\,(36.8)$$
+[Pg 1219]
+##### Intensity maxima single-slit pattern
+$$\beta\approx\pm(2m+1)\pi\,(m=0,1,2,\ldots)\,(36.9)$$
+[Pg 1219]
+##### Intenstiy side maxima single-slit pattern
+$$I_m\approx\frac{I_0}{(m+\frac{1}{2})^2\pi^2}\,(36.10)$$
+[Pg 1220]
+##### Position of minima single-slit pattern
+$$\theta_1=\frac{\lambda}{a}\,(36.11)$$
+[Pg 1220]
+##### Intensity two slit diffraction
+$$I=I_0\cos^2\frac{\phi}{2}\bigg[\frac{\sin(\beta/2)}{\beta/2}\bigg]^2\,(36.12)$$
+[Pg 1222]
+##### Intensity maxima multiple slits
+$$d\sin\theta=m\lambda\,(m=0,\pm1,\pm2,\ldots)\,(36.13)$$
+[Pg 1225]
+##### Chromatic resolving power
+$$R=\frac{\lambda}{\Delta\lambda}\,(36.14)$$
+[Pg 1226]
+##### Chromatic resolving power2
+$$R=\frac{\lambda}{\Delta\lambda}=Nm\,(36.15)$$
+[Pg 1228]
+##### Bragg condition for constructive interference from an array
+$$2d\sin\theta=m\lambda\,(m=1,2,3,\ldots)\,(36.16)$$
+[Pg 1229]
+##### Diffraction by a circular aperture
+$$\sin\theta_1=1.22\frac{\lambda}{D}\,(36.17)$$
+[Pg 1231]universal
+##### Angular radii dark rings circular aperture
+$$\sin\theta_2=2.23\frac{\lambda}{D}\,\sin\theta_3=3.24\frac{\lambda}{D}\,(36.18)$$
+[Pg 1231]
+##### Angular radii bright rings circular aperture
+$$\sin\theta=1.63\frac{\lambda}{D},\,2.68\frac{\lambda}{D},\,3.70\frac{\lambda}{D}\,(36.19)$$
+[Pg 1231]
+##### Hologram constructive interference
+$$b_m-b_0=\sqrt{b_0^2+r_m^2}-b_0=m\lambda\,(m=1,2,3,\ldots)\,(36.20)$$
+[Pg 1234]
+##### Hologram interference
+$$r_m=\sqrt{2m\lambda b_0}\,(m=1,2,3,\ldots)\,(36.21)$$
+[Pg 1235]
+##### Galilean coordinate transformation
+$$x=x^{'}+ut\,y=y^{'}\,z=z^{'}\,(37.1)$$
+[Pg 1247]
+##### Galilean velocity transformation
+$$v_x=v_x^{'}+u\,(37.2)$$
+[Pg 1248]
+##### Time dilation derivation1
+$$\Delta t_0=\frac{2d}{c}\,(37.3)$$
+[Pg 1251]
+##### Time dilation derivation2
+$$\Delta t=\frac{2l}{c}=\frac{2}{c}\sqrt{d^2+\bigg(\frac{u\Delta t}{2}\bigg)^2}\,(37.4)$$
+[Pg 1251]
+##### Time dilation derivation3
+$$\Delta t=\frac{2}{c}\sqrt{\bigg(\frac{c\,\Delta t_0}{2}\bigg)^2+\bigg(\frac{u\,\Delta t}{2}\bigg)^2}\,(37.5)$$
+[Pg 1251]
+##### Time dilation
+$$\Delta t=\frac{\Delta t_0}{\sqrt{1-u^2/c^2}}\,(37.6)$$
+[Pg 1251]
+##### Lorentz factor
+$$\gamma=\frac{1}{\sqrt{1-u^2/c^2}}\,(37.7)$$
+[Pg 1252]
+##### Time dilation2
+$$\Delta t=\gamma\Delta t_0\,(37.8)$$
+[Pg 1252]
+##### Length contraction derivation1
+$$\Delta t_0=\frac{2l_0}{c}\,(37.9)$$
+[Pg 1255]
+##### Length contraction derivation2
+$$d=l+u\Delta t_1\,(37.10)$$
+[Pg 1256]
+##### Length contraction derivation3
+$$d=c\Delta t_1\,(37.11)$$
+[Pg 1256]
+##### Length contraction derivation4
+$$\Delta t_1=\frac{l}{c-u}\,(37.12)$$
+[Pg 1256]
+##### Length contraction derivation5
+$$\Delta t_2=\frac{l}{c+u}\,(37.13)$$
+[Pg 1256]
+##### Length contraction derivation6
+$$\Delta t=\frac{l}{c-u}+\frac{l}{c+u}=\frac{2l}{c(1-u^2/c^2)}\,(37.14)$$
+[Pg 1256]
+##### Length contraction derivation7
+$$\Delta t\sqrt{1-\frac{u^2}{c^2}}=\frac{2l_0}{c}\,(37.15)$$
+[Pg 1256]
+##### Length contraction
+$$l=l_0\sqrt{1-\frac{u^2}{c^2}}=\frac{l_0}{\gamma}\,(37.16)$$
+[Pg 1256]
+##### Lorentz coordinate transformation derivation1
+$$x=ut+x^{'}\sqrt{1-\frac{u^2}{c^2}}\,(37.17)$$
+[Pg 1259]
+##### Lorentz coordinate transformation derivation2
+$$x^{'}=\frac{x-ut}{\sqrt{1-u^2/c^2}}\,(37.18)$$
+[Pg 1259]
+##### Lorentz coordinate transformation derivation3
+$$x^{'}=-ut^{'}+x\sqrt{1-\frac{u^2}{c^2}}\,(37.19)$$
+[Pg 1259]
+##### Lorentz coordinate transformation derivation4
+$$t^{'}=\frac{t-ux/c^2}{\sqrt{1-u^2/c^2}}\,(37.20)$$
+[Pg 1260]
+##### Lorentz coordinate transformation
+$$x^{'}=\frac{x-ut}{\sqrt{1-u^2/c^2}}=\gamma(x-ut)$$
+$$y^{'}=y\,(37.21)$$
+$$z^{'}=z$$
+$$t^{'}=\frac{t-ux/c^2}{\sqrt{1-u^2/c^2}}=\gamma(t-ux/c^2)$$
+[Pg 1260]
+##### Lorentz velocity transformation
+$$v_x^{'}=\frac{v_x-u}{1-uv_x/c^2}\,(37.22)$$
+[Pg 1260]
+##### Lorentz velocity transformation2
+$$v_x=\frac{v_x^{'}+u}{1+uv_x^{'}/c^2}\,(37.23)$$
+[Pg 1261]
+##### Doppler effect electromagnetic waves derivation
+$$f=\frac{c}{(c-u)T}\,(37.24)$$
+[Pg 1263]
+##### Doppler effect electromagnetic waves
+$$f=\sqrt{\frac{c+u}{c-u}}f_0\,(37.25)$$
+[Pg 1264]
+##### Doppler effect electromagnetic waves2
+$$f=\sqrt{\frac{c-u}{c+u}}f_0\,(37.26)$$
+[Pg 1264]
+##### Relativistic momentum
+$$\vec{p}=\frac{m\vec{v}}{\sqrt{1-v^2/c^2}}\,(37.27)$$
+[Pg 1265]
+##### Newton's 2nd law
+$$\vec{F}=\frac{d\vec{p}}{dt}\,(37.28)$$
+[Pg 1265]
+##### Relativistic Newton's 2nd law
+$$\vec{F}=\frac{d}{dt}\frac{m\vec{v}}{\sqrt{1-v^2/c^2}}\,(37.29)$$
+[Pg 1265]
+##### Relativistic force
+$$F=\frac{m}{(1-v^2/c^2)^{3/2}}a\,(37.30)$$
+[Pg 1265]
+##### Relativistic momentum2
+$$\vec{p}=\gamma m\vec{v}\,(37.31)$$
+[Pg 1266]
+##### Relativistic force2
+$$F=\gamma^3ma\,(37.32)$$
+[Pg 1266]
+##### Relativistic force perpendicular
+$$F=\frac{m}{(1-v^2/c^2)^{1/2}}a=\gamma ma\,(37.33)$$
+[Pg 1266]
+##### Relativistic work
+$$W=\int_{x_1}^{x_2}F\,dx=\int_{x_1}^{x_2}\frac{ma\,dx}{(1-v_x^2/c^2)^{3/2}}\,(37.34)$$
+##### Relativistic kinetic energy
+$$K=W=\int_0^v\frac{mv_xdv_x}{(1-v_x^2/c^2)^{3/2}}\,(37.35)$$
+[Pg 1268]
+##### Relativistic kinetic energy2
+$$K=\frac{mc^2}{\sqrt{1-v^2/c^2}}-mc^2=(\gamma-1)mc^2\,(37.36)$$
+[Pg 1268]
+##### Relativistic kinetic energy3
+$$K=\bigg(1+\frac{1}{2}\frac{v^2}{c^2}+\frac{3}{8}\frac{v^4}{c^4}+\cdots-1\bigg)mc^2=\frac{1}{2}mv^2+\frac{3}{8}\frac{mv^4}{c^2}+\cdots\,(37.37)$$
+[Pg 1268]
+##### Total Energy of a particle
+$$E=K+mc^2=\frac{mc^2}{\sqrt{1-v^2/c^2}}=\gamma mc^2\,(37.38)$$
+[Pg 1268]
+##### Total energy rest energy and momentum
+$$E^2=(mc^2)^2+(pc)^2\,(37.39)$$
+[Pg 1269]
+##### Energy zero rest mass
+$$E=pc\,(37.40)$$
+[Pg 1269]
+##### Maximum kinetic energy of photoelectrons
+$$W+{\text{tot}}=-eV_0=\Delta K=0-K_{\text{max}}$$
+$$K_{\text{max}}=\frac{1}{2}mv_{\text{max}}^2=eV_0\,(38.1)$$
+[Pg 1282]
 ##### Energy of a photon
 $$E=hf=\frac{hc}{\lambda}=\hbar\omega=h\nu(38.2)$$
-[Pg 1286] 
-##### De Broglie wavelength
+[Pg 1286]
+##### Photoelectric effect
+$$K_{\text{max}}=\frac{1}{2}mv_{\text{max}}^2=hf-\phi\,(38.3)$$
+[Pg 1284]
+##### Photoelectric effect2
+$$eV_0=hf-\phi\,(38.4)$$
+[Pg 1284]
+##### Momentum of a photon
+$$p=\frac{E}{c}=\frac{hf}{c}=\frac{h}{\lambda}\,(38.5)$$
+[Pg 1285]
+##### Bremsstrahlung
+$$eV_{\text{AC}}=hf_{\text{max}}=\frac{hc}{\lambda_{\text{min}}}\,(38.6)$$
+[Pg 1288]
+##### Compton scattering
+$$\lambda^{'}-\lambda=\frac{h}{mc}(1-\cos\phi)\,(38.7)$$
+[Pg 1291]
+##### Compton scattering2
+$$(pc-p^{'}c+mc^2)^2=E_c^2=(mc^2)^2+(P_ec)^2\,(38.8)$$
+[Pg 1291]
+##### Compton scattering3
+$$\vec{P}_c=\vec{p}-\vec{p}^{'}\,(38.9)$$
+[Pg 1291]
+##### Compton scattering4
+$$P_e^2=p^2+p^{'2}-2pp^{'}\cos\phi\,(38.10)$$
+[Pg 1291]
+##### Compton scattering5
+$$\frac{mc}{p^{'}}-\frac{mc}{p}=1-\cos\phi\,(38.11)$$
+[Pg 1291]
+##### Single slit minima1 angle
+$$\theta_1=\frac{\lambda}{a}\,(38.12)$$
+[Pg 1295]
+##### Single slit minima1 calculation
+$$p_y=p_z\theta_1\,(38.13)$$
+[Pg 1295]
+##### Single slit minima1 calculation2
+$$p_y=p_x\frac{\lambda}{a}\,(38.14)$$
+[Pg 1295]
+##### Single slit minima1 calculation3
+$$\Delta p_y\ge p_x\frac{\lambda}{a}(38.15)$$
+[Pg 1295]
+##### Single slit minima1 calculation4
+$$\Delta p_y\ge p_x\frac{h}{p_xa}=\frac{h}{a}$$
+$$\Delta p_ya\ge h\,(38.16)$$
+[Pg 1295]
+##### Heisenberg uncertainty principle for position and momentum
+$$\Delta x\Delta p_x\ge\hbar/2\,(38.17)$$
+[Pg 1296]
+##### Wave equation
+$$E_y(x,t)=A\sin(kx-\omega t)\,(38.18)$$
+[Pg 1297]
+##### Photon momentum in terms of wave number
+$$p_x=\frac{h}{\lambda}=\frac{h}{2\pi}\frac{2\pi}{\lambda}=\hbar k\,(38.19a)$$
+[Pg 1297]
+##### Photon energy in terms of angular frequency
+$$E=hf=\frac{h}{2\pi}2\pi f=\hbar\omega\,(38.19b)$$
+[Pg 1297]
+##### Wave function for photon x momentum
+$$E_y(x,t)=A\sin[p_xx-Et)/\hbar]\,(38.20)$$
+[Pg 1297]
+##### Total wave function
+$$E_y(x,t)=A_1\sin[(p_{1x}x-E_1t)/\hbar]+A_2\sin[(p_{2x}x-E_2t)/\hbar]\,(38.21)$$
+[Pg 1298]
+##### Wave function t=0
+$$E_y(x,t=0)=A_1\sin(p_{1x}x/\hbar)+A_2\sin(p_{2x}x/\hbar)\,(38.22)$$
+[Pg 1297]
+##### Wave function x=0
+$$E_y(x,t)=A_1\sin(-E_1t/\hbar)+A_2\sin(-E_2t/\hbar)=-A_1\sin(E_1t/\hbar)-A_2\sin(E_2t/\hbar)\,(38.23)$$
+[Pg 1298]
+##### Heisenberg uncertainty principle for energy and time
+$$\Delta t\Delta E\ge\hbar/2\,(38.24)$$
+[Pg 1298]
+##### De Broglie wavelength of a particle
 $$\lambda=\frac{h}{p}=\frac{h}{mv}(39.1)$$
-[Pg 1304]  
+[Pg 1308]
+##### Energy of a particle
+$$E=hf\,(39.2)$$
+[Pg 1308]
+##### De Broglie wavelength of an electron
+$$\lambda=\frac{h}{p}=\frac{h}{\sqrt{2meV_{ba}}}\,(39.3)$$
+[Pg 1309]
+##### Angle for maximum reflection
+$$d\sin\theta=m\lambda\,(m=1,2,3,\ldots)\,(39.4)$$
+[Pg 1309]
+##### Energy of emitted photon
+$$hf=\frac{hc}{\lambda}=E_i-E_f\,(39.5)$$
+[Pg 1318]
 ##### Quantization of angular momentum
-$$L_n=mv_nr_n=n\frac{h}{2\pi}(39.6)$$
-[Pg 1322]  
+$$L_n=mv_nr_n=n\frac{h}{2\pi}\,(39.6)$$
+[Pg 1322]
 ##### Coulomb force balances centripital
-$$\frac{1}{4\pi\epsilon_0}\frac{e^2}{r_n^2}=\frac{mv_n^2}{r_n}(39.7)$$
-[Pg 1322] 
+$$\frac{1}{4\pi\epsilon_0}\frac{e^2}{r_n^2}=\frac{mv_n^2}{r_n}\,(39.7)$$
+[Pg 1323]
 39.6 and 39.7 solved simultaneously gives 39.8 and 39.9
 ##### Radius of nth orbit in the Bohr model
-$$r_n=\epsilon_0\frac{n^2h^2}{\pi me^2}(39.8)$$
-[Pg 1323]  
+$$r_n=\epsilon_0\frac{n^2h^2}{\pi me^2}\,(39.8)$$
+[Pg 1323]
 ##### Orbital speed in nth orbit in the Bohr model
-$$v_n=\frac{1}{\epsilon_0}\frac{e^2}{2nh}(39.9)$$
-[Pg 1323]   
+$$v_n=\frac{1}{\epsilon_0}\frac{e^2}{2nh}\,(39.9)$$
+[Pg 1323]
+##### Bohr radius
+$$a_0=\epsilon_0\frac{h^2}{\pi me^2}\,(39.10)$$
+[Pg 1323]
+##### Radius of nth orbit in the Bohr model
+$$r_n=n^2a_0\,(39.11)$$
+[Pg 1323]
 ##### Kinetic energies in the Bohr model
-From 39.8 and 39.9 $$K_n=\frac{1}{2}mv_n^2=\frac{1}{\epsilon_0^2}\frac{me^4}{8n^2h^2}(39.12)$$
-[Pg 1323]   
-##### Potential energies in the Bohr model 
-$$U_n=-\frac{1}{4\pi\epsilon_0}\frac{e^2}{r_n}=\frac{1}{\epsilon_0^2}\frac{me^4}{4n^2h^2}(39.13)$$
-[Pg 1323]   
+From 39.8 and 39.9 $$K_n=\frac{1}{2}mv_n^2=\frac{1}{\epsilon_0^2}\frac{me^4}{8n^2h^2}\,(39.12)$$
+[Pg 1323]
+##### Potential energies in the Bohr model
+$$U_n=-\frac{1}{4\pi\epsilon_0}\frac{e^2}{r_n}=\frac{1}{\epsilon_0^2}\frac{me^4}{4n^2h^2}\,(39.13)$$
+[Pg 1323]
+##### Total energies in the Bohr model
+$$E_n=K_n+U_n=-\frac{1}{\epsilon_0^2}\frac{me^4}{8n^2h^2}\,(39.14)$$
+[Pg 1324]
 ##### Total Energy for nth orbit in Bohr model
-$E_n=-\frac{hcR}{n^2}$ where $R=\frac{me^4}{8\epsilon_0h^3c}(39.15)$
-[Pg 1324]   
+$$E_n=-\frac{hcR}{n^2}\text{ where }R=\frac{me^4}{8\epsilon_0h^3c}\,(39.15)$$
+[Pg 1324]
+##### Hydrogen wavelengths in the Bohr model
+$$\frac{hc}{\lambda}=E_{nU}-E_{nL}=\bigg(-\frac{hcR}{n_U^2}\bigg)-\bigg(-\frac{hcR}{n_L^2}\bigg)=hcR\bigg(\frac{1}{n_L^2}-\frac{1}{n_U^2}\bigg)$$
+$$\frac{1}{\lambda}=R\bigg(\frac{1}{n_L^2}-\frac{1}{n_U^2}\bigg)\,(39.16)$$
+[Pg 1325]
+##### Reduced Mass
+$$m_r=\frac{m_1m_2}{m+1+m_2}\,(39.17)$$
+[Pg 1326]
+##### Ratio atoms ground state excited state
+$$\frac{n_{ex}}{n_R}=\frac{Ae^{-E_{ex}/kT}}{Ae^{-E_g/kT}}=e^{-(E_{ex}-E_g)/kT}\,(39.18)$$
+[Pg 1329]
 ##### Stefan-Boltzmann law for a blackbody
-$$I=\sigma T^4(39.19)$$
-[Pg 1331]   
+$$I=\sigma T^4\,(39.19)$$
+[Pg 1331]
+##### Total intensity blackbody
+$$I=\int_0^{\infty}I(\lambda)\,dA\,(39.20)$$
+[Pg 1331]
 ##### Wien displacement law for a blackbody
-$$\lambda_mT=2.90\times10^{-3}m\cdot K(39.21)$$
-[Pg 1332]   
+$$\lambda_mT=2.90\times10^{-3}m\cdot K\,(39.21)$$
+[Pg 1332]
+##### Rayleigh's calculation
+$$I(\lambda)=\frac{2\pi ckT}{\lambda^4}\,(39.22)$$
+[Pg 1332]
+##### Ratio of oscillator states black body
+$$\frac{n_1}{n_0}=\frac{Ae^{-h/kT}}{Ae^{-(0)/kT}}=e^{-h/kT}\,(39.23)$$
+[Pg 1333]
 ##### Planck radiation law
-$$I(\lambda)=\frac{2\pi hc^2}{\lambda^5(e^{hc\lambda kT}-1)}(39.24)$$
-[Pg 1334]   
+$$I(\lambda)=\frac{2\pi hc^2}{\lambda^5(e^{hc\lambda kT}-1)}\,(39.24)$$
+[Pg 1334]
+##### Maximum wavelength Planck radiation law
+$$\lambda_m=\frac{hc}{4.965kT}\,(39.25)$$
+[Pg 1334]
+##### Maximum wavelength Planck radiation calculation
+$$5-x=5e^{-x}\,(39.26)$$
+[Pg 1334]
+##### Intensity Planck radiation
+$$I=\int_0^{\infty}I(\lambda)\,d\lambda=\frac{2\pi^5k^4}{15c^2h^3}T^4=\sigma T^4\,(39.27)$$
+[Pg 1334]
+##### Stefan-Boltzmann constant
+$$\sigma=\frac{2\pi^5k^4}{15c^2h^3}\,(39.28)$$
+[Pg 1334]
+##### Heisenberg uncertainty principle for position and momentum
+$$\Delta x\Delta p_x\ge\hbar/2$$
+$$\Delta y\Delta p_y\ge\hbar/2\,(39.29)$$
+$$\Delta z\Delta p_z\ge\hbar/2$$
+[Pg 1337]
+##### Heisenberg uncertainty principle for energy and time interval
+$$\Delta t\Delta E\ge\hbar/2\,(39.30)$$
+[Pg 1337]
+##### Wave equation for waves on string
+$$\frac{\partial^2y(x,t)}{\partial x^2}=\frac{!}{v^2}\frac{\partial^2y(x,t)}{\partial t^2}\,(40.1)$$
+[Pg 1350]
+##### Sinusoidal wave on a string
+$$y(x,t)=A\cos(kx-\omega t)+B\sin(kx-\omega t)\,(40.2)$$
+[Pg 1350]
+##### Satisfying wave equation derivation1
+$$\frac{\partial(x,t)}{\partial x}=-kA\sin(kx-\omega t)+kB\cos(kx-\omega t)\,(40.3a)$$
+[Pg 1351]
+##### Satisfying wave equation derivation2
+$$\frac{\partial^2y(x,t)}{\partial x^2}=-k^2A\cos(kx-\omega t)-k^2B\sin(kx-\omega t)\,(40.3b)$$
+[Pg 1351]
+##### Satisfying wave equation derivation3
+$$\frac{\partial y(x,t)}{\partial t}=\omega A\sin(kx-\omega t)-\omega B\cos(kx-\omega t)\,(40.3c)$$
+[Pg 1351]
+##### Satisfying wave equation derivation4
+$$\frac{\partial^2 y(x,t)}{\partial t^2}=-\omega^2 A\cos(kx-\omega t)-\omega^2 B\sin(kx-\omega t)\,(40.3d)$$
+[Pg 1351]
+##### Satisfying wave equation derivation5
+$$-k^2A\cos(kx-\omega t)=k^2B\sin(kx-\omega t)=\frac{1}{v^2}[-\omega^2A\cos(kx-\omega t)-\omega^2B\sin(kx-\omega t)]\,(40.4)$$
+[Pg 1351]
+##### Wave equation condition
+$$k^2=\frac{\omega^2}{v^2}\text{ or }\omega=vk\,(40.5)$$
+[Pg 1351]
+##### Energy of a free particle
+$$E=\frac{1}{2}mv^2=\frac{m^2v^2}{2m}=\frac{(mv)^2}{2m}=\frac{p^2}{2m}\,(40.6)$$
+[Pg 1351]
+##### De Broglie relationship energy and angular frequency
+$$E=hf=\frac{h}{2\pi}2\pi f=\hbar\omega\,(40.7a)$$
+[Pg 1351]
 ##### De Broglie relationship momentum and wavenumber
-$$p=\frac{h}{\lambda}=\frac{h}{2\pi}\frac{2\pi}{\lambda}=\frac{\hbar}{k}(40.7b)$$
-[Pg 1347]  
+$$p=\frac{h}{\lambda}=\frac{h}{2\pi}\frac{2\pi}{\lambda}=\frac{\hbar}{k}\,(40.7b)$$
+[Pg 1351]
+##### Angular frequency wavenumber relationship
+$$\hbar\omega=\frac{\hbar^2k^2}{2m}\,(40.8)$$
+[Pg 1352]
+##### Sinusoidal wave function representing a free particle
+$$\Psi(x,t)=A\cos(kx-\omega t)+B\sin(kx-\omega t)\,(40.9)$$
+[Pg 1352]
+##### Wave function derivation1
+$$-\frac{\hbar^2}{2m}\frac{\partial^2\Psi(x,t)}{\partial x^2}=-\frac{\hbar^2}{2m}[-k^2A\cos(kx-\omega t)-k^2B\sin(kx-\omega t)]=\frac{\hbar^2k^2}{2m}[A\cos(kx-\omega t)+B\sin(kx-\omega t)]=\frac{\hbar^2k^2}{2m}\Psi(x,t)\,(40.10)$$
+[Pg 1352]
+##### Wave function derivation2
+$$-\frac{\hbar^2}{2m}\frac{\partial^2\Psi(x,t)}{\partial x^2}=C\hbar\frac{\partial\Psi(x,t)}{\partial t}\,(40.11)$$
+[Pg 1352]
+##### Wave function derivation3
+$$\frac{\hbar^2k^2}{2m}[A\cos(kx-\omega t)+B\sin(kx-\omega t)]=C\hbar\omega[A\sin(kx-\omega t)-B\cos(kx-\omega t)]\,(40.12)$$
+[Pg 1352]
+##### Wave function derivation4
+$$A\cos(kx-\omega t)+B\sin(kx-\omega t)=CA\sin(kx-\omega t)-CB\cos(kx-\omega t)\,(40.13)$$
+[Pg 1352]
+##### Wave function coefficient equivalence1
+$$A=-CB\,(40.14a)$$
+[Pg 1353]
+##### Wave function coefficient equivalence1
+$$B=CA\,(40.14b)$$
+[Pg 1353]
+##### 1D Schrodinger equation for a free particle
+$$-\frac{\hbar^2}{2m}\frac{\partial^2\Psi(x,t)}{\partial x^2}=i\hbar\frac{\partial\Psi(x,t)}{\partial t}\,(40.15)$$
+[Pg 1353]
+##### Sinusoidal wave function representing a free particle
+$$\Psi(x,t)=A[\cos(kx-\omega t)+i\sin(kx-\omega t)]\,(40.16)$$
+[Pg 1353]
+##### Euler's formula
+$$e^{i\theta}=\cos\theta+i\sin\theta$$
+$$e^{-i\theta}=\cos(-\theta)+i\sin(-\theta)=\cos\theta-i\sin\theta\,(40.17)$$
+[Pg 1353]
+##### Sinusoidal wave function representing a free particle
+$$\Psi(x,t)=Ae^{i(kx-\omega t)}=Ae^{ikx}e^{-i\omega t}\,(40.18)$$
+[Pg 1353]
+##### Wave packet
+$$\Psi(x,t)=\int_{-\infty}^{\infty}A(k)e^{i(kx-\omega t)}dk\,(40.19)$$
+[Pg 1356]
 ##### General one-dimensional Schrodinger equation
-$$-\frac{\hbar^2}{2m}\frac{\partial^2\Psi(x,t)}{\partial x^2}+U(x)\Psi(x,t)=i\hbar\frac{\partial\Psi(x,t)}{\partial t}(40.20)$$
-[Pg 1357]    
+$$-\frac{\hbar^2}{2m}\frac{\partial^2\Psi(x,t)}{\partial x^2}+U(x)\Psi(x,t)=i\hbar\frac{\partial\Psi(x,t)}{\partial t}\,(40.20)$$
+[Pg 1357]
 ##### Time-dependent wave function for a state of definite energy
-$$\Psi(x,t)=\psi(x)e^{-iEt\hbar}(40.21)$$
-[Pg 1357]  
-##### Time independent 1D Schrodinger equation
-$$-\frac{\hbar^2}{2m}\frac{d^2\psi(x)}{dx^2}+U(x)\psi(x)=E\psi(x)(40.23)$$
-[Pg 1354]  
+$$\Psi(x,t)=\psi(x)e^{-iEt\hbar}\,(40.21)$$
+[Pg 1357]
+##### Time-dependent wave function for a state of definite energy
+$$\Psi(x,t)=\psi(x)e^{-iEt\hbar}\,(40.21)$$
+[Pg 1357]
+##### Probability distribution function
+$$|\Psi(x,t)|^2=\Psi^*(x,t)\Psi(x,t)=[\psi^{*}(x)e^{+iEt/\hbar}][\psi(x)e^{-iEt/\hbar}]=\psi^{*}(x)\psi(x)e^{(+iEt/\hbar)+(-iEt/\hbar)}=|\psi(x)|^2e^0=|\psi(x)|^2\,(40.22)$$
+[Pg 1358]
 ##### Time-independent one-dimensional Schrodinger equation
-$$-\frac{\hbar^2}{2m}\frac{d^2\psi(x)}{dx^2}+U(x)\psi(x)=E\psi(x)(40.23)$$
-[Pg 1358]   
+$$-\frac{\hbar^2}{2m}\frac{d^2\psi(x)}{dx^2}+U(x)\psi(x)=E\psi(x)\,(40.23)$$
+[Pg 1358]
+##### Wave function and energies particle in a box
+$$\psi(x)=Ae^{ikx}\text{  }E=\frac{\hbar^2k^2}{2m}\,(40.24)$$
+[Pg 1359]
+##### Wave function particle in a box
+$$-\frac{\hbar^2}{2m}\frac{d^2\psi(x)}{dx^2}=E\psi(x)\,(40.25)$$
+[Pg 1360]
+##### Superposition two wave functions
+$$\psi(x)=A_1e^{ikx}+A_2e^{-ikx}\,(40.26)$$
+[Pg 1360]
+##### Verify wave function satisfies boundary conditions
+$$\psi(x)=A_1(\cos kx+i\sin kx)+A_2[\cos(-kx)+i\sin(-kx)]=A_1(\cos kx+i\sin kx)+A_2(\cos kx-i\sin kx)=(A_1+A_2)\cos kx+i(A_1-A_2)\sin kx\,(40.27)$$
+[Pg 1360]
+##### Verify wave function satisfies boundary conditions2
+$$\psi(x)=2iA_1\sin kx=C\sin kx\,(40.28)$$
+[Pg 1360]
+##### Possible values k and lambda
+$$k=\frac{n\pi}{L}\text{ and }\lambda=\frac{2\pi}{k}=\frac{2L}{n}\,(n=1,2,3,\ldots)\,(40.29)$$
+[Pg 1360]
+##### Momentum particle in a box
+$$p_n=\frac{h}{\lambda_n}=\frac{nh}{2L}\,(40.30)$$
+[Pg 1361]
 ##### Energy levels for a particle in a box
-$$E_n=\frac{p_n^2}{2m}=\frac{n^2h^2}{8mL^2}=\frac{n^2\pi^2\hbar^2}{2mL^2}\,(n=1,2,3...)(40.31)$$
-[Pg 1357]   
+$$E_n=\frac{p_n^2}{2m}=\frac{n^2h^2}{8mL^2}=\frac{n^2\pi^2\hbar^2}{2mL^2}\,(n=1,2,3...)\,(40.31)$$
+[Pg 1361]
+##### Eigenfunctions particle in box
+$$\psi_n(x)=C\sin\frac{n\pi x}{L}\,(n=1,2,3,\ldots)\,(40.32)$$
+[Pg 1361]
 ##### Normalization condition time independent wave functio
-$$\int_{-\infty}^{\infty}|\psi(x)|^2\,dx=1(40.33)$$
-[Pg 1362]  
+$$\int_{-\infty}^{\infty}|\psi(x)|^2\,dx=1\,(40.33)$$
+[Pg 1362]
+##### Normalization particle in a box
+$$\int_0^LC^2\sin^2\frac{n\pi x}{L}dx=1\,(40.34)$$
+[Pg 1363]
 ##### Stationary state wave functions for a particle in a box
-$$\psi_n(x)=\sqrt{\frac{2}{L}}\sin\frac{n\pi x}{L} (n=1.2.3,...)(40.35)$$
-[Pg 1363]  
+$$\psi_n(x)=\sqrt{\frac{2}{L}}\sin\frac{n\pi x}{L} (n=1.2.3,\ldots)\,(40.35)$$
+[Pg 1363]
+##### Time dependent stationary wave particle in box
+$$\Psi_n(x,t)=\sqrt{\frac{2}{L}}\sin\bigg(\frac{n\pi x}{L}\bigg)e^{-iE_nt/\hbar}\,(n=1,2,3,\ldots)\,(40.36)$$
+[Pg 1363]
+##### Time independent Schrodinger equation square well
+$$-\frac{\hbar^2}{2m}\frac{d^2\psi(x)}{dx^2}=E\psi(x)\text{ or }\frac{d^2\psi(x)}{dx^2}=\frac{2mE}{\hbar^2}\psi(x)\,(40.37)$$
+[Pg 1364]
+##### Stationary states inside square well
+$$\psi(x)=A\cos\bigg(\frac{\sqrt{2mE}}{\hbar}x\bigg)+B\sin\bigg(\frac{\sqrt{2mE}}{\hbar}x\bigg)\,(40.38)$$
+[Pg 1364]
+##### Time independent Schrodinger equation outside square well
+$$-\frac{\hbar^2}{2m}\frac{d^2\psi(x)}{dx^2}+U_0\psi(x)=E\psi(x)\text{ or }\frac{d^2\psi(x)}{dx^2}=\frac{2m(U_0-E)}{\hbar^2}\psi(x)\,(40.39)$$
+[Pg 1365]
+##### Sationary states outside square well
+$$\psi(x)=Ce^{\kappa x}+De^{-\kappa x}\,(40.40)$$
+[Pg 1365]
+##### Ground level energy infinitely deep well
+$$E_{1-\text{IDW}}=\frac{\pi^2\hbar^2}{2mL^2}\,(40.41)$$
+[Pg 1366]
+##### Probability of tunneling
+$$T=Ge^{-2\kappa L}\text{ were }G=16\frac{E}{U_0}\bigg(1-\frac{E}{U_0}\bigg)\text{ and }\kappa=\frac{\sqrt{2m(U_0-E)}}{\hbar}\,(40.42)$$
+[Pg 1369]
+##### Energy spacing harmonic oscillator
+$$hf+\hbar\omega=\hbar\sqrt{\frac{k^{'}}{m}}\,(40.43)$$
+[Pg 1371]
+##### Schrodinger equation for the harmonic oscillator
+$$-\frac{\hbar^2}{2m}\frac{d^2\psi(x)}{dx^2}+\frac{1}{2}k^{'}x^2\psi(x)=E\psi(x)\,(40.44)$$
+[Pg 1371]
+##### Schrodinger equation for the harmonic oscillator2
+$$\frac{d^2\psi(x)}{dx^2}=\frac{2m}{\hbar^2}(\frac{1}{2}k^{'}x^2-E)\psi(x)\,(40.45)$$
+[Pg 1372]
 ##### Energy levels for a harmonic oscillator
-$$E_n=(n+\frac{1}{2})\hbar\sqrt{\frac{k'}{m}}=(n+\frac{1}{2})\hbar\omega\, (n=0,1,2,...)(40.46)$$
-[Pg 1372]   
+$$E_n=(n+\frac{1}{2})\hbar\sqrt{\frac{k'}{m}}=(n+\frac{1}{2})\hbar\omega\, (n=0,1,2,...)\,(40.46)$$
+[Pg 1372]
+##### Wave function ground level harmonic oscillator
+$$\psi(x)=Ce^{-\sqrt{mk^{'}}x^2/2\hbar}\,(40.47)$$
+[Pg 1373]
+##### Newtonian harmonic oscillator amplitude
+$$\frac{1}{2}k^{'}A^2=(n+\frac{1}{2})\hbar\omega\,(40.48)$$
+[Pg 1373]
+##### x component momentum newtonian particle in box
+$$p_x=+\sqrt{2mE}\text{ or }p_x=-\sqrt{2mE}\,(40.49)$$
+[Pg 1375]
+##### Wave function particle in a box
+$$\Psi(x,t)=\psi_n(x)e^{-iE_nt/\hbar}=\psi_n(x)e^{-i\omega_nt}\,(40.50)$$
+[Pg 1376]
+##### Time independent stationary state wave function particle in box
+$$\psi_n(x)=\sqrt{\frac{2}{L}}\sin\frac{n\pi x}{L}\,(40.51)$$
+[Pg 1376]
+##### Time independent stationary state wave function particle in box2
+$$\psi_n(x)=\sqrt{\frac{2}{L}}\bigg(\frac{e^{ik_nx}-e^{-ik_nx}}{2i}\bigg)=\frac{1}{i\sqrt{2L}}(e^{ik_nx}-e^{-ik_nx})\,(40.52)$$
+[Pg 1376]
+##### Time independent stationary state wave function particle in box2
+$$\Psi(x,t)=\frac{1}{i\sqrt{2L}}(e^{ik_nx}-e^{-ik_nx})e^{-i\omega_nt}=\frac{1}{i\sqrt{2L}}e^{ik_nx}e^{-i\omega_nt}-\frac{1}{i\sqrt{2L}}e^{-ik_nx}e^{-i\omega_nt}\,(40.53)$$
+[Pg 1376]
+##### Particle in 3D momentum components
+$$K=\frac{p_x^2}{2m}+\frac{p_y^2}{2m}+\frac{p_z^2}{2m}\,(41.1)$$
+[Pg 1389]
+##### General 3D Schrodinger equation
+$$-\frac{\hbar^2}{2m}\bigg(\frac{\partial^2\Psi(x,y,z,t)}{\partial x^2}+\frac{\partial^2\Psi(x,y,z,t)}{\partial y^2}+\frac{\partial^2\Psi(x,y,z,t)}{\partial z^2}\bigg)+U(x,y,z)\Psi(x,y,z,t)=i\hbar\frac{\partial\Psi(x,y,z,t)}{\partial t}\,(41.2)$$
+[Pg 1389]##### Normalization condition in 3D
+$$\int|\Psi(x,y,z,t)|^2dV=1\,(41.3)$$
+[Pg 1389]
+##### Time dependent wave function for a state of definite energy
+$$\Psi(x,y,z,t)=\psi(x,y,z)e^{-iEt/\hbar}\,(41.4)$$
+[Pg 1389]
 ##### Time-independent three dimensional Schrodinger equation
-$$-\frac{\hbar^2}{2m}\Bigg(\frac{\partial^2\psi(x,y,z)}{\partial x^2}+\frac{\partial\psi(x,y,z)}{\partial y^2}+\frac{\partial^2(x,y,z)}{\partial z^2}\Bigg)+U(x,y,z)\psi(x,y,z)=E\psi(x,y,z)(41.5)$$
-[Pg 1389]  
+$$-\frac{\hbar^2}{2m}\Bigg(\frac{\partial^2\psi(x,y,z)}{\partial x^2}+\frac{\partial\psi(x,y,z)}{\partial y^2}+\frac{\partial^2(x,y,z)}{\partial z^2}\Bigg)+U(x,y,z)\psi(x,y,z)=E\psi(x,y,z)\,(41.5)$$
+[Pg 1389]
+##### Normalization condition stationary state 3D
+$$\int|\psi(x,y,z)|^2dV=1\,(41.6)$$
+[Pg 1390]
+##### Schrodinger equation particle in 3D box
+$$-\frac{\hbar^2}{2m}\bigg(\frac{\partial^2\psi(x,y,z)}{\partial x^2}+\frac{\partial^2\psi(x,y,z)}{\partial y^2}+\frac{\partial^2\psi(x,y,z)}{\partial z^2}\bigg)=E\psi(x,y,z)\,(41.7)$$
+[Pg 1390]
+##### Seperation of variables Schrodinger 3D
+$$\psi(x,y,z)=X(x)Y(y)Z(z)\,(41.8)$$
+[Pg 1391]
+##### Solve Schrodinger equation particle in 3D box
+$$-\frac{\hbar^2}{2m}\bigg(Y(y)Z(z)\frac{d^2X(x)}{dx^2}+X(x)Z(z)\frac{d^2Y(y)}{dy^2}+X(x)Y(y)\frac{d^2Z(z)}{dz^2}\bigg)=EX(x)Y(y)Z(z)\,(41.9)$$
+[Pg 1391]
+##### Solve Schrodinger equation particle in 3D box2
+$$\bigg(-\frac{\hbar^2}{2m}\frac{1}{X(x)}\frac{d^2X(x)}{dx^2}\bigg)+\bigg(-\frac{\hbar^2}{2m}\frac{1}{Y(y)}\frac{d^2Y(y)}{dy^2}\bigg)+\bigg(-\frac{\hbar^2}{2m}\frac{1}{Z(z)}\frac{d^2Z(z)}{dz^2}\bigg)=E\,(41.10)$$
+[Pg 1391]
+##### Solve Schrodinger equation particle in 3D box3
+$$-\frac{\hbar^2}{2m}\frac{d^2X(x)}{dx^2}=E_XX(x)\,(41.11a)$$
+[Pg 1391]
+##### Solve Schrodinger equation particle in 3D box3b
+$$-\frac{\hbar^2}{2m}\frac{d^2Y(y)}{dy^2}=E_YY(y)\,(41.11b)$$
+[Pg 1391]
+##### Solve Schrodinger equation particle in 3D box3c
+$$-\frac{\hbar^2}{2m}\frac{d^2Z(z)}{dz^2}=E_ZZ(z)\,(41.11c)$$
+[Pg 1391]
+##### Energy particle in 3D box
+$$E_X+E_Y+E_Z=E\,(41.12)$$
+[Pg 1391]
+##### Eigenfunctions particle in 3D box a
+$$X_{n_X}(x)=C_X\sin\frac{n_X\pi x}{L}\,(n_X=1,2,3,\ldots)\,(41.13a)$$
+[Pg 1392]
+##### Eigenfunctions particle in 3D box b
+$$Y_{n_Y}(y)=C_Y\sin\frac{n_Y\pi y}{L}\,(n_Y=1,2,3,\ldots)\,(41.13b)$$
+[Pg 1392]
+##### Eigenfunctions particle in 3D box c
+$$Z_{n_Z}(z)=C_Z\sin\frac{n_Z\pi z}{L}\,(n_Z=1,2,3,\ldots)\,(41.13c)$$
+[Pg 1392]
+##### Energy eigenvalues particle in 3D box
+$$E_X=\frac{n_X^2\pi^2\hbar^2}{2mL^2}\,(n_X=1,2,3,\ldots)\,(41.14a)$$
+[Pg 1392]
+##### Energy eigenvalues particle in 3D box2
+$$E_Y=\frac{n_Y^2\pi^2\hbar^2}{2mL^2}\,(n_Y=1,2,3,\ldots)\,(41.14b)$$
+[Pg 1392]
+##### Energy eigenvalues particle in 3D box3
+$$E_Z=\frac{n_Z^2\pi^2\hbar^2}{2mL^2}\,(n_Z=1,2,3,\ldots)\,(41.14c)$$
+[Pg 1392]
+##### Stationary state wave function particle in 3D box
+$$\psi_{n_X,n_Y,n_Z}(x,y,z)=C\sin\frac{n_X\pi x}{L}\sin\frac{n_Y\pi y}{L}\sin\frac{n_Z\pi z}{L}\,(n_X=1,2,3,\ldots;n_Y=1,2,3,\ldots;n_Z=1,2,3,\ldots)\,(41.15)$$
+[Pg 1392]
 ##### Energy levels, particle in a three dimensional cubical box
-$$E_{n_x,n_y,n_z}=\frac{(n_x^2+n_y^2+n_z^2)\pi^2\hbar^2}{2mL^2}(41.16)$$
-[Pg 1394]  
+$$E_{n_x,n_y,n_z}=\frac{(n_x^2+n_y^2+n_z^2)\pi^2\hbar^2}{2mL^2}\,(41.16)$$
+[Pg 1394]
+##### Energy levels, particle in a 3D box side lengths
+$$E_{n_X,n_Y,n_Z}=\bigg(\frac{n_X^2}{L_X^2}+\frac{n_Y^2}{L_Y^2}+\frac{n_Z^2}{L_Z^2}\bigg)\frac{\pi^2\hbar^2}{2m}\,(n_X=1,2,3,\ldots;n_Y=1,2,3,\ldots;n_Z=1,2,3,\ldots)\,(41.17)$$
+[Pg 1395]
+##### Potential energy hydrogen atom
+$$U(r)=-\frac{1}{4\pi\epsilon_0}\frac{e^2}{r}\,(41.18)$$
+[Pg 1396]
+##### Schrodinger equation hydrogen separation of variable
+$$/psi(r,\theta,\phi)=R(r)\Theta(\theta)\Phi(\phi)\,(41.19)$$
+[Pg 1396]
+##### Schrodinger equation hydrogen atom eigen problems
+$$-\frac{\hbar^2}{2m_rr^2}\frac{d}{dr}\bigg(r^2\frac{dR(r)}{dr}\bigg)+\bigg(\frac{\hbar^2l(l+1)}{2m_rr^2}+U(r)\bigg)R(r)=ER(r)\,(41.20a$$
+$$\frac{1}{\sin\theta}\frac{d}{d\theta}\bigg(\sin\theta\frac{d\Theta(\theta)}{d\theta}\bigg)+\bigg(l(l+1)-\frac{m_l^2}{\sin^2\theta}\bigg)\Theta(\theta)=0\,(41.20b)$$
+$$\frac{d^2\Phi(\phi)}{d\phi^2}+m_l^2\Phi(\phi)=0\,(41.20c)$$
+[Pg 1396]
 ##### Energy levels of hydrogen
 $$E_n=-\frac{1}{(4\pi\epsilon_0)^2}\frac{m_re^4}{2n^2\hbar^2}=-\frac{13.6eV}{n^2}(41.21)$$
-[Pg 1393]   
+[Pg 1397]
 ##### Magnitude of orbital angular momentum hydrogen atom
-$$L=\sqrt{l(l+1)}\hbar\,(l=0,1,2,...n-1)(41.22)$$
-[Pg 1393]   
+$$L=\sqrt{l(l+1)}\hbar\,(l=0,1,2,...n-1)\,(41.22)$$
+[Pg 1397]
 ##### z component of orbital angular momentum hydrogen atom
-$$L_z=m_l\hbar\,(m_l=0,\pm 1\pm 2...\pm l)(41.23)$$
-[Pg 1393]   
-##### probability electron is between r and r+dr
-$$P(r)dr=|\psi|^2dV=|\psi|^24\pi r^2\,dr(41.25)$$
-[Pg 1397]  
-##### Radius of smalest orbit in Bohr model
-$$a=\frac{\epsilon_0h^2}{\pi m_re^2}=\frac{4\pi\epsilon_0\hbar^2}{m_re^2}=5.29\times 10^{11}m(41.26)$$
-[Pg 1397]  
+$$L_z=m_l\hbar\,(m_l=0,\pm 1\pm 2...\pm l)\,(41.23)$$
+[Pg 1397]
+##### Volume element electron probability distribution
+$$dV=4\pi r^2\,dr\,(41.24)$$
+[Pg 1400]
+##### Probability electron is between r and r+dr
+$$P(r)dr=|\psi|^2dV=|\psi|^24\pi r^2\,dr\,(41.25)$$
+[Pg 1401]
+##### Radius of smallest orbit in Bohr model
+$$a=\frac{\epsilon_0h^2}{\pi m_re^2}=\frac{4\pi\epsilon_0\hbar^2}{m_re^2}=5.29\times 10^{11}m\,(41.26)$$
+[Pg 1401]
+##### Magnetic dipole moment
+$$\vec{\mu}=I\vec{A}\,(41.27)$$
+[Pg 1403]
+##### Potential energy magnetic dipole moment
+$$U=-\vec{\mu}\cdot\vec{B}\,(41.28)$$
+[Pg 1403]
+##### Magnitude of magnetic moment
+$$\mu=IA=\frac{ev}{2\pi r}\pi r^2=\frac{evr}{2}\,(41.29)$$
+[Pg 1403]
+##### Magnitude of magnetic moment in terms angular momentum
+$$\mu=\frac{e}{2m}L\,(41.30)$$
+[Pg 1403]
+##### Definition of Bohr magneton
+$$\mu_B=\frac{e\hbar}{2m}\,(41.31)$$
+[Pg 1404]
+##### Interaction energy atom magnetic moment
+$$U=-\mu_zB\,(41.32)$$
+[Pg 1404]
+##### Magnetic dipole moment in B direction
+$$\mu_z=-\frac{e}{2m}L_z\,(41.33)$$
+[Pg 1404]
+##### Magnetic dipole moment in B direction2
+$$\mu_z=-\frac{e}{2m}L_z=-m_l\frac{e\hbar}{2m}\,(41.34)$$
+[Pg 1404]
+##### Orbital magnetic interaction energy
+$$U=-\mu_zB=m_l\frac{e\hbar}{2m}B=m_l\mu_BB\,(41.35)$$
+[Pg 1404]
 ##### z component of spin angular momentum of electron
-$$S_z=m_s\hbar(41.36)$$
-[Pg 1404]   
+$$S_z=m_s\hbar\,(41.36)$$
+[Pg 1408]
 ##### Magnitude of spin angular momentum of electron
-$$S=\sqrt{\frac{1}{2}(\frac{1}{2}+1)}\hbar=\sqrt{\frac{3}{4}}\hbar(41.37)$$
-[Pg 1409] 
+$$S=\sqrt{\frac{1}{2}(\frac{1}{2}+1)}\hbar=\sqrt{\frac{3}{4}}\hbar\,(41.37)$$
+[Pg 1409]
 ##### z component spin magnetic moment
-$$\mu_z=-(2.00232)\frac{e}{2m}S_z(41.38)$$
-[Pg 1405]   
+$$\mu_z=-(2.00232)\frac{e}{2m}S_z\,(41.38)$$
+[Pg 1409]
+##### Total angular momentum
+$$\vec{J}=\vec{L}+\vec{S}\,(41.39)$$
+[Pg 1411]
+##### Total angular momentum quantum number
+$$J=\sqrt{j(j+1)}\hbar\,(41.40)$$
+[Pg 1411]
 ##### Energy levels of hydrogen including fine structure
-$$E_{n,j}=-\frac{13.60\,eV}{n^2}\Bigg[1+\frac{\alpha^2}{n^2}\Bigg(\frac{n}{j+\frac{1}{2}}-\frac{3}{4}\Bigg)\Bigg](41.41)$$
-[Pg 1411] 
+$$E_{n,j}=-\frac{13.60\,eV}{n^2}\Bigg[1+\frac{\alpha^2}{n^2}\Bigg(\frac{n}{j+\frac{1}{2}}-\frac{3}{4}\Bigg)\Bigg]\,(41.41)$$
+[Pg 1411]
+##### Fine structure constant
+$$\alpha=\frac{1}{4\pi\epsilon_0}\frac{e^2}{\hbar c}=7.2973525664(17)\times10^{-3}\,(41.42)$$
+[Pg 1411]
+##### Energy levels many electron atoms
+$$E_n=-\frac{1}{(4\pi\epsilon_0)^2}\frac{m_rZ^2e^4}{2n^2\hbar^2}=-\frac{Z^2}{n^2}(13.6eV)\,(41.43)$$
+[Pg 1414]
 ##### Allowed values of quantum numbers for one-electron wave function
-$n\ge 1$ ; $0\le l\le n-1$ ; $|m_l|\le l$ ; $m_s=\pm\frac{1}{2}(41.44)$
-
-[Pg 1414]  
+$n\ge 1$ ; $0\le l\le n-1$ ; $|m_l|\le l$ ; $m_s=\pm\frac{1}{2}\,(41.44)$
+[Pg 1414]
+##### Energy levels of an electron with screening
+$$E_n=-\frac{Z_{\text{eff}}^2}{n^2}(13.6eV)\,(41.45)$$
+[Pg 1418]
+##### X-Ray diffraction minimum wavelength
+$$\lambda_{\text{min}}=\frac{hc}{eV_{AC}}\,(41.46)$$
+[Pg 1420]
+##### Moseley's Law
+$$f=(2.48\times10^{15}Hz)(Z-1)^2\,(41.47)$$
+[Pg 1421]
+##### Energy of K alpha x-ray photon
+$$E_{K_\alpha}\approx(Z-1)^2(10.2eV)\,(41.48)$$
+[Pg 1421]
+##### Wave function for two identical particles
+$$\Psi(\vec{r_1},\vec{r_2},t)=\psi(\vec{r_1},\vec{r_2})e^{-iEt/\hbar}\,(41.49)$$
+[Pg 1423]
+##### First guess two particle wave function
+$$\psi(\vec{r_1},\vec{r_2})=\psi_A(\vec{r_1})\psi_B(\vec{r_2})\,(41.50)$$
+[Pg 1423]
+##### Second guess two particle wave function
+$$\psi(\vec{r_1},\vec{r_2})=\frac{1}{\sqrt{2}}[\psi_A(\vec{r_1})\psi_B(\vec{r_2})\pm\psi_B(\vec{r_1})\psi_A(\vec{r_2})]\,(41.51)$$
+[Pg 1424]
+##### Two particle wave function spin half particles
+$$\psi(\vec{r_1},\vec{r_2})=\frac{1}{\sqrt{2}}[\psi_A(\vec{r_1})\psi_B(\vec{r_2})-\psi_B(\vec{r_1})\psi_A(\vec{r_2})]\,(41.52)$$
+[Pg 1424]
+##### Rotational energy levels
+$$E=\frac{L^2}{2I}\,(42.1)$$
+[Pg 1439]
+##### Angular momentum diatomic molecule
+$$L=\sqrt{l(l+1)}\hbar\,(l=0,1,2,...)\,(42.2)$$
+[Pg 1439]
+##### Rotational energy levels of a diatomic molecule
+$$E_l=l(l+1)\frac{\hbar^2}{2I}\,(42.3)$$
+##### Reduced mass of a diatomic molecule
+$$m_r=\frac{(m_1m_2)}{m_1+m_2}\,(42.4)$$
+[Pg 1440]
+##### Distance centre of mass to centre of atom
+$$r_1=\frac{m_2}{m_1+m_2}r_0\,r_2=\frac{m_1}{m_1+m_2}r_0\,(42.5)$$
+[Pg 1440]
+##### Moment of inertia of a diatomic molecule axis through molecule's cm
+$$I=m_rr_0^2\,(42.6)$$
+[Pg 1440]
+##### Vibrational energy levels of a diatomic molecule
+$$E_n=(n+\frac{1}{2})\hbar\omega=(n+\frac{1}{2})\hbar\sqrt{\frac{k^{'}}{m_r}}\,(42.7)$$
+[Pg 1441]
+##### Vibrational energy level spacing
+$$\Delta E=\hbar\omega=\hbar\sqrt{\frac{k^{'}}{m_r}}\,(42.8)$$
+[Pg 1441]
+##### Rotational and vibrational energy levels
+$$E_{nl}=l(l+1)\frac{\hbar^2}{2I}+(n+\frac{1}{2})\hbar\sqrt{\frac{k^{'}}{m_r}}\,(42.9)$$
+[Pg 1441]
+##### Free-electron stationary state energy levels
+$$E_{n_X,n_Y,n_Z}=\frac{(n_X^2+n_Y^2+n_Z^2)\pi^2\hbar^2}{2mL^2}\,(n_X=1,2,3,\cdots;n_Y=1,2,3,\cdots;n_Z=1,2,3,\cdots)\,(42.10)$$
+[Pg 1449]
+##### Number of electron states inside octant
+$$n=\frac{\pi n_{rs}^3}{3}\,(42.11)$$
+[Pg 1449]
+##### Energy of states surface of sphere
+$$E=\frac{n_{rs}^2\pi^2\hbar^2}{2mL^2}\,(42.12)$$
+[Pg 1449]
+##### Total number of states with energy E or less
+$$n=\frac{(2m)^{3/2}VE^{3/2}}{3\pi^2\hbar^3}\,(42.13)$$
+[Pg 1449]
+##### Number of states per energy interval
+$$dn=\frac{(2m)^{3/2}VE^{1/2}}{2\pi^2\hbar^3}dE\,(42.14)$$
+[Pg 1449]##### Density of states free-electron model
+$$g(E)=\frac{(2m)^{3/2}V}{2\pi^2\hbar^3}E^{1/2}\,(42.15)$$
+[Pg 1450]
+##### Fermi-Dirac distribution
+$$f(E)=\frac{1}{e^{(E-E_F)/kT}+1}\,(42.16)$$
+[Pg 1450]
+##### Fermi energy electrons in a range
+$$dN=g(E)f(E)\,dE=\frac{(2m)^{3/2}VE^{1/2}}{2\pi^2\hbar^3}\frac{1}{e^{(E-E_F)/kT}+1}dE\,(42.17)$$
+[Pg 1451]
+##### Number of electrons Fermi energy absolute zero
+$$N=\frac{(2m)^{3/2}VE_{F0}^{3/2}}{3\pi^2\hbar^3}\,(42.18)$$
+[Pg 1451]
+##### Fermi energy absolute zero
+$$E_{F0}=\frac{3^{2/3}\pi^{4/3}\hbar^2}{2m}\bigg(\frac{N}{V}\bigg)^{2/3}\,(42.19)$$
+[Pg 1451]
+##### Fermi energy absolute zero2
+$$E_{F0}=\frac{3^{2/3}\pi^{4/3}\hbar^2n^{2/3}}{2m}\,(42.20)$$
+[Pg 1451]##### Average free-electron energy
+$$E_{\text{av}}=\frac{3}{2E_{F0}^{3/2}}\int_0^{E_{F0}}E^{3/2}dE=\frac{3}{5}E_{F0}\,(42.21)$$
+[Pg 1451]
+##### Current through a p-n junction
+$$I=I_S(e^{eV/kT}-1)\,(42.22)$$
+[Pg 1457]
+##### Magnitude p-n junction generation recombination currents
+$$|i_{pg}|=|i_{pr}|\text{ and }|i_{ng}|=|i_{nr}|\,(42.23)$$
+[Pg 1458]
+##### Net hole current p-n junction
+$$i_{p\text{tot}}=i_{pr}-|i_{pg}|=|i_{pg}|e^{eV/kT}-|i_{pg}|=|i_{pg}|(e^{eV/kT}-1)\,(42.24)$$
+[Pg 1458]
+##### Total current p-n junction
+$$I=I_S(e^{eV/kT}-1)\,(42.25)$$
+[Pg 1458]
+##### Radius of an atomic nucleus
+$$R=R_0A^{1/3}\,(43.1)$$
+[Pg 1470]
+##### Nucleon number mass number
+$$A=Z+N\,(43.2)$$
+[Pg 1471]
+##### Magnitude spin angular momentum
+$$S=\sqrt{\frac{1}{2}(\frac{1}{2}+1)}\hbar=\sqrt{\frac{3}{4}}\hbar\,(43.3)$$
+[Pg 1472]
+##### Z component spin angular momentum
+$$S_z=\pm\frac{1}{2}\hbar\,(43.4)$$
+[Pg 1473]
+##### Total angular momentum of nucleus
+$$J=\sqrt{j(j+1)}\hbar\,(43.5)$$
+[Pg 1473]
+##### Z component total angular momentum of nucleus
+$$J_z=m_j\hbar\,(m_j=-j,-j+1\ldots,j-1,j)\,(43.6)$$
+[Pg 1473]
+##### Nuclear magneton
+$$\mu_n=\frac{e\hbar}{2m_p}=5.05078\times10^{-27}J/T=3.15245\times10^{-8}eV/T\,(43.7)$$
+[Pg 1473]
+##### Z component spin magnetic moment of proton
+$$|\mu_{sz}|_{\text{proton}}=2.7928\mu_n\,(43.8)$$
+[Pg 1474]
+##### Z component spin magnetic moment of neutron 
+$$|\mu_{sz}|_{\text{neutron}}=1.9130\mu_n\,(43.9)$$
+[Pg 1474]
+##### Binding energy of a nucleus with Z protons N neutrons
+$$E_B=(ZM_H+Nm_n-_Z^AM)c^2\,(43.10)$$
+[Pg 1476]
+##### Binding energy liquid drop model
+$$E_B=C_1A-C_2A^{2/3}-C_3\frac{Z(Z-1)}{A^{1/3}}-C_4\frac{(A-2Z)^2}{A}\pm C_5A^{-4/3}\,(43.11)$$
+[Pg 1478]
+##### Semiempirical mass formula
+$$_Z^AM=ZM_H+Nm_n-\frac{E_B}{c^2}\,(43.12)$$
+[Pg 1479]
+##### Beta decay
+$$n\to p+\beta^{-}+\bar\nu_e\,(43.13)$$
+[Pg 1483]
+##### Beta plus decay
+$$\rm p\to n+\beta^{+}+\nu_e\,(43.14)$$
+[Pg 1484]
+#### electron capture beta decay
+$$\rm p+\beta^{-}\to n+\nu_e\,(43.15)$$
+[Pg 1484]
+##### Decay rate or activity
+$$-\frac{dN(t)}{dt}=\lambda N(t)\,(43.16)$$
+[Pg 1487]
+##### Number of remaining nuclei at time t in sample of radioactive element
+$$N(t)=N_0e^{-\lambda t}\,(43.17)$$
+[Pg 1487]
+##### Half life unstable nucleus
+$$T_{1/2}=\frac{\ln2}{\lambda}=\frac{0.693}{\lambda}\,(43.18)$$
+[Pg 1488]
+##### Lifetime of unstable nucleus or particle
+$$T_{\text{mean}}=\frac{1}{\lambda}=\frac{T_{1/2}}{\ln2}=\frac{T_{1/2}}{0.693}\,(43.19)$$
+##### Equivalent dose sievert
+$$\text{Equivalent dose (Sv)}=\text{RBE X Absorbed dose (Gy)}\,(43.20)$$
+[Pg 1491]
+##### Equivalent dose rem
+$$\text{Equivalent dose (rem)}=\text{RBE X Absorbed dose (rad)}\,(43.21)$$
+[Pg 1491]
+##### Alpha particles and nitrogen
+$$\rm_2^4He+_7^{14}N\to_8^{17}O+_1^1H\,(43.22)$$
+[Pg 1494]
+##### Reaction energy
+$$Q=(M_A+M_B-M_C-M_D)c^2\,(43.23)$$
+[Pg 1494]
+##### Total kinetic energy centre of mass
+$$K_{\text{cm}}=\frac{M}{M+m}K\,(43.24)$$
+[Pg 1495]
+##### Alpha particles and beryllium
+$$\rm_2^4He+_4^9Be\to_6^{12}C+_0^1n\,(44.1)$$
+[Pg 1512]
+##### Boron neutron absorption
+$$\rm_0^1n+_5^{10}B\to_3^7Li+_2^4He\,(44.2)$$
+[Pg 1512]
+##### Uncertainty principle energy
+$$\Delta E\Delta t\ge\frac{\hbar}{2}\,(44.3)$$
+[Pg 1514]
+##### Nuclear potential energy
+$$U(r)=-f^2\bigg(\frac{e^{-r/r_0}}{r}\bigg)\,(44.4)$$
+[Pg 1515]
+##### Electric potential energy
+$$U(r)=\frac{1}{4\pi\epsilon_0}\frac{e^2}{r}\,(44.5)$$
+[Pg 1515]
+##### Cyclotron radius
+$$r=\frac{mv}{|q|B}\,(44.6)$$
+[Pg 1517]
+##### Cyclotron angular frequency
+$$\omega=\frac{v}{r}=\frac{|q|B}{m}\,(44.7)$$
+[Pg 1517]
+##### Cyclotron maximum kinetic energy
+$$K_{\text{max}}=\frac{1}{2}mv_{\text{max}}^2=\frac{q^2B^2R^2}{2m}\,(44.8)$$
+[Pg 1517]
+##### Available energy
+$$E_a^2=2Mc^2E_m+(Mc^2)^2+(mc^2)^2\,(44.9)$$
+[Pg 1518]
+##### Available energy equal masses
+$$E_a^2=2mc^2(E_m+mc^2)\,(44.10)$$
+[Pg 1518]
+##### Available energy equal masses E_m>>mc^2
+$$E_a=\sqrt{2mc^2E_m}\,(44.11)$$
+[Pg 1518]
+##### Ratio strong and electromagnetic interactions
+$$\frac{1}{4\pi\epsilon_0}\frac{e^2}{\hbar c}=7.2974\times 10^{-3}=1/137.04\,(44.12)$$
+[Pg 1521]
+##### Doppler shift
+$$\lambda_0=\lambda_S\sqrt{\frac{c+v}{c-v}}\,(44.13)$$
+[Pg 1533]
+##### Doppler velocity
+$$v=\frac{\lambda_0/\lambda_S)^2-1}{(\lambda_0/\lambda_S)^2+1}\,(44.14)$$
+[Pg 1533]
+##### Hubble law
+$$v=H_0r\,(44.15)$$
+[Pg 1534]
+##### Expanding space ratio
+$$\frac{\lambda_0}{\lambda}=\frac{R_0}{R}\,(44.16)$$
+[Pg 1535]
+##### Total energy for galaxy
+$$E=\frac{1}{2}mv^2-\frac{GmM}{R}\,(44.17)$$
+[Pg 1537]
+##### Critical density of universe calculation1
+$$\frac{1}{2}mv^2=\frac{GmM}{R}\,(44.18)$$
+[Pg 1537]
+##### Critical density of universe calculation2
+$$\frac{1}{2}m(H_0R)^2=\frac{Gm}{R}(\frac{4}{3}\pi R^3\rho_c)\text{ or }\rho_c=\frac{3H_0^2}{8\pi G}\,(44.19)$$
+[Pg 1537]
+##### Particle energy and absolute temperature
+$$E=\frac{3}{2}kT\,(44.20)$$
+[Pg 1539]
+##### Planck length
+$$l_P=\sqrt{\frac{\hbar G}{c^3}}=1.616\times10^{-35}m\,(44.21)$$
+[Pg 1540]
+##### Planck time
+$$t_P=\frac{l_p}{c}=\sqrt{\frac{\hbar G}{c^5}}=0.539\times10^{-43}s\,(44.22)$$
+[Pg 1540]
